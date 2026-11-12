@@ -1,0 +1,480 @@
+[
+  {
+    "id": "a320",
+    "name": "A320",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM4",
+    "ddr": [
+      "DDR4"
+    ],
+    "cpuOverclock": false,
+    "supports": [
+      "Ryzen 1000",
+      "Ryzen 2000",
+      "Ryzen 3000",
+      "Ryzen 5000"
+    ],
+    "biosUpdateFor": [
+      "Ryzen 3000",
+      "Ryzen 5000"
+    ],
+    "tier": "entry"
+  },
+  {
+    "id": "a520",
+    "name": "A520",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM4",
+    "ddr": [
+      "DDR4"
+    ],
+    "cpuOverclock": false,
+    "supports": [
+      "Ryzen 3000",
+      "Ryzen 4000G",
+      "Ryzen 5000"
+    ],
+    "biosUpdateFor": [
+      "Ryzen 5000"
+    ],
+    "tier": "entry"
+  },
+  {
+    "id": "b450",
+    "name": "B450",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM4",
+    "ddr": [
+      "DDR4"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "Ryzen 2000",
+      "Ryzen 3000",
+      "Ryzen 4000G",
+      "Ryzen 5000"
+    ],
+    "biosUpdateFor": [
+      "Ryzen 3000",
+      "Ryzen 5000"
+    ],
+    "tier": "mid"
+  },
+  {
+    "id": "b550",
+    "name": "B550",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM4",
+    "ddr": [
+      "DDR4"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "Ryzen 3000",
+      "Ryzen 4000G",
+      "Ryzen 5000"
+    ],
+    "biosUpdateFor": [
+      "Ryzen 5000"
+    ],
+    "tier": "mid"
+  },
+  {
+    "id": "x570",
+    "name": "X570",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM4",
+    "ddr": [
+      "DDR4"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "Ryzen 3000",
+      "Ryzen 4000G",
+      "Ryzen 5000"
+    ],
+    "biosUpdateFor": [
+      "Ryzen 5000"
+    ],
+    "tier": "high"
+  },
+  {
+    "id": "a620",
+    "name": "A620",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM5",
+    "ddr": [
+      "DDR5"
+    ],
+    "cpuOverclock": false,
+    "supports": [
+      "Ryzen 7000",
+      "Ryzen 8000",
+      "Ryzen 9000"
+    ],
+    "biosUpdateFor": [
+      "Ryzen 9000"
+    ],
+    "tier": "entry"
+  },
+  {
+    "id": "b650",
+    "name": "B650",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM5",
+    "ddr": [
+      "DDR5"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "Ryzen 7000",
+      "Ryzen 8000",
+      "Ryzen 9000"
+    ],
+    "biosUpdateFor": [
+      "Ryzen 9000"
+    ],
+    "tier": "mid"
+  },
+  {
+    "id": "b650e",
+    "name": "B650E",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM5",
+    "ddr": [
+      "DDR5"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "Ryzen 7000",
+      "Ryzen 8000",
+      "Ryzen 9000"
+    ],
+    "biosUpdateFor": [
+      "Ryzen 9000"
+    ],
+    "tier": "mid"
+  },
+  {
+    "id": "b840",
+    "name": "B840",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM5",
+    "ddr": [
+      "DDR5"
+    ],
+    "cpuOverclock": false,
+    "supports": [
+      "Ryzen 7000",
+      "Ryzen 8000",
+      "Ryzen 9000"
+    ],
+    "biosUpdateFor": [],
+    "tier": "entry"
+  },
+  {
+    "id": "b850",
+    "name": "B850",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM5",
+    "ddr": [
+      "DDR5"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "Ryzen 7000",
+      "Ryzen 8000",
+      "Ryzen 9000"
+    ],
+    "biosUpdateFor": [],
+    "tier": "mid"
+  },
+  {
+    "id": "x670",
+    "name": "X670",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM5",
+    "ddr": [
+      "DDR5"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "Ryzen 7000",
+      "Ryzen 8000",
+      "Ryzen 9000"
+    ],
+    "biosUpdateFor": [
+      "Ryzen 9000"
+    ],
+    "tier": "high"
+  },
+  {
+    "id": "x670e",
+    "name": "X670E",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM5",
+    "ddr": [
+      "DDR5"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "Ryzen 7000",
+      "Ryzen 8000",
+      "Ryzen 9000"
+    ],
+    "biosUpdateFor": [
+      "Ryzen 9000"
+    ],
+    "tier": "high"
+  },
+  {
+    "id": "x870",
+    "name": "X870",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM5",
+    "ddr": [
+      "DDR5"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "Ryzen 7000",
+      "Ryzen 8000",
+      "Ryzen 9000"
+    ],
+    "biosUpdateFor": [],
+    "tier": "high"
+  },
+  {
+    "id": "x870e",
+    "name": "X870E",
+    "aliases": [],
+    "brand": "AMD",
+    "socket": "AM5",
+    "ddr": [
+      "DDR5"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "Ryzen 7000",
+      "Ryzen 8000",
+      "Ryzen 9000"
+    ],
+    "biosUpdateFor": [],
+    "tier": "high"
+  },
+  {
+    "id": "h610",
+    "name": "H610",
+    "aliases": [],
+    "brand": "Intel",
+    "socket": "LGA1700",
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "cpuOverclock": false,
+    "supports": [
+      "12th Gen",
+      "13th Gen",
+      "14th Gen"
+    ],
+    "biosUpdateFor": [
+      "13th Gen",
+      "14th Gen"
+    ],
+    "tier": "entry"
+  },
+  {
+    "id": "b660",
+    "name": "B660",
+    "aliases": [],
+    "brand": "Intel",
+    "socket": "LGA1700",
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "cpuOverclock": false,
+    "supports": [
+      "12th Gen",
+      "13th Gen",
+      "14th Gen"
+    ],
+    "biosUpdateFor": [
+      "13th Gen",
+      "14th Gen"
+    ],
+    "tier": "mid"
+  },
+  {
+    "id": "h670",
+    "name": "H670",
+    "aliases": [],
+    "brand": "Intel",
+    "socket": "LGA1700",
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "cpuOverclock": false,
+    "supports": [
+      "12th Gen",
+      "13th Gen",
+      "14th Gen"
+    ],
+    "biosUpdateFor": [
+      "13th Gen",
+      "14th Gen"
+    ],
+    "tier": "mid"
+  },
+  {
+    "id": "z690",
+    "name": "Z690",
+    "aliases": [],
+    "brand": "Intel",
+    "socket": "LGA1700",
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "12th Gen",
+      "13th Gen",
+      "14th Gen"
+    ],
+    "biosUpdateFor": [
+      "13th Gen",
+      "14th Gen"
+    ],
+    "tier": "high"
+  },
+  {
+    "id": "b760",
+    "name": "B760",
+    "aliases": [],
+    "brand": "Intel",
+    "socket": "LGA1700",
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "cpuOverclock": false,
+    "supports": [
+      "12th Gen",
+      "13th Gen",
+      "14th Gen"
+    ],
+    "biosUpdateFor": [],
+    "tier": "mid"
+  },
+  {
+    "id": "h770",
+    "name": "H770",
+    "aliases": [],
+    "brand": "Intel",
+    "socket": "LGA1700",
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "cpuOverclock": false,
+    "supports": [
+      "12th Gen",
+      "13th Gen",
+      "14th Gen"
+    ],
+    "biosUpdateFor": [],
+    "tier": "mid"
+  },
+  {
+    "id": "z790",
+    "name": "Z790",
+    "aliases": [],
+    "brand": "Intel",
+    "socket": "LGA1700",
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "12th Gen",
+      "13th Gen",
+      "14th Gen"
+    ],
+    "biosUpdateFor": [],
+    "tier": "high"
+  },
+  {
+    "id": "h810",
+    "name": "H810",
+    "aliases": [],
+    "brand": "Intel",
+    "socket": "LGA1851",
+    "ddr": [
+      "DDR5"
+    ],
+    "cpuOverclock": false,
+    "supports": [
+      "Core Ultra 200S",
+      "Core Ultra 200S Plus"
+    ],
+    "biosUpdateFor": [
+      "Core Ultra 200S Plus"
+    ],
+    "tier": "entry"
+  },
+  {
+    "id": "b860",
+    "name": "B860",
+    "aliases": [],
+    "brand": "Intel",
+    "socket": "LGA1851",
+    "ddr": [
+      "DDR5"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "Core Ultra 200S",
+      "Core Ultra 200S Plus"
+    ],
+    "biosUpdateFor": [
+      "Core Ultra 200S Plus"
+    ],
+    "tier": "mid"
+  },
+  {
+    "id": "z890",
+    "name": "Z890",
+    "aliases": [],
+    "brand": "Intel",
+    "socket": "LGA1851",
+    "ddr": [
+      "DDR5"
+    ],
+    "cpuOverclock": true,
+    "supports": [
+      "Core Ultra 200S",
+      "Core Ultra 200S Plus"
+    ],
+    "biosUpdateFor": [
+      "Core Ultra 200S Plus"
+    ],
+    "tier": "high"
+  }
+]

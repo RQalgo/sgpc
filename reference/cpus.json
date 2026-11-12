@@ -1,0 +1,2860 @@
+[
+  {
+    "id": "amd-ryzen-3-3200g",
+    "brand": "AMD",
+    "name": "Ryzen 3 3200G",
+    "model": "3200G",
+    "aliases": [
+      "R3 3200G",
+      "3200G",
+      "AMD Ryzen 3 3200G"
+    ],
+    "socket": "AM4",
+    "cores": 4,
+    "threads": 4,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2019,
+    "st": 1100,
+    "mt": 4900,
+    "gaming": 25,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-3600",
+    "brand": "AMD",
+    "name": "Ryzen 5 3600",
+    "model": "3600",
+    "aliases": [
+      "R5 3600",
+      "3600",
+      "AMD Ryzen 5 3600"
+    ],
+    "socket": "AM4",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2019,
+    "st": 1250,
+    "mt": 9000,
+    "gaming": 40,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-4500",
+    "brand": "AMD",
+    "name": "Ryzen 5 4500",
+    "model": "4500",
+    "aliases": [
+      "R5 4500",
+      "4500",
+      "AMD Ryzen 5 4500"
+    ],
+    "socket": "AM4",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2022,
+    "st": 1230,
+    "mt": 8500,
+    "gaming": 36,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-4600g",
+    "brand": "AMD",
+    "name": "Ryzen 5 4600G",
+    "model": "4600G",
+    "aliases": [
+      "R5 4600G",
+      "4600G",
+      "AMD Ryzen 5 4600G"
+    ],
+    "socket": "AM4",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2022,
+    "st": 1250,
+    "mt": 8700,
+    "gaming": 38,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-5500",
+    "brand": "AMD",
+    "name": "Ryzen 5 5500",
+    "model": "5500",
+    "aliases": [
+      "R5 5500",
+      "5500",
+      "AMD Ryzen 5 5500"
+    ],
+    "socket": "AM4",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2022,
+    "st": 1440,
+    "mt": 9700,
+    "gaming": 42,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-5500gt",
+    "brand": "AMD",
+    "name": "Ryzen 5 5500GT",
+    "model": "5500GT",
+    "aliases": [
+      "R5 5500GT",
+      "5500GT",
+      "AMD Ryzen 5 5500GT"
+    ],
+    "socket": "AM4",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2023,
+    "st": 1450,
+    "mt": 9800,
+    "gaming": 40,
+    "estimated": true
+  },
+  {
+    "id": "amd-ryzen-5-5600",
+    "brand": "AMD",
+    "name": "Ryzen 5 5600",
+    "model": "5600",
+    "aliases": [
+      "R5 5600",
+      "5600",
+      "AMD Ryzen 5 5600"
+    ],
+    "socket": "AM4",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2022,
+    "st": 1580,
+    "mt": 10800,
+    "gaming": 46,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-5600f",
+    "brand": "AMD",
+    "name": "Ryzen 5 5600F",
+    "model": "5600F",
+    "aliases": [
+      "R5 5600F",
+      "5600F",
+      "AMD Ryzen 5 5600F"
+    ],
+    "socket": "AM4",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2025,
+    "st": 1560,
+    "mt": 10500,
+    "gaming": 45,
+    "estimated": true
+  },
+  {
+    "id": "amd-ryzen-5-5600g",
+    "brand": "AMD",
+    "name": "Ryzen 5 5600G",
+    "model": "5600G",
+    "aliases": [
+      "R5 5600G",
+      "5600G",
+      "AMD Ryzen 5 5600G"
+    ],
+    "socket": "AM4",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2021,
+    "st": 1550,
+    "mt": 10200,
+    "gaming": 40,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-5600gt",
+    "brand": "AMD",
+    "name": "Ryzen 5 5600GT",
+    "model": "5600GT",
+    "aliases": [
+      "R5 5600GT",
+      "5600GT",
+      "AMD Ryzen 5 5600GT"
+    ],
+    "socket": "AM4",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2023,
+    "st": 1560,
+    "mt": 10400,
+    "gaming": 42,
+    "estimated": true
+  },
+  {
+    "id": "amd-ryzen-5-5600x",
+    "brand": "AMD",
+    "name": "Ryzen 5 5600X",
+    "model": "5600X",
+    "aliases": [
+      "R5 5600X",
+      "5600X",
+      "AMD Ryzen 5 5600X"
+    ],
+    "socket": "AM4",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2020,
+    "st": 1600,
+    "mt": 11000,
+    "gaming": 47,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-5700",
+    "brand": "AMD",
+    "name": "Ryzen 7 5700",
+    "model": "5700",
+    "aliases": [
+      "R7 5700",
+      "5700",
+      "AMD Ryzen 7 5700"
+    ],
+    "socket": "AM4",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2023,
+    "st": 1560,
+    "mt": 14200,
+    "gaming": 46,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-5700g",
+    "brand": "AMD",
+    "name": "Ryzen 7 5700G",
+    "model": "5700G",
+    "aliases": [
+      "R7 5700G",
+      "5700G",
+      "AMD Ryzen 7 5700G"
+    ],
+    "socket": "AM4",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2021,
+    "st": 1550,
+    "mt": 14000,
+    "gaming": 44,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-5700x",
+    "brand": "AMD",
+    "name": "Ryzen 7 5700X",
+    "model": "5700X",
+    "aliases": [
+      "R7 5700X",
+      "5700X",
+      "AMD Ryzen 7 5700X"
+    ],
+    "socket": "AM4",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2022,
+    "st": 1590,
+    "mt": 14500,
+    "gaming": 50,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-5700x3d",
+    "brand": "AMD",
+    "name": "Ryzen 7 5700X3D",
+    "model": "5700X3D",
+    "aliases": [
+      "R7 5700X3D",
+      "5700X3D",
+      "AMD Ryzen 7 5700X3D"
+    ],
+    "socket": "AM4",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 105,
+    "maxPower": 142,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2024,
+    "st": 1480,
+    "mt": 13800,
+    "gaming": 60,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-5800x",
+    "brand": "AMD",
+    "name": "Ryzen 7 5800X",
+    "model": "5800X",
+    "aliases": [
+      "R7 5800X",
+      "5800X",
+      "AMD Ryzen 7 5800X"
+    ],
+    "socket": "AM4",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 105,
+    "maxPower": 142,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2020,
+    "st": 1650,
+    "mt": 15500,
+    "gaming": 51,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-5800xt",
+    "brand": "AMD",
+    "name": "Ryzen 7 5800XT",
+    "model": "5800XT",
+    "aliases": [
+      "R7 5800XT",
+      "5800XT",
+      "AMD Ryzen 7 5800XT"
+    ],
+    "socket": "AM4",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 105,
+    "maxPower": 142,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2024,
+    "st": 1680,
+    "mt": 16000,
+    "gaming": 53,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-5800x3d",
+    "brand": "AMD",
+    "name": "Ryzen 7 5800X3D",
+    "model": "5800X3D",
+    "aliases": [
+      "R7 5800X3D",
+      "5800X3D",
+      "AMD Ryzen 7 5800X3D"
+    ],
+    "socket": "AM4",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 105,
+    "maxPower": 142,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2022,
+    "st": 1500,
+    "mt": 14700,
+    "gaming": 62,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-9-5900x",
+    "brand": "AMD",
+    "name": "Ryzen 9 5900X",
+    "model": "5900X",
+    "aliases": [
+      "R9 5900X",
+      "5900X",
+      "AMD Ryzen 9 5900X"
+    ],
+    "socket": "AM4",
+    "cores": 12,
+    "threads": 24,
+    "tdp": 105,
+    "maxPower": 142,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2020,
+    "st": 1650,
+    "mt": 22000,
+    "gaming": 51,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-9-5900xt",
+    "brand": "AMD",
+    "name": "Ryzen 9 5900XT",
+    "model": "5900XT",
+    "aliases": [
+      "R9 5900XT",
+      "5900XT",
+      "AMD Ryzen 9 5900XT"
+    ],
+    "socket": "AM4",
+    "cores": 16,
+    "threads": 32,
+    "tdp": 105,
+    "maxPower": 142,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2024,
+    "st": 1680,
+    "mt": 23500,
+    "gaming": 54,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-9-5950x",
+    "brand": "AMD",
+    "name": "Ryzen 9 5950X",
+    "model": "5950X",
+    "aliases": [
+      "R9 5950X",
+      "5950X",
+      "AMD Ryzen 9 5950X"
+    ],
+    "socket": "AM4",
+    "cores": 16,
+    "threads": 32,
+    "tdp": 105,
+    "maxPower": 142,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4"
+    ],
+    "launchYear": 2020,
+    "st": 1670,
+    "mt": 28500,
+    "gaming": 52,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-7400f",
+    "brand": "AMD",
+    "name": "Ryzen 5 7400F",
+    "model": "7400F",
+    "aliases": [
+      "R5 7400F",
+      "7400F",
+      "AMD Ryzen 5 7400F"
+    ],
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 1900,
+    "mt": 13500,
+    "gaming": 61,
+    "estimated": true
+  },
+  {
+    "id": "amd-ryzen-5-7500f",
+    "brand": "AMD",
+    "name": "Ryzen 5 7500F",
+    "model": "7500F",
+    "aliases": [
+      "R5 7500F",
+      "7500F",
+      "AMD Ryzen 5 7500F"
+    ],
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 1980,
+    "mt": 14500,
+    "gaming": 63,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-7500x3d",
+    "brand": "AMD",
+    "name": "Ryzen 5 7500X3D",
+    "model": "7500X3D",
+    "aliases": [
+      "R5 7500X3D",
+      "7500X3D",
+      "AMD Ryzen 5 7500X3D"
+    ],
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 1850,
+    "mt": 14000,
+    "gaming": 77,
+    "estimated": true
+  },
+  {
+    "id": "amd-ryzen-5-7600",
+    "brand": "AMD",
+    "name": "Ryzen 5 7600",
+    "model": "7600",
+    "aliases": [
+      "R5 7600",
+      "7600",
+      "AMD Ryzen 5 7600"
+    ],
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 1950,
+    "mt": 14500,
+    "gaming": 64,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-7600x",
+    "brand": "AMD",
+    "name": "Ryzen 5 7600X",
+    "model": "7600X",
+    "aliases": [
+      "R5 7600X",
+      "7600X",
+      "AMD Ryzen 5 7600X"
+    ],
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 105,
+    "maxPower": 142,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 2050,
+    "mt": 15500,
+    "gaming": 66,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-7600x3d",
+    "brand": "AMD",
+    "name": "Ryzen 5 7600X3D",
+    "model": "7600X3D",
+    "aliases": [
+      "R5 7600X3D",
+      "7600X3D",
+      "AMD Ryzen 5 7600X3D"
+    ],
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 1800,
+    "mt": 14500,
+    "gaming": 80,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-7700",
+    "brand": "AMD",
+    "name": "Ryzen 7 7700",
+    "model": "7700",
+    "aliases": [
+      "R7 7700",
+      "7700",
+      "AMD Ryzen 7 7700"
+    ],
+    "socket": "AM5",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 1980,
+    "mt": 19500,
+    "gaming": 68,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-7700x",
+    "brand": "AMD",
+    "name": "Ryzen 7 7700X",
+    "model": "7700X",
+    "aliases": [
+      "R7 7700X",
+      "7700X",
+      "AMD Ryzen 7 7700X"
+    ],
+    "socket": "AM5",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 105,
+    "maxPower": 142,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 2090,
+    "mt": 19500,
+    "gaming": 70,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-7800x3d",
+    "brand": "AMD",
+    "name": "Ryzen 7 7800X3D",
+    "model": "7800X3D",
+    "aliases": [
+      "R7 7800X3D",
+      "7800X3D",
+      "AMD Ryzen 7 7800X3D"
+    ],
+    "socket": "AM5",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 120,
+    "maxPower": 162,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 1850,
+    "mt": 18000,
+    "gaming": 88,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-9-7900",
+    "brand": "AMD",
+    "name": "Ryzen 9 7900",
+    "model": "7900",
+    "aliases": [
+      "R9 7900",
+      "7900",
+      "AMD Ryzen 9 7900"
+    ],
+    "socket": "AM5",
+    "cores": 12,
+    "threads": 24,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 1990,
+    "mt": 28000,
+    "gaming": 67,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-9-7900x",
+    "brand": "AMD",
+    "name": "Ryzen 9 7900X",
+    "model": "7900X",
+    "aliases": [
+      "R9 7900X",
+      "7900X",
+      "AMD Ryzen 9 7900X"
+    ],
+    "socket": "AM5",
+    "cores": 12,
+    "threads": 24,
+    "tdp": 170,
+    "maxPower": 230,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 2180,
+    "mt": 29500,
+    "gaming": 68,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-9-7900x3d",
+    "brand": "AMD",
+    "name": "Ryzen 9 7900X3D",
+    "model": "7900X3D",
+    "aliases": [
+      "R9 7900X3D",
+      "7900X3D",
+      "AMD Ryzen 9 7900X3D"
+    ],
+    "socket": "AM5",
+    "cores": 12,
+    "threads": 24,
+    "tdp": 120,
+    "maxPower": 162,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 2000,
+    "mt": 27500,
+    "gaming": 82,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-9-7950x",
+    "brand": "AMD",
+    "name": "Ryzen 9 7950X",
+    "model": "7950X",
+    "aliases": [
+      "R9 7950X",
+      "7950X",
+      "AMD Ryzen 9 7950X"
+    ],
+    "socket": "AM5",
+    "cores": 16,
+    "threads": 32,
+    "tdp": 170,
+    "maxPower": 230,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 2220,
+    "mt": 38500,
+    "gaming": 70,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-9-7950x3d",
+    "brand": "AMD",
+    "name": "Ryzen 9 7950X3D",
+    "model": "7950X3D",
+    "aliases": [
+      "R9 7950X3D",
+      "7950X3D",
+      "AMD Ryzen 9 7950X3D"
+    ],
+    "socket": "AM5",
+    "cores": 16,
+    "threads": 32,
+    "tdp": 120,
+    "maxPower": 162,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 2050,
+    "mt": 36000,
+    "gaming": 87,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-8400f",
+    "brand": "AMD",
+    "name": "Ryzen 5 8400F",
+    "model": "8400F",
+    "aliases": [
+      "R5 8400F",
+      "8400F",
+      "AMD Ryzen 5 8400F"
+    ],
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 1800,
+    "mt": 12500,
+    "gaming": 55,
+    "estimated": true
+  },
+  {
+    "id": "amd-ryzen-5-8500g",
+    "brand": "AMD",
+    "name": "Ryzen 5 8500G",
+    "model": "8500G",
+    "aliases": [
+      "R5 8500G",
+      "8500G",
+      "AMD Ryzen 5 8500G"
+    ],
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 1700,
+    "mt": 11500,
+    "gaming": 45,
+    "estimated": true
+  },
+  {
+    "id": "amd-ryzen-5-8600g",
+    "brand": "AMD",
+    "name": "Ryzen 5 8600G",
+    "model": "8600G",
+    "aliases": [
+      "R5 8600G",
+      "8600G",
+      "AMD Ryzen 5 8600G"
+    ],
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 1850,
+    "mt": 14500,
+    "gaming": 55,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-8700f",
+    "brand": "AMD",
+    "name": "Ryzen 7 8700F",
+    "model": "8700F",
+    "aliases": [
+      "R7 8700F",
+      "8700F",
+      "AMD Ryzen 7 8700F"
+    ],
+    "socket": "AM5",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 1950,
+    "mt": 18000,
+    "gaming": 62,
+    "estimated": true
+  },
+  {
+    "id": "amd-ryzen-7-8700g",
+    "brand": "AMD",
+    "name": "Ryzen 7 8700G",
+    "model": "8700G",
+    "aliases": [
+      "R7 8700G",
+      "8700G",
+      "AMD Ryzen 7 8700G"
+    ],
+    "socket": "AM5",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 1950,
+    "mt": 18000,
+    "gaming": 61,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-9500f",
+    "brand": "AMD",
+    "name": "Ryzen 5 9500F",
+    "model": "9500F",
+    "aliases": [
+      "R5 9500F",
+      "9500F",
+      "AMD Ryzen 5 9500F"
+    ],
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 2100,
+    "mt": 15500,
+    "gaming": 69,
+    "estimated": true
+  },
+  {
+    "id": "amd-ryzen-5-9600",
+    "brand": "AMD",
+    "name": "Ryzen 5 9600",
+    "model": "9600",
+    "aliases": [
+      "R5 9600",
+      "9600",
+      "AMD Ryzen 5 9600"
+    ],
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 2180,
+    "mt": 16000,
+    "gaming": 71,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-5-9600x",
+    "brand": "AMD",
+    "name": "Ryzen 5 9600X",
+    "model": "9600X",
+    "aliases": [
+      "R5 9600X",
+      "9600X",
+      "AMD Ryzen 5 9600X"
+    ],
+    "socket": "AM5",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2200,
+    "mt": 16500,
+    "gaming": 72,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-9700f",
+    "brand": "AMD",
+    "name": "Ryzen 7 9700F",
+    "model": "9700F",
+    "aliases": [
+      "R7 9700F",
+      "9700F",
+      "AMD Ryzen 7 9700F"
+    ],
+    "socket": "AM5",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 2200,
+    "mt": 21500,
+    "gaming": 76,
+    "estimated": true
+  },
+  {
+    "id": "amd-ryzen-7-9700x",
+    "brand": "AMD",
+    "name": "Ryzen 7 9700X",
+    "model": "9700X",
+    "aliases": [
+      "R7 9700X",
+      "9700X",
+      "AMD Ryzen 7 9700X"
+    ],
+    "socket": "AM5",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 65,
+    "maxPower": 88,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2250,
+    "mt": 22000,
+    "gaming": 76,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-9800x3d",
+    "brand": "AMD",
+    "name": "Ryzen 7 9800X3D",
+    "model": "9800X3D",
+    "aliases": [
+      "R7 9800X3D",
+      "9800X3D",
+      "AMD Ryzen 7 9800X3D"
+    ],
+    "socket": "AM5",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 120,
+    "maxPower": 162,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2100,
+    "mt": 23000,
+    "gaming": 100,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-7-9850x3d",
+    "brand": "AMD",
+    "name": "Ryzen 7 9850X3D",
+    "model": "9850X3D",
+    "aliases": [
+      "R7 9850X3D",
+      "9850X3D",
+      "AMD Ryzen 7 9850X3D"
+    ],
+    "socket": "AM5",
+    "cores": 8,
+    "threads": 16,
+    "tdp": 120,
+    "maxPower": 162,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2026,
+    "st": 2180,
+    "mt": 23200,
+    "gaming": 103,
+    "estimated": true
+  },
+  {
+    "id": "amd-ryzen-9-9900x",
+    "brand": "AMD",
+    "name": "Ryzen 9 9900X",
+    "model": "9900X",
+    "aliases": [
+      "R9 9900X",
+      "9900X",
+      "AMD Ryzen 9 9900X"
+    ],
+    "socket": "AM5",
+    "cores": 12,
+    "threads": 24,
+    "tdp": 120,
+    "maxPower": 162,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2270,
+    "mt": 31500,
+    "gaming": 74,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-9-9900x3d",
+    "brand": "AMD",
+    "name": "Ryzen 9 9900X3D",
+    "model": "9900X3D",
+    "aliases": [
+      "R9 9900X3D",
+      "9900X3D",
+      "AMD Ryzen 9 9900X3D"
+    ],
+    "socket": "AM5",
+    "cores": 12,
+    "threads": 24,
+    "tdp": 120,
+    "maxPower": 162,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 2240,
+    "mt": 30500,
+    "gaming": 97,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-9-9950x",
+    "brand": "AMD",
+    "name": "Ryzen 9 9950X",
+    "model": "9950X",
+    "aliases": [
+      "R9 9950X",
+      "9950X",
+      "AMD Ryzen 9 9950X"
+    ],
+    "socket": "AM5",
+    "cores": 16,
+    "threads": 32,
+    "tdp": 170,
+    "maxPower": 200,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2300,
+    "mt": 42000,
+    "gaming": 75,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-9-9950x3d",
+    "brand": "AMD",
+    "name": "Ryzen 9 9950X3D",
+    "model": "9950X3D",
+    "aliases": [
+      "R9 9950X3D",
+      "9950X3D",
+      "AMD Ryzen 9 9950X3D"
+    ],
+    "socket": "AM5",
+    "cores": 16,
+    "threads": 32,
+    "tdp": 170,
+    "maxPower": 200,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 2270,
+    "mt": 41000,
+    "gaming": 99,
+    "estimated": false
+  },
+  {
+    "id": "amd-ryzen-9-9950x3d2",
+    "brand": "AMD",
+    "name": "Ryzen 9 9950X3D2",
+    "model": "9950X3D2",
+    "aliases": [
+      "R9 9950X3D2",
+      "9950X3D2",
+      "AMD Ryzen 9 9950X3D2"
+    ],
+    "socket": "AM5",
+    "cores": 16,
+    "threads": 32,
+    "tdp": 200,
+    "maxPower": 270,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2026,
+    "st": 2270,
+    "mt": 42000,
+    "gaming": 99,
+    "estimated": true
+  },
+  {
+    "id": "intel-core-i3-12100",
+    "brand": "Intel",
+    "name": "Core i3-12100",
+    "model": "12100",
+    "aliases": [
+      "i3-12100",
+      "i3 12100",
+      "12100"
+    ],
+    "socket": "LGA1700",
+    "cores": 4,
+    "threads": 8,
+    "tdp": 60,
+    "maxPower": 89,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 1700,
+    "mt": 9200,
+    "gaming": 40,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i3-12100f",
+    "brand": "Intel",
+    "name": "Core i3-12100F",
+    "model": "12100F",
+    "aliases": [
+      "i3-12100F",
+      "i3 12100F",
+      "12100F"
+    ],
+    "socket": "LGA1700",
+    "cores": 4,
+    "threads": 8,
+    "tdp": 58,
+    "maxPower": 89,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 1700,
+    "mt": 9200,
+    "gaming": 40,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i3-13100",
+    "brand": "Intel",
+    "name": "Core i3-13100",
+    "model": "13100",
+    "aliases": [
+      "i3-13100",
+      "i3 13100",
+      "13100"
+    ],
+    "socket": "LGA1700",
+    "cores": 4,
+    "threads": 8,
+    "tdp": 60,
+    "maxPower": 89,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 1760,
+    "mt": 9800,
+    "gaming": 44,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i3-13100f",
+    "brand": "Intel",
+    "name": "Core i3-13100F",
+    "model": "13100F",
+    "aliases": [
+      "i3-13100F",
+      "i3 13100F",
+      "13100F"
+    ],
+    "socket": "LGA1700",
+    "cores": 4,
+    "threads": 8,
+    "tdp": 58,
+    "maxPower": 89,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 1760,
+    "mt": 9800,
+    "gaming": 44,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i3-14100",
+    "brand": "Intel",
+    "name": "Core i3-14100",
+    "model": "14100",
+    "aliases": [
+      "i3-14100",
+      "i3 14100",
+      "14100"
+    ],
+    "socket": "LGA1700",
+    "cores": 4,
+    "threads": 8,
+    "tdp": 60,
+    "maxPower": 110,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 1790,
+    "mt": 9900,
+    "gaming": 45,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i3-14100f",
+    "brand": "Intel",
+    "name": "Core i3-14100F",
+    "model": "14100F",
+    "aliases": [
+      "i3-14100F",
+      "i3 14100F",
+      "14100F"
+    ],
+    "socket": "LGA1700",
+    "cores": 4,
+    "threads": 8,
+    "tdp": 58,
+    "maxPower": 110,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 1790,
+    "mt": 9900,
+    "gaming": 45,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-12400",
+    "brand": "Intel",
+    "name": "Core i5-12400",
+    "model": "12400",
+    "aliases": [
+      "i5-12400",
+      "i5 12400",
+      "12400"
+    ],
+    "socket": "LGA1700",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 117,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 1750,
+    "mt": 12500,
+    "gaming": 50,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-12400f",
+    "brand": "Intel",
+    "name": "Core i5-12400F",
+    "model": "12400F",
+    "aliases": [
+      "i5-12400F",
+      "i5 12400F",
+      "12400F"
+    ],
+    "socket": "LGA1700",
+    "cores": 6,
+    "threads": 12,
+    "tdp": 65,
+    "maxPower": 117,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 1750,
+    "mt": 12500,
+    "gaming": 50,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-12600k",
+    "brand": "Intel",
+    "name": "Core i5-12600K",
+    "model": "12600K",
+    "aliases": [
+      "i5-12600K",
+      "i5 12600K",
+      "12600K"
+    ],
+    "socket": "LGA1700",
+    "cores": 10,
+    "threads": 16,
+    "tdp": 125,
+    "maxPower": 150,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2021,
+    "st": 1900,
+    "mt": 17500,
+    "gaming": 57,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-12600kf",
+    "brand": "Intel",
+    "name": "Core i5-12600KF",
+    "model": "12600KF",
+    "aliases": [
+      "i5-12600KF",
+      "i5 12600KF",
+      "12600KF"
+    ],
+    "socket": "LGA1700",
+    "cores": 10,
+    "threads": 16,
+    "tdp": 125,
+    "maxPower": 150,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2021,
+    "st": 1900,
+    "mt": 17500,
+    "gaming": 57,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-13400",
+    "brand": "Intel",
+    "name": "Core i5-13400",
+    "model": "13400",
+    "aliases": [
+      "i5-13400",
+      "i5 13400",
+      "13400"
+    ],
+    "socket": "LGA1700",
+    "cores": 10,
+    "threads": 16,
+    "tdp": 65,
+    "maxPower": 148,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 1870,
+    "mt": 17500,
+    "gaming": 58,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-13400f",
+    "brand": "Intel",
+    "name": "Core i5-13400F",
+    "model": "13400F",
+    "aliases": [
+      "i5-13400F",
+      "i5 13400F",
+      "13400F"
+    ],
+    "socket": "LGA1700",
+    "cores": 10,
+    "threads": 16,
+    "tdp": 65,
+    "maxPower": 148,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 1870,
+    "mt": 17500,
+    "gaming": 58,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-13500",
+    "brand": "Intel",
+    "name": "Core i5-13500",
+    "model": "13500",
+    "aliases": [
+      "i5-13500",
+      "i5 13500",
+      "13500"
+    ],
+    "socket": "LGA1700",
+    "cores": 14,
+    "threads": 20,
+    "tdp": 65,
+    "maxPower": 154,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 1920,
+    "mt": 20500,
+    "gaming": 60,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-13600k",
+    "brand": "Intel",
+    "name": "Core i5-13600K",
+    "model": "13600K",
+    "aliases": [
+      "i5-13600K",
+      "i5 13600K",
+      "13600K"
+    ],
+    "socket": "LGA1700",
+    "cores": 14,
+    "threads": 20,
+    "tdp": 125,
+    "maxPower": 181,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 2050,
+    "mt": 24000,
+    "gaming": 66,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-13600kf",
+    "brand": "Intel",
+    "name": "Core i5-13600KF",
+    "model": "13600KF",
+    "aliases": [
+      "i5-13600KF",
+      "i5 13600KF",
+      "13600KF"
+    ],
+    "socket": "LGA1700",
+    "cores": 14,
+    "threads": 20,
+    "tdp": 125,
+    "maxPower": 181,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 2050,
+    "mt": 24000,
+    "gaming": 66,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-14400",
+    "brand": "Intel",
+    "name": "Core i5-14400",
+    "model": "14400",
+    "aliases": [
+      "i5-14400",
+      "i5 14400",
+      "14400"
+    ],
+    "socket": "LGA1700",
+    "cores": 10,
+    "threads": 16,
+    "tdp": 65,
+    "maxPower": 148,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 1900,
+    "mt": 18000,
+    "gaming": 59,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-14400f",
+    "brand": "Intel",
+    "name": "Core i5-14400F",
+    "model": "14400F",
+    "aliases": [
+      "i5-14400F",
+      "i5 14400F",
+      "14400F"
+    ],
+    "socket": "LGA1700",
+    "cores": 10,
+    "threads": 16,
+    "tdp": 65,
+    "maxPower": 148,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 1900,
+    "mt": 18000,
+    "gaming": 59,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-14500",
+    "brand": "Intel",
+    "name": "Core i5-14500",
+    "model": "14500",
+    "aliases": [
+      "i5-14500",
+      "i5 14500",
+      "14500"
+    ],
+    "socket": "LGA1700",
+    "cores": 14,
+    "threads": 20,
+    "tdp": 65,
+    "maxPower": 154,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 1960,
+    "mt": 21500,
+    "gaming": 62,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-14600k",
+    "brand": "Intel",
+    "name": "Core i5-14600K",
+    "model": "14600K",
+    "aliases": [
+      "i5-14600K",
+      "i5 14600K",
+      "14600K"
+    ],
+    "socket": "LGA1700",
+    "cores": 14,
+    "threads": 20,
+    "tdp": 125,
+    "maxPower": 181,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 2060,
+    "mt": 24000,
+    "gaming": 68,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i5-14600kf",
+    "brand": "Intel",
+    "name": "Core i5-14600KF",
+    "model": "14600KF",
+    "aliases": [
+      "i5-14600KF",
+      "i5 14600KF",
+      "14600KF"
+    ],
+    "socket": "LGA1700",
+    "cores": 14,
+    "threads": 20,
+    "tdp": 125,
+    "maxPower": 181,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 2060,
+    "mt": 24000,
+    "gaming": 68,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i7-12700",
+    "brand": "Intel",
+    "name": "Core i7-12700",
+    "model": "12700",
+    "aliases": [
+      "i7-12700",
+      "i7 12700",
+      "12700"
+    ],
+    "socket": "LGA1700",
+    "cores": 12,
+    "threads": 20,
+    "tdp": 65,
+    "maxPower": 180,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 1850,
+    "mt": 19500,
+    "gaming": 59,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i7-12700f",
+    "brand": "Intel",
+    "name": "Core i7-12700F",
+    "model": "12700F",
+    "aliases": [
+      "i7-12700F",
+      "i7 12700F",
+      "12700F"
+    ],
+    "socket": "LGA1700",
+    "cores": 12,
+    "threads": 20,
+    "tdp": 65,
+    "maxPower": 180,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 1850,
+    "mt": 19500,
+    "gaming": 59,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i7-12700k",
+    "brand": "Intel",
+    "name": "Core i7-12700K",
+    "model": "12700K",
+    "aliases": [
+      "i7-12700K",
+      "i7 12700K",
+      "12700K"
+    ],
+    "socket": "LGA1700",
+    "cores": 12,
+    "threads": 20,
+    "tdp": 125,
+    "maxPower": 190,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2021,
+    "st": 1950,
+    "mt": 22500,
+    "gaming": 62,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i7-12700kf",
+    "brand": "Intel",
+    "name": "Core i7-12700KF",
+    "model": "12700KF",
+    "aliases": [
+      "i7-12700KF",
+      "i7 12700KF",
+      "12700KF"
+    ],
+    "socket": "LGA1700",
+    "cores": 12,
+    "threads": 20,
+    "tdp": 125,
+    "maxPower": 190,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2021,
+    "st": 1950,
+    "mt": 22500,
+    "gaming": 62,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i7-13700",
+    "brand": "Intel",
+    "name": "Core i7-13700",
+    "model": "13700",
+    "aliases": [
+      "i7-13700",
+      "i7 13700",
+      "13700"
+    ],
+    "socket": "LGA1700",
+    "cores": 16,
+    "threads": 24,
+    "tdp": 65,
+    "maxPower": 219,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 2000,
+    "mt": 27000,
+    "gaming": 69,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i7-13700f",
+    "brand": "Intel",
+    "name": "Core i7-13700F",
+    "model": "13700F",
+    "aliases": [
+      "i7-13700F",
+      "i7 13700F",
+      "13700F"
+    ],
+    "socket": "LGA1700",
+    "cores": 16,
+    "threads": 24,
+    "tdp": 65,
+    "maxPower": 219,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 2000,
+    "mt": 27000,
+    "gaming": 69,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i7-13700k",
+    "brand": "Intel",
+    "name": "Core i7-13700K",
+    "model": "13700K",
+    "aliases": [
+      "i7-13700K",
+      "i7 13700K",
+      "13700K"
+    ],
+    "socket": "LGA1700",
+    "cores": 16,
+    "threads": 24,
+    "tdp": 125,
+    "maxPower": 253,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 2150,
+    "mt": 30000,
+    "gaming": 72,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i7-13700kf",
+    "brand": "Intel",
+    "name": "Core i7-13700KF",
+    "model": "13700KF",
+    "aliases": [
+      "i7-13700KF",
+      "i7 13700KF",
+      "13700KF"
+    ],
+    "socket": "LGA1700",
+    "cores": 16,
+    "threads": 24,
+    "tdp": 125,
+    "maxPower": 253,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 2150,
+    "mt": 30000,
+    "gaming": 72,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i7-14700",
+    "brand": "Intel",
+    "name": "Core i7-14700",
+    "model": "14700",
+    "aliases": [
+      "i7-14700",
+      "i7 14700",
+      "14700"
+    ],
+    "socket": "LGA1700",
+    "cores": 20,
+    "threads": 28,
+    "tdp": 65,
+    "maxPower": 219,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2100,
+    "mt": 31500,
+    "gaming": 71,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i7-14700f",
+    "brand": "Intel",
+    "name": "Core i7-14700F",
+    "model": "14700F",
+    "aliases": [
+      "i7-14700F",
+      "i7 14700F",
+      "14700F"
+    ],
+    "socket": "LGA1700",
+    "cores": 20,
+    "threads": 28,
+    "tdp": 65,
+    "maxPower": 219,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2100,
+    "mt": 31500,
+    "gaming": 71,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i7-14700k",
+    "brand": "Intel",
+    "name": "Core i7-14700K",
+    "model": "14700K",
+    "aliases": [
+      "i7-14700K",
+      "i7 14700K",
+      "14700K"
+    ],
+    "socket": "LGA1700",
+    "cores": 20,
+    "threads": 28,
+    "tdp": 125,
+    "maxPower": 253,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 2200,
+    "mt": 34500,
+    "gaming": 74,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i7-14700kf",
+    "brand": "Intel",
+    "name": "Core i7-14700KF",
+    "model": "14700KF",
+    "aliases": [
+      "i7-14700KF",
+      "i7 14700KF",
+      "14700KF"
+    ],
+    "socket": "LGA1700",
+    "cores": 20,
+    "threads": 28,
+    "tdp": 125,
+    "maxPower": 253,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 2200,
+    "mt": 34500,
+    "gaming": 74,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i9-12900k",
+    "brand": "Intel",
+    "name": "Core i9-12900K",
+    "model": "12900K",
+    "aliases": [
+      "i9-12900K",
+      "i9 12900K",
+      "12900K"
+    ],
+    "socket": "LGA1700",
+    "cores": 16,
+    "threads": 24,
+    "tdp": 125,
+    "maxPower": 241,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2021,
+    "st": 2000,
+    "mt": 27500,
+    "gaming": 65,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i9-12900kf",
+    "brand": "Intel",
+    "name": "Core i9-12900KF",
+    "model": "12900KF",
+    "aliases": [
+      "i9-12900KF",
+      "i9 12900KF",
+      "12900KF"
+    ],
+    "socket": "LGA1700",
+    "cores": 16,
+    "threads": 24,
+    "tdp": 125,
+    "maxPower": 241,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2021,
+    "st": 2000,
+    "mt": 27500,
+    "gaming": 65,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i9-13900k",
+    "brand": "Intel",
+    "name": "Core i9-13900K",
+    "model": "13900K",
+    "aliases": [
+      "i9-13900K",
+      "i9 13900K",
+      "13900K"
+    ],
+    "socket": "LGA1700",
+    "cores": 24,
+    "threads": 32,
+    "tdp": 125,
+    "maxPower": 253,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 2200,
+    "mt": 40000,
+    "gaming": 75,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i9-13900kf",
+    "brand": "Intel",
+    "name": "Core i9-13900KF",
+    "model": "13900KF",
+    "aliases": [
+      "i9-13900KF",
+      "i9 13900KF",
+      "13900KF"
+    ],
+    "socket": "LGA1700",
+    "cores": 24,
+    "threads": 32,
+    "tdp": 125,
+    "maxPower": 253,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2022,
+    "st": 2200,
+    "mt": 40000,
+    "gaming": 75,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i9-14900",
+    "brand": "Intel",
+    "name": "Core i9-14900",
+    "model": "14900",
+    "aliases": [
+      "i9-14900",
+      "i9 14900",
+      "14900"
+    ],
+    "socket": "LGA1700",
+    "cores": 24,
+    "threads": 32,
+    "tdp": 65,
+    "maxPower": 219,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2150,
+    "mt": 37000,
+    "gaming": 74,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i9-14900f",
+    "brand": "Intel",
+    "name": "Core i9-14900F",
+    "model": "14900F",
+    "aliases": [
+      "i9-14900F",
+      "i9 14900F",
+      "14900F"
+    ],
+    "socket": "LGA1700",
+    "cores": 24,
+    "threads": 32,
+    "tdp": 65,
+    "maxPower": 219,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2150,
+    "mt": 37000,
+    "gaming": 74,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i9-14900k",
+    "brand": "Intel",
+    "name": "Core i9-14900K",
+    "model": "14900K",
+    "aliases": [
+      "i9-14900K",
+      "i9 14900K",
+      "14900K"
+    ],
+    "socket": "LGA1700",
+    "cores": 24,
+    "threads": 32,
+    "tdp": 125,
+    "maxPower": 253,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 2260,
+    "mt": 40500,
+    "gaming": 77,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i9-14900kf",
+    "brand": "Intel",
+    "name": "Core i9-14900KF",
+    "model": "14900KF",
+    "aliases": [
+      "i9-14900KF",
+      "i9 14900KF",
+      "14900KF"
+    ],
+    "socket": "LGA1700",
+    "cores": 24,
+    "threads": 32,
+    "tdp": 125,
+    "maxPower": 253,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2023,
+    "st": 2260,
+    "mt": 40500,
+    "gaming": 77,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-i9-14900ks",
+    "brand": "Intel",
+    "name": "Core i9-14900KS",
+    "model": "14900KS",
+    "aliases": [
+      "i9-14900KS",
+      "i9 14900KS",
+      "14900KS"
+    ],
+    "socket": "LGA1700",
+    "cores": 24,
+    "threads": 32,
+    "tdp": 150,
+    "maxPower": 253,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR4",
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2300,
+    "mt": 41500,
+    "gaming": 78,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-ultra-5-225",
+    "brand": "Intel",
+    "name": "Core Ultra 5 225",
+    "model": "225",
+    "aliases": [
+      "U5 225",
+      "Ultra 5 225",
+      "225"
+    ],
+    "socket": "LGA1851",
+    "cores": 10,
+    "threads": 10,
+    "tdp": 65,
+    "maxPower": 121,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 1950,
+    "mt": 14500,
+    "gaming": 58,
+    "estimated": true
+  },
+  {
+    "id": "intel-core-ultra-5-225f",
+    "brand": "Intel",
+    "name": "Core Ultra 5 225F",
+    "model": "225F",
+    "aliases": [
+      "U5 225F",
+      "Ultra 5 225F",
+      "225F"
+    ],
+    "socket": "LGA1851",
+    "cores": 10,
+    "threads": 10,
+    "tdp": 65,
+    "maxPower": 121,
+    "igpu": false,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 1950,
+    "mt": 14500,
+    "gaming": 58,
+    "estimated": true
+  },
+  {
+    "id": "intel-core-ultra-5-235",
+    "brand": "Intel",
+    "name": "Core Ultra 5 235",
+    "model": "235",
+    "aliases": [
+      "U5 235",
+      "Ultra 5 235",
+      "235"
+    ],
+    "socket": "LGA1851",
+    "cores": 14,
+    "threads": 14,
+    "tdp": 65,
+    "maxPower": 121,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 2000,
+    "mt": 18000,
+    "gaming": 63,
+    "estimated": true
+  },
+  {
+    "id": "intel-core-ultra-5-245",
+    "brand": "Intel",
+    "name": "Core Ultra 5 245",
+    "model": "245",
+    "aliases": [
+      "U5 245",
+      "Ultra 5 245",
+      "245"
+    ],
+    "socket": "LGA1851",
+    "cores": 14,
+    "threads": 14,
+    "tdp": 65,
+    "maxPower": 121,
+    "igpu": true,
+    "coolerIncluded": true,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 2100,
+    "mt": 21000,
+    "gaming": 66,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-ultra-5-245k",
+    "brand": "Intel",
+    "name": "Core Ultra 5 245K",
+    "model": "245K",
+    "aliases": [
+      "U5 245K",
+      "Ultra 5 245K",
+      "245K"
+    ],
+    "socket": "LGA1851",
+    "cores": 14,
+    "threads": 14,
+    "tdp": 125,
+    "maxPower": 159,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2150,
+    "mt": 24500,
+    "gaming": 70,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-ultra-5-245kf",
+    "brand": "Intel",
+    "name": "Core Ultra 5 245KF",
+    "model": "245KF",
+    "aliases": [
+      "U5 245KF",
+      "Ultra 5 245KF",
+      "245KF"
+    ],
+    "socket": "LGA1851",
+    "cores": 14,
+    "threads": 14,
+    "tdp": 125,
+    "maxPower": 159,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2150,
+    "mt": 24500,
+    "gaming": 70,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-ultra-5-250k-plus",
+    "brand": "Intel",
+    "name": "Core Ultra 5 250K Plus",
+    "model": "250K Plus",
+    "aliases": [
+      "U5 250K Plus",
+      "Ultra 5 250K Plus",
+      "250K Plus",
+      "U5 250K+",
+      "Ultra 5 250K+",
+      "250K+"
+    ],
+    "socket": "LGA1851",
+    "cores": 18,
+    "threads": 18,
+    "tdp": 125,
+    "maxPower": 159,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2026,
+    "st": 2200,
+    "mt": 29000,
+    "gaming": 76,
+    "estimated": true
+  },
+  {
+    "id": "intel-core-ultra-5-250kf-plus",
+    "brand": "Intel",
+    "name": "Core Ultra 5 250KF Plus",
+    "model": "250KF Plus",
+    "aliases": [
+      "U5 250KF Plus",
+      "Ultra 5 250KF Plus",
+      "250KF Plus",
+      "U5 250KF+",
+      "Ultra 5 250KF+",
+      "250KF+"
+    ],
+    "socket": "LGA1851",
+    "cores": 18,
+    "threads": 18,
+    "tdp": 125,
+    "maxPower": 159,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2026,
+    "st": 2200,
+    "mt": 29000,
+    "gaming": 76,
+    "estimated": true
+  },
+  {
+    "id": "intel-core-ultra-7-265",
+    "brand": "Intel",
+    "name": "Core Ultra 7 265",
+    "model": "265",
+    "aliases": [
+      "U7 265",
+      "Ultra 7 265",
+      "265"
+    ],
+    "socket": "LGA1851",
+    "cores": 20,
+    "threads": 20,
+    "tdp": 65,
+    "maxPower": 182,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 2200,
+    "mt": 31000,
+    "gaming": 75,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-ultra-7-265f",
+    "brand": "Intel",
+    "name": "Core Ultra 7 265F",
+    "model": "265F",
+    "aliases": [
+      "U7 265F",
+      "Ultra 7 265F",
+      "265F"
+    ],
+    "socket": "LGA1851",
+    "cores": 20,
+    "threads": 20,
+    "tdp": 65,
+    "maxPower": 182,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 2200,
+    "mt": 31000,
+    "gaming": 75,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-ultra-7-265k",
+    "brand": "Intel",
+    "name": "Core Ultra 7 265K",
+    "model": "265K",
+    "aliases": [
+      "U7 265K",
+      "Ultra 7 265K",
+      "265K"
+    ],
+    "socket": "LGA1851",
+    "cores": 20,
+    "threads": 20,
+    "tdp": 125,
+    "maxPower": 250,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2280,
+    "mt": 36000,
+    "gaming": 78,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-ultra-7-265kf",
+    "brand": "Intel",
+    "name": "Core Ultra 7 265KF",
+    "model": "265KF",
+    "aliases": [
+      "U7 265KF",
+      "Ultra 7 265KF",
+      "265KF"
+    ],
+    "socket": "LGA1851",
+    "cores": 20,
+    "threads": 20,
+    "tdp": 125,
+    "maxPower": 250,
+    "igpu": false,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2280,
+    "mt": 36000,
+    "gaming": 78,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-ultra-7-270k-plus",
+    "brand": "Intel",
+    "name": "Core Ultra 7 270K Plus",
+    "model": "270K Plus",
+    "aliases": [
+      "U7 270K Plus",
+      "Ultra 7 270K Plus",
+      "270K Plus",
+      "U7 270K+",
+      "Ultra 7 270K+",
+      "270K+"
+    ],
+    "socket": "LGA1851",
+    "cores": 24,
+    "threads": 24,
+    "tdp": 125,
+    "maxPower": 250,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2026,
+    "st": 2300,
+    "mt": 43000,
+    "gaming": 82,
+    "estimated": true
+  },
+  {
+    "id": "intel-core-ultra-9-285",
+    "brand": "Intel",
+    "name": "Core Ultra 9 285",
+    "model": "285",
+    "aliases": [
+      "U9 285",
+      "Ultra 9 285",
+      "285"
+    ],
+    "socket": "LGA1851",
+    "cores": 24,
+    "threads": 24,
+    "tdp": 65,
+    "maxPower": 182,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2025,
+    "st": 2250,
+    "mt": 38000,
+    "gaming": 76,
+    "estimated": false
+  },
+  {
+    "id": "intel-core-ultra-9-285k",
+    "brand": "Intel",
+    "name": "Core Ultra 9 285K",
+    "model": "285K",
+    "aliases": [
+      "U9 285K",
+      "Ultra 9 285K",
+      "285K"
+    ],
+    "socket": "LGA1851",
+    "cores": 24,
+    "threads": 24,
+    "tdp": 125,
+    "maxPower": 250,
+    "igpu": true,
+    "coolerIncluded": false,
+    "ddr": [
+      "DDR5"
+    ],
+    "launchYear": 2024,
+    "st": 2300,
+    "mt": 41000,
+    "gaming": 80,
+    "estimated": false
+  }
+]
