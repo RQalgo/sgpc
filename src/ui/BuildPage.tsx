@@ -25,6 +25,7 @@ export function BuildPage({ db, route }: { db: Db; route: Route }) {
   const tab = (new URLSearchParams(route.query).get('tab') as Tab | null) ?? 'parts';
   const [picking, setPicking] = useState<Category | null>(null);
   const [detail, setDetail] = useState<Product | null>(null);
+  const [confirmClear, setConfirmClear] = useState(false);
   const power = estimatePower(items);
   const psu = items.find((i) => i.category === 'psu')?.product;
   const summary = issueSummary(issues);
@@ -57,8 +58,18 @@ export function BuildPage({ db, route }: { db: Db; route: Route }) {
           <div className="build-actions">
             <CopyLink label="Copy link to this build" />
             {!isEmpty(build) && (
-              <button type="button" className="btn quiet" onClick={() => window.confirm('Remove every part from this build?') && state.set(emptyBuild())}>
-                Clear
+              <button
+                type="button"
+                className={confirmClear ? 'btn danger' : 'btn quiet'}
+                onBlur={() => setConfirmClear(false)}
+                onClick={() => {
+                  // Two clicks instead of a browser dialog, which embedded views block.
+                  if (!confirmClear) return setConfirmClear(true);
+                  setConfirmClear(false);
+                  state.set(emptyBuild());
+                }}
+              >
+                {confirmClear ? 'Remove all parts?' : 'Clear'}
               </button>
             )}
           </div>
