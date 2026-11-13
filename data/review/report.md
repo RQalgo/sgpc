@@ -1,6 +1,6 @@
 # Price list review
 
-Generated 2026-11-13T00:07:12.908Z
+Generated 2026-11-13T08:17:18.022Z
 
 ## Coverage by shop
 
