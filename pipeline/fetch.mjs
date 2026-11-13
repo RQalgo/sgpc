@@ -1,9 +1,8 @@
 // Downloads the current Sim Lim Square price lists.
 //   1. Reads the HardwareZone index page for Google Drive file links.
 //   2. Falls back to the last known file ids in sources.json if that fails.
-//   3. Saves each PDF as data/raw/<shop>.pdf and extracts text with pdftotext.
+//   3. Saves each PDF as data/raw/<shop>.pdf (only the latest list per shop is kept).
 //   4. Writes data/raw/index.json describing what was fetched.
-import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -84,7 +83,6 @@ async function main() {
       const date = (filename.match(/(\d{4}-\d{2}-\d{2})/) || [])[1] || null;
       const pdfPath = join(rawDir, `${shop}.pdf`);
       writeFileSync(pdfPath, buf);
-      execFileSync('pdftotext', ['-layout', pdfPath, join(rawDir, `${shop}.txt`)]);
       const changed = shops[shop]?.sha256 !== sha256;
       shops[shop] = { driveId: id, filename, listDate: date, sha256, bytes: buf.length, fetchedAt: changed ? new Date().toISOString() : shops[shop].fetchedAt };
       fetched.push(shop);

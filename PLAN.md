@@ -26,7 +26,7 @@ source of truth for scope and is updated as work lands.
 |---|---|---|
 | Mode names | **Quick Build** (easy), **Guided Build** (in-between), **Custom Build** (advanced) | Says what each does; no jargon. |
 | Stack | Vite + React + TypeScript, plain CSS with design tokens, hash routing | Deploys to GitHub Pages as plain files; hash routes need no server rewrites. |
-| Pipeline language | TypeScript on Node, sharing types with the app; `pdftotext` (poppler) for text extraction | One language, one set of types; poppler keeps column layout intact. |
+| Pipeline language | TypeScript on Node, sharing types with the app; pdf.js for text, tesseract for scanned lists | One language, one set of types; see section 5a for why pdf.js. |
 | Share links | Whole build encoded in the URL (`#/build?cpu=…&mb=…`), updated on every change | Works with no backend; a link never expires; readable and debuggable. |
 | Product identity | Stable slug per product derived from normalised brand + model | Share links survive weekly price refreshes. |
 | Specs | Two tiers: a curated chip/platform reference (CPUs, GPU chips, chipsets) + attributes inferred from product names; an override file for what names can't tell (case clearances, cooler heights) | Thousands of SKUs change weekly; hand-curating each is not maintainable. |
@@ -64,7 +64,7 @@ So every shop parser is assembled from a small set of shared layout readers
 ## 3. Architecture
 
 ```
-HardwareZone index ──► fetch ──► PDFs ──► pdftotext ──► shop parsers ──► raw offers
+HardwareZone index ──► fetch ──► PDFs ──► pdf.js / OCR ──► layout reader ──► raw offers
                                                                             │
                          curated reference (chips, chipsets, overrides) ──► normalise + match
                                                                             │
@@ -79,10 +79,10 @@ HardwareZone index ──► fetch ──► PDFs ──► pdftotext ──► 
 
 ```
 PLAN.md
-.github/workflows/   prices.yml (scheduled ingest), deploy.yml (build + Pages)
-pipeline/            fetch, extract, parsers/<shop>.ts, layouts/, normalise, match, emit
-reference/           cpus.json, gpus.json, chipsets.json, overrides/*.json, aliases.json
-data/raw/<date>/     downloaded PDFs + extracted text (kept for parser regression tests)
+.github/workflows/   site.yml (fetch, ingest, test, build, publish)
+pipeline/            fetch.mjs, enrich.mjs, ingest.ts, shops.ts, lib/ (pdf, reader, normalise, cpus)
+reference/           cpus.json, gpus.json, chipsets.json, games.json, photos.json
+data/raw/            the latest PDF from each shop
 data/review/         latest unmatched/ambiguous report
 data/history/        weekly lowest-price snapshots
 src/                 app: engine/ (compat, power, perf, shopping, recommend), ui/, routes/
@@ -184,55 +184,75 @@ in this category produce no error against the current build?".
 ### M0 — Plan and scaffold
 - [x] Confirm hosting, parsing approach, audience, categories
 - [x] Write this plan
-- [ ] Scaffold Vite + React + TS, lint, test runner, CI
+- [x] Scaffold Vite + React + TypeScript, test runner, CI workflow
 
 ### M1 — Price list pipeline
-- [ ] `fetch`: read the HardwareZone index, resolve Drive links, download PDFs; fall back to last known links
-- [ ] Store PDFs + extracted text under `data/raw/<date>/`
-- [ ] Sample all nine shops; document each layout in `pipeline/parsers/README.md`
-- [ ] Shared layout readers: dotted list, capacity matrix, bundle matrix, plain table
-- [ ] One parser per shop, section → category map, fixtures from real pages
-- [ ] Parser regression tests against stored text
-- [ ] Coverage report: lines seen / parsed / skipped per shop
+- [x] `fetch`: read the HardwareZone index, resolve Drive links, download PDFs; fall back to last known links
+- [x] Store the latest PDF per shop under `data/raw/`
+- [x] Sample all nine shops; document each layout in `pipeline/README.md`
+- [x] Shared layout reader: dotted list, capacity matrix, bundle matrix, price column
+- [x] Per-shop settings (`pipeline/shops.ts`) on top of the shared reader
+- [x] OCR path for the three image-only lists, with a trust level per shop
+- [x] Reader tests on synthetic pages; catalogue checks on the real output
+- [x] Coverage report per shop in `data/review/report.md`
+- [ ] Read bundle tables from the scanned lists (Prime PC, TradePac, PC Themes)
+- [ ] Raise Laser's coverage (about 200 prices read; several blocks still unplaced)
 
 ### M2 — Reference data and matching
-- [ ] `reference/chipsets.json`: chipset → socket, DDR generation, CPU generations
-- [ ] `reference/cpus.json`: socket, cores/threads, power, iGPU, cooler included, performance indices
-- [ ] `reference/gpus.json`: chip → VRAM options, power, recommended PSU, connectors, performance indices
-- [ ] Name normaliser (brand aliases, model tokens, capacity/speed extraction)
-- [ ] Attribute inference per category (form factor, DDR, wattage, capacity, interface, resolution…)
-- [ ] Cross-shop merge of the same product; `aliases.json` for manual fixes
-- [ ] Overrides for case clearances, cooler heights/sockets, PSU connectors (popular models first)
-- [ ] Review report in `data/review/`
-- [ ] Emit `public/data/*.json` + weekly history snapshot
+- [x] `reference/chipsets.json`, `cpus.json`, `gpus.json`, `games.json`
+- [x] Name normaliser and attribute inference for every category
+- [x] Cross-shop merge of the same product
+- [x] Sanity checks: price ranges, cross-shop outliers, unit-price outliers, per-chip graphics card band
+- [x] CPU prices derived from bundle minus board where a shop prints both
+- [x] Review report and `unmatched.json`
+- [x] Emit `public/data/*.json` and a lowest-price snapshot per list date in `data/history/`
+- [x] Photo lookup for CPUs and graphics chips on Wikimedia Commons (`pipeline/enrich.mjs`, runs in the workflow)
+- [ ] `aliases.json` for manual merge fixes
+- [ ] Overrides for case clearances, cooler heights and radiator mounts (until then these checks report "not verified")
+- [ ] Replace estimated performance indices with figures confirmed against published charts
 
 ### M3 — Engines (pure TypeScript, unit-tested)
-- [ ] Compatibility rules + filter API
-- [ ] Power draw estimate and PSU headroom
-- [ ] Shopping optimiser with bundles
-- [ ] Performance model (games + workloads)
-- [ ] Recommender for Quick and Guided (budget split by use case, compatibility-constrained selection)
+- [x] Compatibility rules and the filter used by the part pickers
+- [x] Power draw estimate and PSU headroom
+- [x] Shopping optimiser with bundles and bundle fees
+- [x] Performance model (14 games at three resolutions, six workloads)
+- [x] Recommender for Quick Build and Guided Build
 
 ### M4 — App
-- [ ] Shell, home page with the three modes, data-freshness badge
-- [ ] Build state + URL sync (share links), recent builds
-- [ ] Custom Build: part list, pickers, filters, compatibility panel
-- [ ] Component detail page
-- [ ] Guided Build stepper
-- [ ] Quick Build questionnaire + three results
-- [ ] Summary: performance section + shopping list, copy/print
-- [ ] Responsive layout, keyboard access, light/dark
+- [x] Shell, home page with the three modes, list dates per shop
+- [x] Build state in the URL (share links), recent builds in the browser
+- [x] Custom Build: part list, pickers with search, filters and sort, compatibility panel
+- [x] Part detail: every shop's price, the line as printed, bundles, specs with "assumed" markers
+- [x] Guided Build stepper
+- [x] Quick Build questionnaire with three results
+- [x] Performance tab and shopping list, copy as text and print
+- [x] Responsive layout, keyboard focus, light and dark
+- [ ] Price history chart on the part detail (snapshots are being collected)
+- [ ] Read-only view for shared links with "Edit a copy" (a shared link currently opens the editable build)
 
 ### M5 — Automation and launch
-- [ ] `prices.yml`: scheduled run, commit data only when lists changed
-- [ ] `deploy.yml`: build and publish to GitHub Pages
-- [ ] About page: sources, attribution, disclaimers, how estimates work
-- [ ] End-to-end check: prices on the site vs the source PDFs for a sample of parts
+- [x] `site.yml`: daily run, data committed only when a list changed, then build and publish
+- [x] About page: sources, limits, how estimates work
+- [x] Check published prices against the source text (96% of prices from the six text lists found on their source line; the rest are label formatting differences)
+- [ ] Turn on GitHub Pages for the repository if the workflow cannot enable it itself
 
 ### M6 — After launch (not in v1)
-- Photo and product-page enrichment beyond the seeded set
+- Photos beyond CPUs and graphics chips
 - Price-drop alerts, build comparison, community-voted builds
 - Short links (would need a small backend)
+
+---
+
+## 5a. What changed while building
+
+| Planned | What happened | Why |
+|---|---|---|
+| `pdftotext` for extraction | pdf.js text runs | pdf.js reports each drawn string separately, so a price touching the end of a long name stays a separate cell. `pdftotext` glued them together. |
+| One parser per shop | One shared layout reader plus per-shop settings | The same three table shapes recur across shops; headers are found by content (CPU models, capacities) rather than by position. |
+| All nine lists parsed alike | Three lists are scanned images and go through OCR | PC Themes reads well. Prime PC and TradePac are mostly dense bundle tables that OCR misaligns, so their prices are kept only when a printed price elsewhere confirms them. |
+| CPU prices from the lists | Mostly derived | Shops print bundle prices, rarely CPU-only prices. Bundle minus board gives the CPU price where the board's own price is printed; it is marked ≈ in the app. |
+| `data/raw/<date>/` | `data/raw/<shop>.pdf`, latest only | Keeping every week's PDFs would add roughly 35 MB to the repository per week. History is kept as price snapshots. |
+| Manufacturer photos | Wikimedia Commons photos for CPUs and graphics chips | Freely licensed and safe to link from a public site, with credit. Other categories link to a web and image search. |
 
 ---
 

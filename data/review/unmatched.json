@@ -324,13 +324,6 @@
  {
   "shop": "bizgram",
   "page": 1,
-  "section": "Nvidia RTX5 Graphics Card and Intel",
-  "line": "Nvidia Developer Edition RTX5090 32GB . 12999 Gigabyte GV N506TEAGLEOC ICE-16GD | 1355",
-  "reason": "not recognised as gpu"
- },
- {
-  "shop": "bizgram",
-  "page": 1,
   "section": "SSD Internal 2.5 SATA (Bracket $3)",
   "line": "Sandisk (Kingston 960GB $199) | - | 140 | 168 | 325 | 529 | 1599",
   "reason": "not recognised as storage"
@@ -569,6 +562,13 @@
  {
   "shop": "bizgram",
   "page": 1,
+  "section": "HDD IDE Desktop harddisk (500G $258)",
+  "line": "SPARKLE INTEL ARC PRO B70 Blower 32G | 2391",
+  "reason": "not recognised as storage"
+ },
+ {
+  "shop": "bizgram",
+  "page": 1,
   "section": "Nvidia RTX5 Graphics Card and Intel",
   "line": "NVIDIA QSFP112 400G DAC CABLE 40CM | 159",
   "reason": "not recognised as gpu"
@@ -579,6 +579,13 @@
   "section": "HDD IDE Desktop harddisk (500G $258)",
   "line": "SPARKLE Intel Arc™ B570 GUARDIAN | 467",
   "reason": "capacity table row that is not memory or storage"
+ },
+ {
+  "shop": "bizgram",
+  "page": 1,
+  "section": "Nvidia RTX5 Graphics Card and Intel",
+  "line": "NVIDIA DGX SPARK AI SUPERCOMP 4TB | 8999",
+  "reason": "not recognised as gpu"
  },
  {
   "shop": "bizgram",
@@ -598,8 +605,15 @@
   "shop": "bizgram",
   "page": 1,
   "section": "Nvidia RTX5 Graphics Card and Intel",
-  "line": "Nvidia NVLink Bridge 2 Slot A6000, A5000 . 359 Win 11 Pro 90MS03E1-M000L0 QN10-VQ0019NN | S$2499",
+  "line": "Nvidia NVLink Bridge 2 Slot A6000, A5000 | 359",
   "reason": "not recognised as gpu"
+ },
+ {
+  "shop": "bizgram",
+  "page": 1,
+  "section": "HDD IDE Desktop harddisk (500G $258)",
+  "line": "Win 11 Pro 90MS03E1-M000L0 QN10-VQ0019NN | S$2499",
+  "reason": "not recognised as storage"
  },
  {
   "shop": "bizgram",
@@ -638,13 +652,6 @@
  },
  {
   "shop": "bizgram",
-  "page": 2,
-  "section": "U7-155H 16GB DDR5 512GB SSD",
-  "line": "Config: 1TB with | 1",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
   "page": 3,
   "section": "BUNDLE Computer Casing (Buy alone + $10)",
   "line": "Define 7 Nano Black TG Light Tint | 138",
@@ -668,6 +675,13 @@
   "shop": "bizgram",
   "page": 3,
   "section": "BUNDLE Computer Casing (Buy alone + $10)",
+  "line": "Focus 2 TG Clear Tint | 90",
+  "reason": "not recognised as case"
+ },
+ {
+  "shop": "bizgram",
+  "page": 3,
+  "section": "BUNDLE Computer Casing (Buy alone + $10)",
   "line": "Focus 2 RGB TG Clear Tint | 105",
   "reason": "not recognised as case"
  },
@@ -683,6 +697,13 @@
   "page": 3,
   "section": "BUNDLE Computer Casing (Buy alone + $10)",
   "line": "Silverstone CS381 Server Storage Case | 496",
+  "reason": "not recognised as case"
+ },
+ {
+  "shop": "bizgram",
+  "page": 3,
+  "section": "BUNDLE Computer Casing (Buy alone + $10)",
+  "line": "Meshify 3 XL Ambience Pro RGB Whit | 394",
   "reason": "not recognised as case"
  },
  {
@@ -730,6 +751,13 @@
  {
   "shop": "bizgram",
   "page": 3,
+  "section": "AMD Radeon Graphic Card",
+  "line": "Sapphire RX 7900 GRE GAMING OC 16GB | 2989",
+  "reason": "not recognised as gpu"
+ },
+ {
+  "shop": "bizgram",
+  "page": 3,
   "section": "BUNDLE Computer Casing (Buy alone + $10)",
   "line": "Meshify 3 Ambience Pro RGB | 346",
   "reason": "not recognised as case"
@@ -773,7 +801,7 @@
   "shop": "bizgram",
   "page": 3,
   "section": "AMD Radeon Graphic Card",
-  "line": "Sapphire Pure 7700 XT Frostpunk 2 Edition . 672 Deepcool AK620 G2 | 80",
+  "line": "Sapphire Pure 7700 XT Frostpunk 2 Edition | 672",
   "reason": "not recognised as gpu"
  },
  {
@@ -1794,23 +1822,9 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS MB27ACF | 521",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Thermal Grizzly Cleaning Wipes | 16",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS XG27UCDMG | 1,242",
-  "reason": "not recognised as os"
  },
  {
   "shop": "bizgram",
@@ -1822,23 +1836,9 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS XG259QNS | 530",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Thermal Grizzly Kryonaut - 11.1 Gramm | 49",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS XG27ACMES | 360",
-  "reason": "not recognised as os"
  },
  {
   "shop": "bizgram",
@@ -1850,30 +1850,9 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS VG32VQ1B | 386",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS XG32UCG | 642",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
   "line": "for LGA1851 & RTX 5090 | 35",
   "reason": "price 35 outside the plausible range for gpu"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS MS27UC | 571",
-  "reason": "not recognised as os"
  },
  {
   "shop": "bizgram",
@@ -1885,23 +1864,9 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS VY279 | 271",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Grizzly TG Minus Pad Advance -120x20x0,5 m | 28",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS PA248QV | 278",
-  "reason": "not recognised as os"
  },
  {
   "shop": "bizgram",
@@ -1913,23 +1878,9 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS PA329CRV | 993",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Grizzly TG Minus Pad Pro -100x100x1,0 | 45",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS VU279CFE - B | 251",
-  "reason": "not recognised as os"
  },
  {
   "shop": "bizgram",
@@ -1941,23 +1892,9 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS VA279QGS | 210",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Thermal Grizzly TG Putty Basic 30g | 25",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS PB247Q | 384",
-  "reason": "not recognised as os"
  },
  {
   "shop": "bizgram",
@@ -1969,23 +1906,9 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS PA279CV | 615",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
   "line": "CoolerMaster High Performance | 30",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS VA24EQSB | 189",
-  "reason": "not recognised as os"
  },
  {
   "shop": "bizgram",
@@ -1997,13 +1920,6 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS VA27EHE | 194",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Cooler Master Cryofuze Thermal Grease | 15",
   "reason": "not recognised as fan"
@@ -2011,23 +1927,9 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS VZ249HEG1R | 155",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Noctua NT-H1 3.5G Thermal paste | 37",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS PA27JCV | 967",
-  "reason": "not recognised as os"
  },
  {
   "shop": "bizgram",
@@ -2060,23 +1962,9 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS PA279CV | 615",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Trend Micro Internet Security 1Device 3 Year | 30",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS PA278QGV | 351",
-  "reason": "not recognised as os"
  },
  {
   "shop": "bizgram",
@@ -2088,15 +1976,8 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS VP248 ................................................. ask Qnap TS-673A-8G 6-bay NAS, AMD Ryz ....... Ask LOGITECH K780 MULTI-DEVICE WIRELESS | 85",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
-  "line": "TrendMicro Maximum Security 1Device 1 Year .20 ASUS BE24ECST ........................................... ask Qnap TVS-h674T-i5-32G 6-bay NAS w/ ........ Ask LOG",
+  "line": "TrendMicro Maximum Security 1Device 1 Year | 20",
   "reason": "not recognised as fan"
  },
  {
@@ -2109,23 +1990,9 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS VU279 | 206",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Norton 360 Standard 2024 1 Year 1 Device | 69",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS VT169 | 228",
-  "reason": "not recognised as os"
  },
  {
   "shop": "bizgram",
@@ -2137,15 +2004,8 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS PA249CGV | 354",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
-  "line": "Norton 360 Premium 2024 1-Year 10device .119 ASUS VG278Q | 326",
+  "line": "Norton 360 Premium 2024 1-Year 10device | 119",
   "reason": "not recognised as fan"
  },
  {
@@ -2158,23 +2018,9 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS BE24EQK | 215",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Symantec Endpoint Security 14 = 10 user | 369",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 27E1N1200 | 134",
-  "reason": "not recognised as os"
  },
  {
   "shop": "bizgram",
@@ -2186,44 +2032,9 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 272S1 | 174",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Symantec Endpoint Security 14 = 50 user | 1849",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 200V4LSB/69 | 133",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 27E2G2200 | 126",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 32B1U3900 | 380",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 27E1N1800AE | 222",
-  "reason": "not recognised as os"
  },
  {
   "shop": "bizgram",
@@ -2235,20 +2046,6 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 27E1N1600 | 237",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 22E1N1200 | 165",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
   "section": "PRITTEC MINI PC",
   "line": "NVME SSD , Windows 11 Home | 839",
   "reason": "price 839 outside the plausible range for os"
@@ -2256,1024 +2053,107 @@
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 27E2G2200 | 126",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Software Windows / Office / Server OS/365",
+  "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Windows 7 Professional 64 Bit / 32 Bit | 269",
-  "reason": "not recognised as os"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Software Windows / Office / Server OS/365",
+  "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Windows 8 Professional 64 Bit / 32 Bit | 199",
-  "reason": "not recognised as os"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 170S9/69 | 269",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Software Windows / Office / Server OS/365",
+  "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Microsoft Office Home 2024 | 259",
-  "reason": "not recognised as os"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 27E1N2500 | 166",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 243S9A/69 | 132",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Software Windows / Office / Server OS/365",
+  "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Microsoft Office Home and Business 2024 | 359",
-  "reason": "not recognised as os"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 27E1N2500 | 166",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Software Windows / Office / Server OS/365",
+  "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Microsoft Office 365 Personal 1 Device | 148",
-  "reason": "not recognised as os"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Software Windows / Office / Server OS/365",
+  "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Microsoft Office 365 Family 6 Device | 198",
-  "reason": "not recognised as os"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Software Windows / Office / Server OS/365",
+  "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Microsoft Office Home & Student 2019 | 168",
-  "reason": "not recognised as os"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Software Windows / Office / Server OS/365",
+  "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Microsoft Office Home & Student 2021 | 179",
-  "reason": "not recognised as os"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 27E1N2100 | 134",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Software Windows / Office / Server OS/365",
+  "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Microsoft Server Standard 2022 OEM | 1495",
-  "reason": "not recognised as os"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Software Windows / Office / Server OS/365",
+  "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Microsoft 5clt User CAL Standard | 341",
-  "reason": "not recognised as os"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Acer KB242Y | 120",
-  "reason": "not recognised as os"
+  "section": "System / VGA Stuff / Accessories / Fans",
+  "line": "Microsoft Standard Svr r2016/19/16/12 | 1586",
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Microsoft SQL Server Standard 2019 +5Cl . 4520 Acer XB253Q | 189",
-  "reason": "not recognised as os"
+  "section": "System / VGA Stuff / Accessories / Fans",
+  "line": "Microsoft SQL Server Standard 2019 +5Cl | 4520",
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
+  "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Microsoft SQL Server Standard 2022 | 2650",
-  "reason": "not recognised as os"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Acer ETS322QU | 349",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
+  "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Yubi Key 5C NFC Key USB-C Yubico | 165",
-  "reason": "not recognised as os"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
   "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Acer XZ273U | 548",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
+  "section": "System / VGA Stuff / Accessories / Fans",
   "line": "Power PDF 5 - Standard, ESD Download | 189",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Samsung S27D300GAE | 201",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Portable 17inch Portable Monitor | 657",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Samsung S27AM500NE | 529",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC E1659FWU 15.6 USB | 179",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Samsung S27C330GAE | 188",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC I1601FWUX 15.6 USB-C | 259",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Samsung S27R350FHE | 223",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC 16T3E USB-C FHD IPS | 258",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Samsung S32A600UUE | 716",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS | 17.3",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "PORTABLE MONITOR MQ17QH | 3699",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Samsung S24R305FZE | 139",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus MS27UC Smart 4K 27 USB-C Spk | 649",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Samsung U28R550UQE | 492",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus MB14AC Flat 1920x1080 60Hz | 309",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Gigabyte G27Q2 | 207",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus MB169CK Zenscreen USB C HDMI | 179",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Gigabyte M27QA | 380",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus MB166CR Flat 1920x1080 60Hz | 245",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Gigabyte MO32U | 999",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus MB16ACV Flat 1920x1080 60Hz | 254",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus MB16AHV | 273",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG 27G411A-B | 148",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus MB16AHG Flat 1920x1080 144Hz | 427",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus MB16AHT Flat 1920x1080 60Hz | 438",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus MB16AMT Flat 1920x1080 60Hz | 509",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Thinkvision S24I-30 | 128",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus MB16AWP Flat 1920x1080 60Hz | 736",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Thinkvision E24-40 | 196",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus MB16QHG Flat 2560x1600 120Hz | 654",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus MB249C Flat 1920x1080 75Hz | 539",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI PRO MP242P | 252",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus MQ16AH Flat 1920x1080 60Hz | 618",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Asus XG16AHP-W Flat 1920x1080 144Hz | 752",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI MAG 244F | 148",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Viewsonic VA1655 15.6 LED BackLight | 245",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI Modern MD342CQP | 424",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Viewsonic VG1655 15.6 LED BackLight | 389",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI MPG 341CQPX QD-OLED | 1,274",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Viewsonic TD1655 Touch Screen | 507",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Viewsonic TD1630-3 Touch Screen | 466",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI Modern MD272QP | 360",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI MP161 15.6 Portable Monitor | 149",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ViewSonic VA240A | 108",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG 16MR70 16-inch Portable Monitor View+ | 489",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG 27UP850K | 467",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "CCTV Monitor BNC RGB 17 Inch AV | 342",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "CCTV Monitor BNC RGB 19 Inch AV | 477",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Philips 27M2N3200 | 177",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "CCTV Monitor BNC RGB 21 Inch AV | 612",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS PG32UCDM3 | 1,935",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Dell P2426H | 196",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS PG27UCDM | 1,478",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Dell P2726H | 223",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS PG27AQN | 1,439",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Dell E1715S | 222",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS PG32UCDM | 1,848",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Dell E2425HSM | 166",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI MPG 491CQPX QD-OLED | 1972",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Dell P2425H | 210",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI MPG 341CQPX QD-OLED | 1286",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Dell E2425HM | 120",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI MPG 341CQR QD-OLED X36 | 1543",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Dell SE2725HM | 131",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI MPG 322URX QD-OLED | 1715",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Dell P2424HT | 405",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI MPG 321URXW QD-OLED | 1518",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Dell S2725H | 202",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI MPG 321URX QD-OLED | 1715",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Dell S2425HSM | 153",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI MPG 321CURX QD-OLED | 1509",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Dell P1917S | 268",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI MPG 272URX QD-OLED | 1629",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Dell S2725QS | 340",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI MAG 272UP QD-OLED X24 | 1114",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC CU34G2XP ............................................ ask MSI MPG 271QR QD-OLED X50 | 1543",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC AG273FZE 27 ........................................ ask MSI MAG 272QPW QD-OLED X28 | 943",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC 27G2SP | 344",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "MSI MAG 272QP QD-OLED X24 | 799",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC 27B36X | 125",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC 27B36H | 128",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC Q27G4S | 262",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Viewsonic VA220A-H | 87",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Viewsonic VG2740V | 179",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Viewsonic VA270A | 122",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Viewsonic VA2710-MH | 218",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Viewsonic VA240A | 98",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC AM420B Dual Monitor Arm/17”-34 | 129",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "Lenovo E24-40 | 196",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC AM400B Single Monitor Arm/17”- | 69",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "HP E22 G5 | 213",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC AM400G Single Monitor Arm/17”- | 69",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC AM400P Single Monitor Arm/17”- | 69",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "HP HP ProDesk 2 SFF G1i .............................. ask AOC AM400W Single Monitor Arm/17”- | 69",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "HP HP P22 G4 | 164",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "AOC AM406G Single Monitor Arm/17”- | 79",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "HP hp B0BU9UT - 324ph............................... ask AOC AM406W Single Monitor Arm/17”- | 79",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "HP P24V G5 FHD | 104",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Touch Screen Monitor",
-  "line": "Asus VT229H Flat 1920x1080 75Hz | 358",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG 29WQ500 | 210",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Touch Screen Monitor",
-  "line": "Asus VT169HR Flat 1366x768 (WXGA ) 60Hz | 289",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG 27U511SA-W | 307",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Touch Screen Monitor",
-  "line": "AOC 16T20 Touch Screen Portable 15.6 | 159",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG 22MN43OM-B ......................................... ask AOC 16T3 Gaming Monitor | 299",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG 29U531A-W | 245",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Touch Screen Monitor",
-  "line": "Viewsonic TD1630-3 10-point projec | 419",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG 29WQ500-B | 210",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Touch Screen Monitor",
-  "line": "Viewsonic TD1655 10-point projecte | 399",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG ULTRAGEAR ............................................. ask Viewsonic TD2223 10-point IR Touch | 469",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG 32GN500-B | 338",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Touch Screen Monitor",
-  "line": "Viewsonic TD2423 10-point IR Touch | 499",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG 34WR55QK | 528",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Touch Screen Monitor",
-  "line": "Viewsonic TD2230 10-point projecte | 599",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG 32SQ730S-W | 449",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Touch Screen Monitor",
-  "line": "Viewsonic TD2465 10-point projecte | 709",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG 27UP600-W | 325",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Touch Screen Monitor",
-  "line": "Viewsonic TD2455 10-point in-cell | 849",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "LG 32GP850-B ............................................. ask Viewsonic ID2456 10-point PCAP tou | 1199",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS PA328QV | 593",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Touch Screen Monitor",
-  "line": "Viewsonic TD2760 10-point capacity | 1169",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Microsoft Standard Svr r2016/19/16/12 . 1586",
-  "line": "ASUS XG27ACG | 335",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "bizgram",
-  "page": 4,
-  "section": "Touch Screen Monitor",
-  "line": "Viewsonic TD3207 10-point capacity | 1599",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Dahua IP Camera DH-IPC-SF145-0360B | 79",
-  "reason": "not recognised as keyboard"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "bizgram",
@@ -3281,13 +2161,6 @@
   "section": "CPU,",
   "line": "BNUC13BRKP200B00O | 559",
   "reason": "not recognised as cpu"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Dahua IP Camera DH-E125L | 79",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3306,23 +2179,9 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Dahua IP Camera DH-IPC-HDBW1431EP | 79",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "cpu,",
   "line": "BNUC13BRFA200B00O | 629",
   "reason": "not recognised as cpu"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Dahua Fish Eye DH-IPC-EB5541P-AS | 289",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3341,37 +2200,9 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Dahua Dome DH-IPC-HDBW2230E-S-S2 | 99",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Hikvision DS-7604Ni-Q1/4P(C) NVR | 139",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "cpu,",
   "line": "BNUC13BRFA400B00O | 729",
   "reason": "not recognised as cpu"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Hikvision DS-7608Ni-Q1/8P(C) NVR | 229",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Hikvision DS-7616NI-DVR | 289",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3397,23 +2228,9 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Aztech WL580E Repeater | 31",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "GRAPHICS",
   "line": "RNUC15CRHI3053C3 90AS00K1-M000V0 | 1499",
   "reason": "not recognised as gpu"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Aztech KWFP-110-WF | 44",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3425,23 +2242,9 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Aztech Blink Camera Kit | 206",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "DDR5",
   "line": "WIN | 11",
   "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Prolink PRN2001A Wireless Router | 27",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3453,23 +2256,9 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Prolink PSE810 8-Port Ethernet Switch | 32",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "DDR5",
   "line": "PRO TALL C5-210H INTEL 90AR00W1-M000W0 | 2299",
   "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Prolink PRS1240 ADSL modem Router | 64",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3481,30 +2270,9 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Aztech Blink Kit BCM00100U-SMH | 193",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Aztech KIPCW420 Camera | 152",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "GRAPHICS",
   "line": "M000W0 | 1599",
   "reason": "not recognised as gpu"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Edimax IC-3140W HD Wi-Fi Day & Night | 40",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3523,30 +2291,9 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Edimax IC-3210W Indoor Portable camera | 60",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "GRAPHICS",
   "line": "RNUC15CRHC5073C3 90AS00K1-M00300 | 1749",
   "reason": "not recognised as gpu"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Edimax IC-5150W Fisheye Cloud Camera | 70",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Edimax IC-6230DC Smart Wi-Fi Door Ho | 81",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3558,37 +2305,9 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Edimax IC-7112W HD Wi-Fi Day & Night | 60",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "GRAPHICS",
   "line": "RNUC15CRHC7053C3 90AS00K1-M000X0 | 1749",
   "reason": "not recognised as gpu"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Edimax IC-7113W HD Wi-Fi Day & Night | 81",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Edimax IC-9110W Mini Outdoor HD Wire | 81",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Hikvision 8Port Full POE Switch 65w | 189",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3600,37 +2319,9 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Hikvision 16Port Full POE Switch 125w | 399",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Hikvision 24Port Full POE Switch 225w | 580",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink Duo Floodlight Wi-Fi Camera 8MP | 259.99",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "GRAPHICS",
   "line": "90AS00K1-M000Y0 | 1849",
   "reason": "not recognised as gpu"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink Trackmix WiFi Wi-Fi Camera 8MP | 259.99",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3642,23 +2333,9 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink Argus Eco Ultra Battery WIFI-8MP | 179.99",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "GRAPHICS",
   "line": "M006P0 | 1849",
   "reason": "not recognised as gpu"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink Argus PT Lite Battery WIFI-3MP ... 119.99 90AS00K1-M001A0 | 2399",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3670,37 +2347,9 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink Reolink Go Plus Battery 4G | 209",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink Reolink Go Ultra Battery 4G | 269",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink Reolink Go PT Plus Battery 4G | 269",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "GRAPHICS",
   "line": "M006S0 | 2399",
   "reason": "not recognised as gpu"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink Reolink Go PT Ultra Battery 4G | 319",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3719,23 +2368,9 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink ColorX CX410 POE Camera 4MP | 119.99",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "DDR5",
   "line": "ASUS NUC 14 PRO AI U5-226V (LPDDR5x 16G) Ubiquiti ACB-AC-EU | 121",
   "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink Fisheye FE-P-W POE Camera 6MP | 159.99",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3782,41 +2417,6 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink P437 POE Camera 8MP .............. 159.99 90AS00N1-M001Y0 | 1799",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink E1 Outdoor PoE POE Camera 8MP | 149.99",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink P830 POE Camera 8MP .............. 179.99 1TB SSD Win | 11",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink Duo 2 PoE POE Camera 8MP ...... 189.99 90AS00N1-M001Z0 | 1999",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink Duo Floodlight POE Camera 8MP | 249.99",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "DDR5",
   "line": "90MS0381-M00160 | 3599",
   "reason": "not recognised as ram"
@@ -3827,34 +2427,6 @@
   "section": "DDR5",
   "line": "90AS00I1-M00100 | 4999",
   "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Reolink Junction Box B10/D20 Accessory | 29",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Mikrotik CCR1036-12G-4S Refurbished | 300",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Mikrotik CCR1036-8G-2S+ Refurbished | 720",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Mikrotik RB1100AHx2 Refurbished | 315",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -3873,72 +2445,9 @@
  {
   "shop": "bizgram",
   "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Mikrotik RB3011UiAS-RM Refurbished | 150",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Fortinet FG30E Firewall Refurbished | 200",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Fortinet FG30 Firewall Refurbished | 200",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Asus NUC | 13",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "(90AS0011-M00070) N50 ....................... | $383",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "Asus NUC | 13",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
   "section": "DDR5",
   "line": "ASUS NUC | 15",
   "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "M000J0 (BNUC13BRFA200B00I) ............. | $460",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Lite U300 INTEL GRAPHICS",
-  "line": "90AR0102-M00020 | 389",
-  "reason": "not recognised as gpu"
- },
- {
-  "shop": "bizgram",
-  "page": 6,
-  "section": "Asus Keyboard Mouse Headset Mousepad Acc",
-  "line": "M000S0).................................................. | $502",
-  "reason": "not recognised as keyboard"
  },
  {
   "shop": "bizgram",
@@ -4041,97 +2550,6 @@
  {
   "shop": "bizgram",
   "page": 8,
-  "section": "SSD Mini Computer, 4K Dual Display LAN 1000M/",
-  "line": "M.2 2280 SSD, 4K Dual Display,HDMI*2, LAN Spectre Pro 104 Key Mech. Keyboar | 75",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "SSD Mini Computer, 4K Dual Display LAN 1000M/",
-  "line": "1000M/USB-C/WiFi 6/BT5.2 | 1199",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "SSD Mini Computer, 4K Dual Display LAN 1000M/",
-  "line": "Beelink SER8 Mini PC, AMD Ryzen | 7",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "SSD Mini Computer, 4K Dual Display LAN 1000M/",
-  "line": "8845HS(8C/16T up to 5.1GHz), 32GB DDR5 1TB Phantom 87 Key Mechanical Keyboar | 56",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "SSD Mini Computer, 4K Dual Display LAN 1000M/",
-  "line": "PCIe4.0 SSD Mini Gaming PC, 4K Triple | 1199",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "(8C/16T, up to 4.9Ghz), 32G DDR5 RAM 1TB",
-  "line": "HDMI, Dual 100 | 1159",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "(8C/16T,Up to 4.5GHz) 16GB DDR4 500GB M.2",
-  "line": "PCIe SSD Mini Desktop 4K | 959",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "(8C/16T,Up to 4.5GHz) 16GB DDR4 500GB M.2",
-  "line": "(4C/4T, up to 3.6Ghz), 16G DDR4 500G M.2 SSD SDDR-A631-GNGNN | 55",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "(8C/16T,Up to 4.5GHz) 16GB DDR4 500GB M.2",
-  "line": "Mini Office, 4K Dual Display/Dual | 939",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "(8C/16T,Up to 4.5GHz) 16GB DDR4 500GB M.2",
-  "line": "Beelink SER5 Pro Mini PC, AMD Ryzen 7 5825U iD3CHDVU2 iDream 4 in 1 USB C to HDMI | 49",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "(8C/16T,Up to 4.5GHz) 16GB DDR4 500GB M.2",
-  "line": "(8C/16T,Up to 4.5GHz) 32GB DDR4 500GB M.2 iD5CHU2CR iDream 5 in 1 USB C to HDMI | 55",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "(8C/16T,Up to 4.5GHz) 16GB DDR4 500GB M.2",
-  "line": "PCIe SSD Mini Support 4K | 1059",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "(8C/16T,Up to 4.5GHz) 16GB DDR4 500GB M.2",
-  "line": "1TB Win 11 Pro | 2399",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
   "section": "Intel Motherboard / AMD Motherboard",
   "line": "Biostar TB360-BTC Pro 9Gen Motherboard | 336",
   "reason": "not recognised as motherboard"
@@ -4147,7 +2565,7 @@
   "shop": "bizgram",
   "page": 8,
   "section": "Intel Motherboard / AMD Motherboard",
-  "line": "Afox H81 Motherboard 4 Gen/Asus H81M-k .162 Ruijie RG-NBS3100-24GT4SFP-P-V2 24 | 820",
+  "line": "Afox H81 Motherboard 4 Gen/Asus H81M-k | 162",
   "reason": "not recognised as motherboard"
  },
  {
@@ -4233,160 +2651,6 @@
   "section": "Intel Motherboard / AMD Motherboard",
   "line": "Asus Prime H410M-A 10th/11th | 159",
   "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "BHR9301GL 6941812754450 ................... 29.9 Ruijie RG-NBS5200-24SFP/8GT4XS 24- | 1617",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "Xiaomi Automatic Soap Dispenser 1S BHR8853GL Ruijie RG-NBS5200-24GT4XS 24-Port | 878",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "6941812792193........................................ 15.9 Ruijie RG-NBS5200-24GT4XS-P 24 × 1 | 1222",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "Xiaomi Nose Hair Trimmer BHR8997GL Ruijie RG-NBS5200-48GT4XS 48-Port | 1613",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "....................................... 15.9 Ruijie RG-NBS5200-48GT4XS-UP 48 × | 2380",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "Xiaomi Electric Toothbrush T302 (Dark Blue) Ruijie RG-NBS5300-8MG2XS-UP REYEE | 1146",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "BHR7647GL 6941812745427 | 39",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "BHR7791GL 6941812751961 | 59",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "Orico CRS-31 CARD READER | 17",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "Orico DUK-5P 5 PORT USB 2.4A CHAR | 27",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "Orico ST2 TOOLKIT | 19",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "Orico XC-R45 TYPE C TO GIGABIT LA | 27",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "Orico XC-304 6 IN 1 DOCKING | 85",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "Orico XD-312 | 35",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "Orico XD-313 TYPE C TO HDMI/USB | 30",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "Orico SC2 USB TO AUDIO | 17",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "SSD Mini Computer, 4K Dual Display LAN 1000M/",
-  "line": "WiFi 6/BT5.2 | 799",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "Intel Motherboard / AMD Motherboard",
-  "line": "Orico TCM2-C3 TYPE C TO NVME ENCL | 49",
-  "reason": "not recognised as motherboard"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "SSD Mini Computer, 4K Dual Display LAN 1000M/",
-  "line": "(10C/12T,up to 4.4GHz), Mini Desktop Computer PCI OEM Sound Card Creative/CMI | 25",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "SSD Mini Computer, 4K Dual Display LAN 1000M/",
-  "line": "32GB DDR4 500GB M.2 PCIe 4.0 SSD, 4K Dual Creative USB sound card Play 4 etc | 60",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "SSD Mini Computer, 4K Dual Display LAN 1000M/",
-  "line": "Display HDMI*2/WiFi 6/BT5.2 | 1079",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "bizgram",
-  "page": 8,
-  "section": "SSD Mini Computer, 4K Dual Display LAN 1000M/",
-  "line": "Beelink EQR7 Mini PC, AMD Ryzen 7 7735U Razer Blackwidow V3 TKL Mechanical Kbd | 155",
-  "reason": "not recognised as storage"
  },
  {
   "shop": "bizgram",
@@ -4525,6 +2789,13 @@
   "shop": "bizgram",
   "page": 9,
   "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
+  "line": "BHR8849GL | 17",
+  "reason": "not recognised as mouse"
+ },
+ {
+  "shop": "bizgram",
+  "page": 9,
+  "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
   "line": "Active Purple BHR8971GB | 65",
   "reason": "not recognised as mouse"
  },
@@ -4546,8 +2817,64 @@
   "shop": "bizgram",
   "page": 9,
   "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
+  "line": "Xiaomi Electric Kettle 2 UK BHR5928HK | 42",
+  "reason": "not recognised as mouse"
+ },
+ {
+  "shop": "bizgram",
+  "page": 9,
+  "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
+  "line": "Xiaomi Smart Kettle 2 Pro GB BHR9001GB | 80",
+  "reason": "not recognised as mouse"
+ },
+ {
+  "shop": "bizgram",
+  "page": 9,
+  "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
+  "line": "Xiaomi Smart Humidifier 2 EU BHR6026EU | 80",
+  "reason": "not recognised as mouse"
+ },
+ {
+  "shop": "bizgram",
+  "page": 9,
+  "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
+  "line": "Xiaomi Humidifier 2 Lite EU BHR6605EU | 60",
+  "reason": "not recognised as mouse"
+ },
+ {
+  "shop": "bizgram",
+  "page": 9,
+  "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
   "line": "Xiaomi Smart Air Purifier | 4",
-  "reason": "price 4 outside the plausible range for mouse"
+  "reason": "not recognised as mouse"
+ },
+ {
+  "shop": "bizgram",
+  "page": 9,
+  "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
+  "line": "Xiaomi Smart Air Purifier 4 Lite BHR5274GL | 199",
+  "reason": "not recognised as mouse"
+ },
+ {
+  "shop": "bizgram",
+  "page": 9,
+  "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
+  "line": "Xiaomi Smart Air Purifier 4 Pro BHR5056EU | 369",
+  "reason": "not recognised as mouse"
+ },
+ {
+  "shop": "bizgram",
+  "page": 9,
+  "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
+  "line": "Mijia Smart Air Purifier Max EU BHR08XEEU | 599",
+  "reason": "not recognised as mouse"
+ },
+ {
+  "shop": "bizgram",
+  "page": 9,
+  "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
+  "line": "Mijia Smart Air Purifier 6 EU BHR08MZEU | 269",
+  "reason": "not recognised as mouse"
  },
  {
   "shop": "bizgram",
@@ -4555,6 +2882,20 @@
   "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
   "line": "QMP4599SG | 699",
   "reason": "price 699 outside the plausible range for mouse"
+ },
+ {
+  "shop": "bizgram",
+  "page": 9,
+  "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
+  "line": "Xiaomi Electric Shaver | S200",
+  "reason": "not recognised as mouse"
+ },
+ {
+  "shop": "bizgram",
+  "page": 9,
+  "section": "Xiaomi Dual-mode Wireless Mouse 2 (White)",
+  "line": "Xiaomi Electric Shaver | S200",
+  "reason": "not recognised as mouse"
  },
  {
   "shop": "bizgram",
@@ -4742,7 +3083,7 @@
   "shop": "bizgram",
   "page": 1,
   "section": "",
-  "line": "MSI RTX5070 SHADOW 2X OC 12G D7 GA .1,341 Transcend SSD 350c/260c/370c/410c | 119 | 199 | 359",
+  "line": "Transcend SSD 350c/260c/370c/410c | 119 | 199 | 359",
   "reason": "several prices but no column headings"
  },
  {
@@ -6204,51 +4545,9 @@
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Asus Gundam NC09 Gaming Mouse Mat | 36",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Logitech Cloth Gaming Mouse Pad | 25",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Logitech Hard Gaming Mouse Pad G4 | 34",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Logitech G Powerplay Wireless Charging Mouse Pad | 149",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Tecware Haste XXL Mouse Pad | 19",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
   "section": "LCD/LED GAMING MONITORS",
   "line": "AOC 15.6\"16T10 Portable Monitor(3yrs) | 188",
   "reason": "not recognised as monitor"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Tecware Haste XL RGB Gaming Mouse Pad | 30",
-  "reason": "not recognised as case"
  },
  {
   "shop": "dynacore",
@@ -6260,72 +4559,9 @@
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "RAZER GOLIATHUS CHROMA SOFTGAMING MOUSE MAT | 41",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Razer Goliathus Speed Terra Medium mouse pad | 31",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Razer Strider Chroma Gaming Mouse Mat | 164",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Razer Sphex V3 Hard Mouse Mat | 39",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Razer Goliathus Control Gravity Small mouse pad | 24",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Razer Goliathus Mobile mouse pad | 14",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Logitech Touch BL KB Case W Trackpad for iPad Air 4th | 200",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Logitech Combo 12.9\"5TH GEN IPAD PRO Touch KB CAS | 228",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
   "section": "LCD/LED GAMING MONITORS",
   "line": "ASUS ROG STRIX XG129C TOUCH GAMING MONITOR | 289",
   "reason": "not recognised as monitor"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
-  "line": "Logitech Combo Touch for IPAD Pro 11-INCH KB CASE | 200",
-  "reason": "not recognised as case"
  },
  {
   "shop": "dynacore",
@@ -6400,9 +4636,9 @@
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "Asus Rog Gladius III Wired Gaming Mouse 68",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Asus Rog Scabbard II Gaming Mousemat Medium | 34",
-  "reason": "not recognised as mouse"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
@@ -6414,9 +4650,9 @@
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "Asus Rog Gladius III Wired Gaming Mouse 68",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Asus Tuf Gaming P3 Gaming Mousemat | 25",
-  "reason": "not recognised as mouse"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
@@ -6435,9 +4671,9 @@
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "Asus Rog Gladius III Wired Gaming Mouse 68",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Asus Tuf Gaming P1 Poratable 260 X 360mm Gaming Mouse Pad | 10",
-  "reason": "not recognised as mouse"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
@@ -6449,9 +4685,9 @@
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "Asus Rog Gladius III Wired Gaming Mouse 68",
+  "section": "MOUSE AND KEYBOARD",
   "line": "CM MP750-L Argb Mouse Pad | 50",
-  "reason": "not recognised as mouse"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
@@ -6498,30 +4734,30 @@
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "Asus Rog Gladius III Wired Gaming Mouse 68",
+  "section": "MOUSE AND KEYBOARD",
   "line": "ASUS ROG SCABBARD CORDURA-FABRIC GAMOING MOUSE PAD | 45",
-  "reason": "not recognised as mouse"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "Asus Rog Gladius III Wired Gaming Mouse 68",
+  "section": "MOUSE AND KEYBOARD",
   "line": "ASUS ROG SHEATH GAMING MOUSEMAT /PNK LTD NCO1 /NC07 | 53",
-  "reason": "not recognised as mouse"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "Asus Rog Gladius III Wired Gaming Mouse 68",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Asus ROG Strix Slice Gaming Mouse PAD | 30",
-  "reason": "not recognised as mouse"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "Asus Rog Gladius III Wired Gaming Mouse 68",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Galax Stealth STL-03 Mech Keyboad Blue Switch | 31",
-  "reason": "not recognised as mouse"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
@@ -6540,161 +4776,77 @@
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "HEADSET",
+  "line": "INTEL RNUC12WSHi70000 NUC 12 PRO KIT(i7-1260P/DDR4/IRIS Xe) RNUC12WSi70000 | 779",
+  "reason": "not recognised as headset"
+ },
+ {
+  "shop": "dynacore",
+  "page": 3,
+  "section": "MOUSEPADS | KEYBOARD CASE",
   "line": "PN65-S5014AD | 1239",
   "reason": "not recognised as case"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSEPADS | KEYBOARD CASE",
   "line": "PN65-S7064AD | 1589",
   "reason": "not recognised as case"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSEPADS | KEYBOARD CASE",
   "line": "PN65-B-S5008MD | 779",
   "reason": "not recognised as case"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "RAZER GAMING KB/MOUSE/MOUSE PAD",
-  "line": "Razer Goliathus Mobile Small Mouse Pad | 16",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "RAZER GAMING KB/MOUSE/MOUSE PAD",
-  "line": "Razer Goliathus Mobile Stealth Mouse Pad | 16",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSEPADS | KEYBOARD CASE",
   "line": "PN65-B-S7009MD | 1049",
   "reason": "not recognised as case"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "RAZER GAMING KB/MOUSE/MOUSE PAD",
-  "line": "Razer Hunstman V2 Optical Linear Red Switch Kb | 250",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "RAZER GAMING KB/MOUSE/MOUSE PAD",
-  "line": "Razer Huntsman V2 TKL Optical Purple Switch Kb | 192",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSEPADS | KEYBOARD CASE",
   "line": "PN65-B-S5029MD | 829",
   "reason": "not recognised as case"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "RAZER GAMING KB/MOUSE/MOUSE PAD",
-  "line": "Razer Huntsman V2 TKL Optical Red Switch Kb | 204",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "RAZER GAMING KB/MOUSE/MOUSE PAD",
-  "line": "Razer Blackwidow Mech.Green Switch Kb | 145",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSEPADS | KEYBOARD CASE",
   "line": "PN65-B-S7029MD | 1099",
   "reason": "not recognised as case"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "RAZER GAMING KB/MOUSE/MOUSE PAD",
-  "line": "Razer Blackwidow V3 Green Switch Mech.Gaming Kb | 176",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "RAZER GAMING KB/MOUSE/MOUSE PAD",
-  "line": "Razer Blackwidow V3 Yellow Switch Mech.Gaming Kb | 176",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "RAZER GAMING KB/MOUSE/MOUSE PAD",
-  "line": "Razer Blackwidow V3 Mini Hyperspeed Green Switch Kb | 223",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "Logitech MX Anywhere 3S Wireless Mouse 89",
+  "section": "MOUSE AND KEYBOARD",
   "line": "LOGITECH PICO WIRELESS UNIFYING USB RECEIVER | 11",
-  "reason": "not recognised as mouse"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "RAZER GAMING KB/MOUSE/MOUSE PAD",
-  "line": "Razer Blackwidow V3 Mini Pudding Yellow Switch Kb | 243",
   "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "RAZER GAMING KB/MOUSE/MOUSE PAD",
-  "line": "Razer Blackwidow V3 Pro Wireless Green Switch Kb | 284",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSEPADS | KEYBOARD CASE",
   "line": "PN53-B-S5083MD | 695",
   "reason": "not recognised as case"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "RAZER GAMING KB/MOUSE/MOUSE PAD",
-  "line": "Razer Huntsman Mini Mercury Optical Red Switch Kb | 169",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "RAZER GAMING KB/MOUSE/MOUSE PAD",
-  "line": "Razer Pro+Wireless Mouse Charging Dock | 97",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "dynacore",
-  "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSEPADS | KEYBOARD CASE",
   "line": "PN53-B-S7082MD | 779",
   "reason": "not recognised as case"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSEPADS | KEYBOARD CASE",
   "line": "PRITTEC F8 i5 | 669",
   "reason": "not recognised as case"
  },
@@ -6708,128 +4860,135 @@
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSEPADS | KEYBOARD CASE",
   "line": "PRITTEC F8 i7 | 769",
   "reason": "not recognised as case"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "Logitech MX Anywhere 3S Wireless Mouse 89",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Garethan GE-KM900 Wireless Kb & Mouse Combo | 19",
-  "reason": "not recognised as mouse"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "Logitech MX Anywhere 3S Wireless Mouse 89",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Keychron K8B1 Rgb Blue/Brown/Red Switch Kb | 118",
-  "reason": "not recognised as mouse"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Asus Gundam NC09 Gaming Mouse Mat | 36",
-  "reason": "not recognised as case"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Logitech Cloth Gaming Mouse Pad | 25",
-  "reason": "not recognised as case"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Logitech Hard Gaming Mouse Pad G4 | 34",
-  "reason": "not recognised as case"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Logitech G Powerplay Wireless Charging Mouse Pad | 149",
-  "reason": "not recognised as case"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Tecware Haste XXL Mouse Pad | 19",
-  "reason": "not recognised as case"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
   "line": "RAZER GOLIATHUS CHROMA SOFTGAMING MOUSE MAT(1YR) | 41",
-  "reason": "not recognised as case"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Razer Goliathus Speed Terra Medium mouse pad | 31",
-  "reason": "not recognised as case"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Razer Sphex V3 Hard Mouse Mat | 39",
-  "reason": "not recognised as case"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Razer Goliathus Control Gravity Small mouse pad | 24",
-  "reason": "not recognised as case"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Razer Goliathus Mobile mouse pad | 14",
-  "reason": "not recognised as case"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Logitech Touch BL KB Case W Trackpad for iPad Air 4th Gen | 200",
-  "reason": "not recognised as case"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Logitech Combo 12.9\"5TH GEN IPAD PRO Touch KB CASE | 228",
-  "reason": "not recognised as case"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
   "line": "Logitech Combo Touch for IPAD Pro 11-INCH KB CASE | 200",
-  "reason": "not recognised as case"
+  "reason": "not recognised as keyboard"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "LCD/LED GAMING MONITORS",
   "line": "Philips 24\"24E1N2100A 120Hz Hdmi/VGA Speaker IPS Monitor(3yrs) | 122",
-  "reason": "not recognised as case"
+  "reason": "not recognised as monitor"
  },
  {
   "shop": "dynacore",
   "page": 3,
-  "section": "MOUSEPADS / KB CASE",
+  "section": "MOUSE AND KEYBOARD",
+  "line": "Logitech Spotlight W/L Presenter | 94",
+  "reason": "not recognised as keyboard"
+ },
+ {
+  "shop": "dynacore",
+  "page": 3,
+  "section": "LCD/LED GAMING MONITORS",
   "line": "Philips 43\"438P1/69 4K IPS Speaker Led Monitor | 469",
-  "reason": "not recognised as case"
+  "reason": "not recognised as monitor"
  },
  {
   "shop": "dynacore",
@@ -6869,9 +5028,9 @@
  {
   "shop": "dynacore",
   "page": 7,
-  "section": "7 X 120MM ARGB FANS INCLUDED",
+  "section": "CASE",
   "line": "th | $21,829",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as case"
  },
  {
   "shop": "dynacore",
@@ -8283,9 +6442,9 @@
  {
   "shop": "fuwell",
   "page": 1,
-  "section": "AMD Ryzen 7000 & 9000 Series CPU",
+  "section": "DDR5 Dual Kit Desktop RAM",
   "line": "KingBank KRRB 6400Mhz CL32 (Blk/Wht ) NON-RGB | - | - | 2015",
-  "reason": "not recognised as cpu"
+  "reason": "not recognised as ram"
  },
  {
   "shop": "fuwell",
@@ -8332,149 +6491,128 @@
  {
   "shop": "fuwell",
   "page": 1,
-  "section": "AMD Ryzen 7000 & 9000 Series CPU",
+  "section": "DDR5 Dual Kit (INTEL)(AMD EXPO) Desktop RAM",
   "line": "Geil Orion V RGB 6000MHz CL36 ( Grey ) | 785 | -",
-  "reason": "not recognised as cpu"
+  "reason": "not recognised as ram"
  },
  {
   "shop": "fuwell",
   "page": 1,
-  "section": "AMD Ryzen 7000 & 9000 Series CPU",
+  "section": "DDR5 Dual Kit (INTEL)(AMD EXPO) Desktop RAM",
   "line": "G.Skill Trident Z5 RGB 6000MHz CL36(Black/Silver) | 929 | -",
-  "reason": "not recognised as cpu"
+  "reason": "not recognised as ram"
  },
  {
   "shop": "fuwell",
   "page": 1,
-  "section": "AMD Ryzen 7000 & 9000 Series CPU",
+  "section": "DDR5 Dual Kit (INTEL)(AMD EXPO) Desktop RAM",
   "line": "G.Skill Trident Z5 RGB 6400MHz CL32(Black/Silver) | - | 1999",
-  "reason": "not recognised as cpu"
+  "reason": "not recognised as ram"
  },
  {
   "shop": "fuwell",
   "page": 1,
-  "section": "AMD Ryzen 7000 & 9000 Series CPU",
+  "section": "DDR5 Dual Kit (INTEL)(AMD EXPO) Desktop RAM",
   "line": "G.Skill Trident Z5 RGB 7200MHz CL34(Black/Silver) | 1039 | -",
-  "reason": "not recognised as cpu"
+  "reason": "not recognised as ram"
  },
  {
   "shop": "fuwell",
   "page": 1,
-  "section": "AMD Ryzen 7000 & 9000 Series CPU",
+  "section": "DDR5 Dual Kit (INTEL)(AMD EXPO) Desktop RAM",
   "line": "G.Skill Ripjaws S5 6000MHz CL36 | 909 | -",
-  "reason": "not recognised as cpu"
+  "reason": "not recognised as ram"
  },
  {
   "shop": "fuwell",
   "page": 1,
-  "section": "AMD Ryzen 7000 & 9000 Series CPU",
+  "section": "DDR5 Dual Kit (INTEL)(AMD EXPO) Desktop RAM",
   "line": "G.Skill Ripjaws S5 6000MHz CL32 | - | 1459",
-  "reason": "not recognised as cpu"
+  "reason": "not recognised as ram"
  },
  {
   "shop": "fuwell",
   "page": 1,
-  "section": "AMD Ryzen 7000 & 9000 Series CPU",
+  "section": "DDR5 Dual Kit (INTEL)(AMD EXPO) Desktop RAM",
   "line": "G.Skill Flare X5 AMD EXPO 6000MHz CL30 | 949 | -",
-  "reason": "not recognised as cpu"
+  "reason": "not recognised as ram"
  },
  {
   "shop": "fuwell",
   "page": 1,
-  "section": "AMD Ryzen 7000 & 9000 Series CPU",
+  "section": "DDR5 Dual Kit (INTEL)(AMD EXPO) Desktop RAM",
   "line": "G.Skill Trident Z5 NEO RGB 6000MHz CL30 | - | 2025",
-  "reason": "not recognised as cpu"
+  "reason": "not recognised as ram"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "GAMEMAX P31 MID TOWER ATX CASE (BLACK)",
-  "line": "GIGABYTE C103 BLACK ATX CASE WITH 4 X ARGB FANS | 89",
+  "section": "COMPUTER MATX CASING",
+  "line": "DARKFLASH WOODEN WD200 BLACK TYPE-C (WITH HANDLE) (NO FAN) | 66",
   "reason": "not recognised as case"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "CM ELITE 302 ARGB MATX W/TG (BLACK / WHITE) 4 x Fans",
-  "line": "DARKFLASH WOODEN WD200 BLACK TYPE-C (WITH HANDLE) (NO FAN) | 66",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "fuwell",
-  "page": 2,
-  "section": "CM ELITE 302 ARGB MATX W/TG (BLACK / WHITE) 4 x Fans",
+  "section": "COMPUTER MATX CASING",
   "line": "DARKFLASH WOODEN DS900M (BLACK) 6 X ARGB FANS | 78",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as case"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "CM ELITE 302 ARGB MATX W/TG (BLACK / WHITE) 4 x Fans",
+  "section": "COMPUTER MATX CASING",
   "line": "GAMEMAX SPARK AIR TG (BLACK) ( WITH HANDLE ) | 72",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as case"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "CM ELITE 302 ARGB MATX W/TG (BLACK / WHITE) 4 x Fans",
+  "section": "COMPUTER MATX CASING",
   "line": "GAMEMAX F36 DARK (BLACK) | 85",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as case"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "CM ELITE 302 ARGB MATX W/TG (BLACK / WHITE) 4 x Fans",
+  "section": "COMPUTER MATX CASING",
   "line": "GAMEMAX T20 PANORAMIC GLASS MATX SHOWCASE(BLACK)(SFX PSU SIZE) | 115",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as case"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "CM ELITE 302 ARGB MATX W/TG (BLACK / WHITE) 4 x Fans",
+  "section": "COMPUTER MATX CASING",
   "line": "GAMEMAX T20 PANORAMIC GLASS MATX SHOWCASE(WHITE)(SFX PSU SIZE) | 119",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as case"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "CM ELITE 302 ARGB MATX W/TG (BLACK / WHITE) 4 x Fans",
-  "line": "LIAN-LI O11 VISION-M BLACK MATX CASE (1X140MM FAN) | 129",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "fuwell",
-  "page": 2,
-  "section": "CM ELITE 302 ARGB MATX W/TG (BLACK / WHITE) 4 x Fans",
-  "line": "LIAN-LI O11 VISION-M WHITE MATX CASE (1X140MM FAN) | 129",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "fuwell",
-  "page": 2,
-  "section": "M2802 MATX CASE WITH 500W PSU (BLACK)",
+  "section": "COMPUTER MATX CASING",
   "line": "XASTRA QW505M M-ATX CASE WITH 6 X ARGB FANS BLACK | 95",
-  "reason": "not recognised as psu"
+  "reason": "not recognised as case"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "M2802 MATX CASE WITH 500W PSU (BLACK)",
+  "section": "COMPUTER MATX CASING",
   "line": "XASTRA QW505M M-ATX CASE WITH 6 X ARGB FANS WHITE | 95",
-  "reason": "not recognised as psu"
+  "reason": "not recognised as case"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "M2802 MATX CASE WITH 500W PSU (BLACK)",
+  "section": "COMPUTER MATX CASING",
   "line": "ZALMAN P30 PINK V2 MATX CASE WITH TG & 3 X 120MM ARGB FANS | 125",
-  "reason": "not recognised as psu"
+  "reason": "not recognised as case"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "M2802 MATX CASE WITH 500W PSU (BLACK)",
+  "section": "COMPUTER MATX CASING",
   "line": "ZALMAN P30 MINT V2 MATX CASE WITH TG & 3 X 120MM ARGB FANS | 125",
-  "reason": "not recognised as psu"
+  "reason": "not recognised as case"
  },
  {
   "shop": "fuwell",
@@ -8486,120 +6624,57 @@
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "FRACTAL DESIGN TERRA M-ITX CASE (GRAPHITE) / (SILVER) / (JADE)",
+  "section": "COMPUTER M-ITX CASING",
   "line": "IN-WIN CE052 M-ITX Case W/300W PSU | 135",
   "reason": "not recognised as case"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "FRACTAL DESIGN TERRA M-ITX CASE (GRAPHITE) / (SILVER) / (JADE)",
+  "section": "COMPUTER M-ITX CASING",
   "line": "IN-WIN BQ696S M-ITX Case W/150W PSU (Black / Silver) | 129",
   "reason": "not recognised as case"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "AOC MONITOR ARM MOUNT",
+  "section": "GIGABYTE GAMING MONITOR",
   "line": "AOC AM400B Mechanical Gas Spring Single Monitor ARM (Black) | 69",
   "reason": "not recognised as monitor"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "AOC MONITOR ARM MOUNT",
+  "section": "GIGABYTE GAMING MONITOR",
   "line": "AOC AM400B Mechanical Gas Spring Single Monitor ARM (Gray) | 69",
   "reason": "not recognised as monitor"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "AOC MONITOR ARM MOUNT",
+  "section": "GIGABYTE GAMING MONITOR",
   "line": "AOC AM400B Mechanical Gas Spring Single Monitor ARM (Silver) | 69",
   "reason": "not recognised as monitor"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "AOC MONITOR ARM MOUNT",
+  "section": "GIGABYTE GAMING MONITOR",
   "line": "AOC AM400B Mechanical Gas Spring Single Monitor ARM (Pink) | 69",
   "reason": "not recognised as monitor"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "AOC MONITOR ARM MOUNT",
+  "section": "GIGABYTE GAMING MONITOR",
   "line": "AOC AM420B Mechanical Gas Spring Dual Monitor ARM (Black) | 129",
   "reason": "not recognised as monitor"
  },
  {
   "shop": "fuwell",
   "page": 2,
-  "section": "116 Asus TUF Gaming TF120 ARGB Fan (Single) (White)",
+  "section": "CASING FANS",
   "line": "298 DARKFLASH INF34R ARGB PWM (BLACK) (REVERSE) | 18",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "fuwell",
-  "page": 2,
-  "section": "709 GAMEMAX RQ300 (BLACK) ARGB FAN (3 X PCS)",
-  "line": "AS-6702T V2 4GB 2-BAY NAS (LOCKERSTOR 2) 5GbE x 2 / HDMI 2.0b / M.2 x 4 | 799",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "fuwell",
-  "page": 2,
-  "section": "709 GAMEMAX RQ300 (BLACK) ARGB FAN (3 X PCS)",
-  "line": "1099 DS223J 1GB 2-BAYS NAS | 329",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "fuwell",
-  "page": 2,
-  "section": "709 GAMEMAX RQ300 (BLACK) ARGB FAN (3 X PCS)",
-  "line": "1399 DS225+ 2GB 2-BAYS NAS | 585",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "fuwell",
-  "page": 2,
-  "section": "709 GAMEMAX RQ300 (BLACK) ARGB FAN (3 X PCS)",
-  "line": "2199 DS725+ 4GB 2-BAYS NAS | 1090",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "fuwell",
-  "page": 2,
-  "section": "709 GAMEMAX RQ300 (BLACK) ARGB FAN (3 X PCS)",
-  "line": "2499 DS425+ 2GB 4-BAYS NAS | 998",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "fuwell",
-  "page": 2,
-  "section": "709 GAMEMAX RQ300 (BLACK) ARGB FAN (3 X PCS)",
-  "line": "2799 DS925+ 4GB 4-BAY NAS | 1460",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "fuwell",
-  "page": 2,
-  "section": "709 GAMEMAX RQ300 (BLACK) ARGB FAN (3 X PCS)",
-  "line": "2999 DS1525+ 8GB 5-BAYS NAS | 1559",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "fuwell",
-  "page": 2,
-  "section": "709 GAMEMAX RQ300 (BLACK) ARGB FAN (3 X PCS)",
-  "line": "799 DS1825+ 8GB 8-BAYS NAS | 1899",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "fuwell",
-  "page": 2,
-  "section": "709 GAMEMAX RQ300 (BLACK) ARGB FAN (3 X PCS)",
-  "line": "AS-FS6712X 4GB 12-BAY NAS (FLASHTOR) 10GbE x 1 / M.2 x 12 NVME | 1399",
   "reason": "not recognised as fan"
  },
  {
@@ -8838,20 +6913,6 @@
   "page": 1,
   "section": "FAN and LED controller",
   "line": "Tecware Orbis Controller (FAN/LED) | 15",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "infinity",
-  "page": 1,
-  "section": "FAN and LED controller",
-  "line": "NZXT HUE 2 Underglow Accessory (RGB) | 49",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "infinity",
-  "page": 1,
-  "section": "FAN and LED controller",
-  "line": "Tecware Orbis LED strip 20LEDs (ARGB) | 12",
   "reason": "not recognised as fan"
  },
  {
@@ -9277,37 +7338,9 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO TC60 | 26",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO C111 | 30",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "CASING FAN ARTIC",
   "line": "Artic P8 8 cm PWM PST Fan | 10",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Ms Office Home & Business 2024 | 335",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO C206 | 38",
-  "reason": "not recognised as os"
  },
  {
   "shop": "laser",
@@ -9319,13 +7352,6 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO TC 71 | 32",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "CASING FAN ARTIC",
   "line": "Artic P12 PRO PWM PST 4 Pin Fan | 13",
   "reason": "not recognised as fan"
@@ -9333,23 +7359,9 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO TC 72 | 38",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "CASING FAN ARTIC",
   "line": "Artic P12 SLIM PWM PST 4 Pin | 16",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO TC 74 | 48",
-  "reason": "not recognised as os"
  },
  {
   "shop": "laser",
@@ -9375,37 +7387,9 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO TC 85 | 95",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "HP Presenter | 20",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO C520WS | 66",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "CASING FAN ARTIC",
   "line": "Artic P14 PWM 4 Pin Fan pst | 15",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link Tapo C501GW | 118",
-  "reason": "not recognised as os"
  },
  {
   "shop": "laser",
@@ -9417,30 +7401,9 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link Tapo C501GW | 118",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO C245D | 68",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "KEYBOARD",
   "line": "A4Tech FBK25 Wireless & Bluetooth | 29",
   "reason": "not recognised as keyboard"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO C246D | 82",
-  "reason": "not recognised as os"
  },
  {
   "shop": "laser",
@@ -9452,13 +7415,6 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO C250 4k | 62",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "KEYBOARD",
   "line": "A4 Tech FK 11 | 16",
   "reason": "not recognised as keyboard"
@@ -9466,23 +7422,9 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO C260 | 85",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "Dual Monitor Arm",
   "line": "BENQ MA270U | 659",
   "reason": "not recognised as monitor"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO C610 KIT w/ Solar | 130",
-  "reason": "not recognised as os"
  },
  {
   "shop": "laser",
@@ -9501,51 +7443,9 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link TAPO C610 KIT w/ Solar | 129",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP-Link Tapo C615G Kit Solar 4G | 129",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "60% Mechanical gaming Keyboard",
   "line": "Tecware Phantom L-Outemu Blue LP Switch | 30",
   "reason": "not recognised as keyboard"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP-Link Tapo C665G Kit Solar | 260",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link Tapo TD21 Video Door Bell | 66",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "60% Mechanical gaming Keyboard",
-  "line": "BENQ RD320U | 1019",
-  "reason": "price 1019 outside the plausible range for keyboard"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link Tapo D235 Video Door Bell | 107",
-  "reason": "not recognised as os"
  },
  {
   "shop": "laser",
@@ -9557,72 +7457,9 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link VIGI C230i-Mini (2.8mm) | 95",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "60% Mechanical gaming Keyboard",
-  "line": "Tecware PBT PUDDING KEYCAP SET Black | 12",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link VIGI C240 (2.8mm) | 75",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "CASING FAN ARTIC",
   "line": "NZXT F120RGB 3 pack W/RGB Controller | 65",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP-Link VIGI C430(2.8mm) | 58",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "60% Mechanical gaming Keyboard",
-  "line": "BENQ 270S | 27” | 1459",
-  "reason": "price 1459 outside the plausible range for keyboard"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link VIGI C440-W | 68",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link VIGI C540 W 4mm Outdoor WiFi Cam | 115",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP Link VIGI C540 4G Outdoor WiFi Cam | 115",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP-Link VIGI Solar Panel 60W Indutrial | 130",
-  "reason": "not recognised as os"
  },
  {
   "shop": "laser",
@@ -9634,30 +7471,9 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "TP-Link Controller for Solar panel | 429",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "CASING FAN ARTIC",
   "line": "Thermaltake TT Ring Quad RGB | 49",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Mercusys MC200 | 23",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Mercusys MC210 Pan tilt Cam 2K | 29",
-  "reason": "not recognised as os"
  },
  {
   "shop": "laser",
@@ -9669,30 +7485,9 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Dlink DCS6501LH Type C 3MP 2K | 29.9",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Dlink DCS F4704 4MP Bullet IP cam | 139",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "with Controller and 3 RGB FAN",
   "line": "Arctic Cooling MX 4 (4G) | 8",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Dlink DCS F4334 4MP Mini Dome | 195",
-  "reason": "not recognised as os"
  },
  {
   "shop": "laser",
@@ -9704,23 +7499,9 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Samsung EVO Plus Micro SD 32gb | 26",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "with Controller and 3 RGB FAN",
   "line": "Arctic Cooling MX 6 thermal 2g | 7",
   "reason": "not recognised as fan"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Samsung EVO Plus Micro SD 16GB | 16",
-  "reason": "not recognised as os"
  },
  {
   "shop": "laser",
@@ -9767,30 +7548,9 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Samsung Micro SD 16GB | 13",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Samsung Micro SD 32GB | 20",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "MOUSE",
   "line": "EVGA X12 GAMING MOUSE White | 19",
   "reason": "not recognised as mouse"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "VIGI NVR1004H-4P | 99",
-  "reason": "not recognised as os"
  },
  {
   "shop": "laser",
@@ -9802,79 +7562,9 @@
  {
   "shop": "laser",
   "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "VIGI NVR1008H-8MP | 175",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
   "section": "MOUSE",
   "line": "Logitech USB Wired Mouse | 10",
   "reason": "not recognised as mouse"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "VIGI NVR1108H-W | 165",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Logitech C922 PRO Webcam | 139",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Logitech C925e webcam | 132",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Logitech C930E Webcam | 143",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Logitech Brio 105 Webcam | 45",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Logitech Brio 500 Webcam | 157",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Logitech Brio 505 USB C Webcam | 155",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Logitech Brio 4K Webcam | 259",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "laser",
-  "page": 2,
-  "section": "Windows Operating System /Office Productivity IP CAMERA",
-  "line": "Logitech Bcc 950 Business Conference Cam | 275",
-  "reason": "not recognised as os"
  },
  {
   "shop": "laser",
@@ -10103,27 +7793,6 @@
  {
   "shop": "pcthemes",
   "page": 1,
-  "section": "CORSAIR SF 750W GEN 5.0 PLATINUM POWER SUPPLY",
-  "line": "[SFX] | 219",
-  "reason": "not recognised as psu"
- },
- {
-  "shop": "pcthemes",
-  "page": 1,
-  "section": "CORSAIR SF 850W GEN 5.0 PLATINUM POWER SUPPLY",
-  "line": "[SFX] | 245",
-  "reason": "not recognised as psu"
- },
- {
-  "shop": "pcthemes",
-  "page": 1,
-  "section": "CORSAIR SF 1000W GEN 5.0 PLATINUM POWER SUPPLY",
-  "line": "[SFX] | 289",
-  "reason": "not recognised as psu"
- },
- {
-  "shop": "pcthemes",
-  "page": 1,
   "section": "DDR5&",
   "line": "CORSAIR Vengeance RGB §200MHz CL40 Kit [Black / White] DDR5 | 589",
   "reason": "not recognised as ram"
@@ -10131,7 +7800,7 @@
  {
   "shop": "pcthemes",
   "page": 1,
-  "section": "CORSAIR RM 650E GEN 3.1 PLATINUM POWER SUPPLY",
+  "section": "POWER SUPPLY",
   "line": "[BLACK] | 126",
   "reason": "not recognised as psu"
  },
@@ -10145,28 +7814,21 @@
  {
   "shop": "pcthemes",
   "page": 1,
-  "section": "CORSAIR RM 650E GEN 3.1 PLATINUM POWER SUPPLY",
+  "section": "POWER SUPPLY",
   "line": "1399. | 178",
   "reason": "not recognised as psu"
  },
  {
   "shop": "pcthemes",
   "page": 1,
-  "section": "CORSAIR RM 1000E GEN 3.1 PLATINUM POWER SUPPLY",
-  "line": "[BLACK] | 219",
-  "reason": "not recognised as psu"
- },
- {
-  "shop": "pcthemes",
-  "page": 1,
-  "section": "CORSAIR RM 1000E GEN 3.1 PLATINUM POWER SUPPLY",
+  "section": "POWER SUPPLY",
   "line": "POWER | 158",
   "reason": "not recognised as psu"
  },
  {
   "shop": "pcthemes",
   "page": 1,
-  "section": "CORSAIR RM B50E GEN 3.1 PLATINUM POWER SUPPLY",
+  "section": "POWER SUPPLY",
   "line": "[WHITE] | 186",
   "reason": "not recognised as psu"
  },
@@ -10201,13 +7863,6 @@
  {
   "shop": "pcthemes",
   "page": 1,
-  "section": "COOLER MASTER MWE 750W V3 3.1 GOLD POWER SUPPLY",
-  "line": "_ | 111",
-  "reason": "not recognised as psu"
- },
- {
-  "shop": "pcthemes",
-  "page": 1,
   "section": "AMD EXPO DDR5",
   "line": "G.SKILL Flare X5 RGB 6400MHz CL.32 Kit [Black] AMD EXPO DDR5S | 999",
   "reason": "not recognised as ram"
@@ -10222,7 +7877,7 @@
  {
   "shop": "pcthemes",
   "page": 1,
-  "section": "THERMALRIGHT AXP90 X53 LP AIR COOLER",
+  "section": "COOLER MASTER",
   "line": "ARGB AIR COOLER [BLACK] | 92",
   "reason": "not recognised as cooler"
  },
@@ -10278,107 +7933,9 @@
  {
   "shop": "pcthemes",
   "page": 1,
-  "section": "SILVERSTONE HELA 1300W PLAT GEN.5 POWER SUPPLY",
-  "line": "POWER SUPPLY | 218",
-  "reason": "not recognised as psu"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "LEXAR NS100 SATA 2.5\" SSD",
-  "line": "LEXAR NM990 NVME M.2 Gen.4 SSD R7400 | 2299",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "LEXAR NS100 SATA 2.5\" SSD",
-  "line": "LEGEND $00 PRO NVME M.2 Gen.5 SSD R7400 | 230",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "KIOXIA EXCERIA PLUS G3 NVMe M.2 GEN.5 SSD R10,000",
-  "line": "EXCERIA PLUS G4 NVMe M.2 GEN.5 SSD R10,000 | 439",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "KINGSTON NV3 NVMe M.2 GEN.4 SSD R5,090",
-  "line": "KINGBANK KP320 SATA 2.5\" SSD 520MB/s | 245",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "SAMSUNG 990 EVO NVMe M.2 GEN.4. SSD",
-  "line": "WD BLACK SN850X Heatsink NVMe M.2 GEN.4 SSD | 529",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "SAMSUNG 990 EVO NVMe M.2 GEN.4. SSD",
-  "line": "GIGABYTE AORUS NVMe M.2 GEN.4 SSD R7000 | 239",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "SAMSUNG 990 EVO NVMe M.2 GEN.4. SSD",
-  "line": "ZHITAIE? 17B NVMe M.2 Gen.4 SSD (5Y) R6000 | 199",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "MICROSOFT WINDOW 114 HOME",
-  "line": "MICROSOFT WINDOW 11 PRO 64BITS | 259",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "MICROSOFT WINDOW 114 HOME",
-  "line": "MICROSOFT HOME & STUDENT 2019 | 159",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "SAMSUNG 990 EVO NVMe M.2 GEN.4. SSD",
-  "line": "D5 | 199",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "SAMSUNG 990 EVO NVMe M.2 GEN.4. SSD",
-  "line": "TI 16GB OC | 1299",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "ASUS VG249Q1R GAMING MONITOR",
-  "line": "MSI MAG 275QF 180HZ IPS FLATSCREEN | 228",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "SAMSUNG 990 EVO NVMe M.2 GEN.4. SSD",
-  "line": "GIGABYTE RTX 5070 EAGLE ICE OC 16GB | 1475",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "pcthemes",
-  "page": 2,
-  "section": "SAMSUNG 990 EVO NVMe M.2 GEN.4. SSD",
-  "line": "16GB OC | 1919",
-  "reason": "not recognised as storage"
+  "section": "DDR4",
+  "line": "JAM | 4",
+  "reason": "not recognised as ram"
  },
  {
   "shop": "pcthemes",
@@ -10386,20 +7943,6 @@
   "section": "",
   "line": "COOLER MASTER NR200P TG [BLACK] CASE | 17",
   "reason": "price 17 outside the plausible range for case"
- },
- {
-  "shop": "pcthemes",
-  "page": 3,
-  "section": "THERMALTAKE THE TOWER 300 TG M-ATX [PEACH",
-  "line": "CASE | 150",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "pcthemes",
-  "page": 3,
-  "section": "THERMALTAKE THE TOWER 300 TG M-ATX [PEACH",
-  "line": "CASE | 150",
-  "reason": "not recognised as case"
  },
  {
   "shop": "pcthemes",
@@ -10635,9 +8178,9 @@
  {
   "shop": "pcthemes",
   "page": 4,
-  "section": "INWIN A1 WITH 600W Psu",
+  "section": "CASE",
   "line": "CASE | 1",
-  "reason": "not recognised as psu"
+  "reason": "not recognised as case"
  },
  {
   "shop": "pcthemes",
@@ -13407,28 +10950,28 @@
  {
   "shop": "primepc",
   "page": 1,
-  "section": "CPU MOBO & BUNDLE AMS",
+  "section": "‘CPU MOBO & BUNDLE INTEL",
   "line": "WHITE | 1127",
   "reason": "not recognised as motherboard"
  },
  {
   "shop": "primepc",
   "page": 1,
-  "section": "CPU MOBO & BUNDLE AMS",
+  "section": "‘CPU MOBO & BUNDLE INTEL",
   "line": "EDGE TI WIFI | 546",
   "reason": "not recognised as motherboard"
  },
  {
   "shop": "primepc",
   "page": 2,
-  "section": "SAMSUNG 990 PRO NVME 2.0 M.2 SSD",
+  "section": "KINGSTON NV3 M.2 NVME",
   "line": "SAMSUNG 990 PRO NVME W/HEATSINK NEW! | ASK | 565 | ASK",
   "reason": "not recognised as storage"
  },
  {
   "shop": "primepc",
   "page": 2,
-  "section": "SAMSUNG 990 PRO NVME 2.0 M.2 SSD",
+  "section": "KINGSTON NV3 M.2 NVME",
   "line": "1204. SAMSUNG 9100 Pro 14700MB/s PcieS.0 Nvme M.2 SSD | 399 | ASK",
   "reason": "not recognised as storage"
  },
@@ -13456,9 +10999,72 @@
  {
   "shop": "primepc",
   "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "Lian Li OLL Dynamic Evo XI Black | 290",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "Dynamic Evo XL White | 290",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "EVO RGB BIACK | 195",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "Lian Li OLL Vision-M White | 125",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "Vision-M Black (Digital) | 190",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
   "section": "PCI EXPRESS GRAPHIC",
   "line": "ASK |ZOTAC GAMING RTX | 5090",
   "reason": "not recognised as gpu"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "Vision-M White (Digital} | 190",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "Lian Li OL] Vision Compact Black | 160",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "Lian Li O11 Vision Compact White | 160",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "207 Black (Digital) | 165",
+  "reason": "not recognised as fan"
  },
  {
   "shop": "primepc",
@@ -13470,9 +11076,16 @@
  {
   "shop": "primepc",
   "page": 3,
-  "section": "350 m-ATX CASE WITH T.G BLACK 4 FANS",
+  "section": "WHITE 4 FANS",
   "line": "LIAN LI LANCOOL 207 Black | 5",
-  "reason": "price 5 outside the plausible range for case"
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "LIAN LILANCOOL 217 INF White | 185",
+  "reason": "not recognised as fan"
  },
  {
   "shop": "primepc",
@@ -13484,6 +11097,13 @@
  {
   "shop": "primepc",
   "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "Lian Li OLLD Mini V2 Flow White | 155",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
   "section": "NVIDIA GEFORCE GRAPHIC CARDS",
   "line": "GIGABYTE GV | 645",
   "reason": "not recognised as gpu"
@@ -13491,23 +11111,30 @@
  {
   "shop": "primepc",
   "page": 3,
-  "section": "Mini Black with four ARGB Fan",
+  "section": "WHITE 4 FANS",
+  "line": "& a | 110",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
+  "section": "WHITE 4 FANS",
   "line": "Lian Li B4 Matx Case Black wi 2x(120x120x1 fan | 120",
   "reason": "not recognised as fan"
  },
  {
   "shop": "primepc",
   "page": 3,
-  "section": "Mini Black with four ARGB Fan",
+  "section": "WHITE 4 FANS",
   "line": "Lian Li B4 Matx Case White w 2x(120x120x15mm)Slim fan | 120",
   "reason": "not recognised as fan"
  },
  {
   "shop": "primepc",
   "page": 3,
-  "section": "350 m-ATX CASE WITH T.G BLACK 4 FANS",
+  "section": "WHITE 4 FANS",
   "line": "55mm)Slim fan | 135",
-  "reason": "not recognised as case"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "primepc",
@@ -13519,7 +11146,7 @@
  {
   "shop": "primepc",
   "page": 3,
-  "section": "Mini Black with four ARGB Fan",
+  "section": "WHITE 4 FANS",
   "line": "2x(120x120x15mm)Slim fan | 135",
   "reason": "not recognised as fan"
  },
@@ -13533,9 +11160,30 @@
  {
   "shop": "primepc",
   "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "Phanteks NV Series NV9 TG DRGB, STAIN BLACK Matte White | 239",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
   "section": "NVIDIA GEFORCE GRAPHIC CARDS",
   "line": "GIGABYTE GV NS060GAMING OC-8GD | 708",
   "reason": "not recognised as gpu"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "Phanteks NV Series NV7 TG _DRGB. STAIN BLACK’ Matte White | 218",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "Phanteks NV Series NVS TG DRGB MATTE WHITE | 125",
+  "reason": "not recognised as fan"
  },
  {
   "shop": "primepc",
@@ -13547,6 +11195,13 @@
  {
   "shop": "primepc",
   "page": 3,
+  "section": "WHITE 4 FANS",
+  "line": "PHANTEKS VIEW ATX TG DRGB WHITE | 97",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "primepc",
+  "page": 3,
   "section": "NVIDIA GEFORCE GRAPHIC CARDS",
   "line": "GIGABYTE GV NSOGTEAGLE | 828",
   "reason": "not recognised as gpu"
@@ -13554,7 +11209,7 @@
  {
   "shop": "primepc",
   "page": 3,
-  "section": "Mini Black with four ARGB Fan",
+  "section": "WHITE 4 FANS",
   "line": "DRGB, Charcoal, Grev White | 280",
   "reason": "not recognised as fan"
  },
@@ -13568,7 +11223,7 @@
  {
   "shop": "primepc",
   "page": 3,
-  "section": "Mini Black with four ARGB Fan",
+  "section": "WHITE 4 FANS",
   "line": "Glass Window Black | 200",
   "reason": "not recognised as fan"
  },
@@ -13582,7 +11237,7 @@
  {
   "shop": "primepc",
   "page": 3,
-  "section": "Mini Black with four ARGB Fan",
+  "section": "WHITE 4 FANS",
   "line": "Glass Window WHITE | 210",
   "reason": "not recognised as fan"
  },
@@ -13603,9 +11258,9 @@
  {
   "shop": "primepc",
   "page": 3,
-  "section": "Phanteks Evolve X2 ATX Case.",
+  "section": "WHITE 4 FANS",
   "line": "G500A ATX TG 3x DRGB Matte White | 185",
-  "reason": "not recognised as case"
+  "reason": "not recognised as fan"
  },
  {
   "shop": "primepc",
@@ -13659,23 +11314,16 @@
  {
   "shop": "primepc",
   "page": 4,
-  "section": "1388 ASUS A2t m-ATX CASE WITH T.G",
+  "section": "GRAPHICS",
   "line": "GRAPHICS CARD - WHITE | 95",
-  "reason": "not recognised as case"
+  "reason": "not recognised as gpu"
  },
  {
   "shop": "primepc",
   "page": 4,
-  "section": "1388 ASUS A2t m-ATX CASE WITH T.G",
+  "section": "GRAPHICS",
   "line": "CARD | 95",
-  "reason": "not recognised as case"
- },
- {
-  "shop": "primepc",
-  "page": 4,
-  "section": "1388 ASUS A2t m-ATX CASE WITH T.G",
-  "line": "WHITE ATX WITH 1.G | 105",
-  "reason": "not recognised as case"
+  "reason": "not recognised as gpu"
  },
  {
   "shop": "primepc",
@@ -13701,42 +11349,42 @@
  {
   "shop": "primepc",
   "page": 4,
-  "section": "OC 8G D7 GAMING GRAPHICS CARD",
+  "section": "D7 GAMING GRAPHICS CARD",
   "line": "MSI RTXSO60TI GAMING OC 8G 07 GAMING GRAPHICS CARD | 898",
   "reason": "not recognised as gpu"
  },
  {
   "shop": "primepc",
   "page": 4,
-  "section": "OC 8G D7 GAMING GRAPHICS CARD",
+  "section": "D7 GAMING GRAPHICS CARD",
   "line": "INSPIRE 2X OC 8G D7 GAMING GRAPHICS | 878",
   "reason": "not recognised as gpu"
  },
  {
   "shop": "primepc",
   "page": 4,
-  "section": "8G D7 GAMING GRAPHICS CARD",
+  "section": "D7 GAMING GRAPHICS CARD",
   "line": "MSI RTX5060TI VENTUS 3X OC | 878",
   "reason": "not recognised as gpu"
  },
  {
   "shop": "primepc",
   "page": 4,
-  "section": "8G D7 GAMING GRAPHICS CARD",
+  "section": "D7 GAMING GRAPHICS CARD",
   "line": "VENTUS 2X OC PLUS 8G D7 GAMING GRAPHICS CARD | 898",
   "reason": "not recognised as gpu"
  },
  {
   "shop": "primepc",
   "page": 4,
-  "section": "8G D7 GAMING GRAPHICS CARD",
+  "section": "D7 GAMING GRAPHICS CARD",
   "line": "VENTUS 2X OC PLUS 8G D7 GAMING GRAPHICS CARD | 878",
   "reason": "not recognised as gpu"
  },
  {
   "shop": "primepc",
   "page": 4,
-  "section": "8G D7 GAMING GRAPHICS CARD",
+  "section": "D7 GAMING GRAPHICS CARD",
   "line": "SHADOW 2X OC PLUS 8G D7 GAMING GRAPHICS CARD | 858",
   "reason": "not recognised as gpu"
  },
@@ -13827,6 +11475,13 @@
  {
   "shop": "primepc",
   "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "ATX3.1 80+ PLATINUM | $233",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
   "section": "CPU AIO COOLER",
   "line": "Cooler | $274",
   "reason": "not recognised as cooler"
@@ -13869,9 +11524,23 @@
  {
   "shop": "primepc",
   "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "Corsair iCUE AF120 RGB SLIM, Fluid | $36",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
   "section": "CPU AIO COOLER",
   "line": "Cooler | $387",
   "reason": "not recognised as cooler"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "Corsair iCUE AF120 RGB SLIM, Fluid | $83",
+  "reason": "not recognised as psu"
  },
  {
   "shop": "primepc",
@@ -13890,9 +11559,30 @@
  {
   "shop": "primepc",
   "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "Corsair ML120 RGB ELITE, 120mm | $41",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "Corsair iCUE SP120 RGB ELITE Perfor | $43",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
   "section": "Cooler",
   "line": "Aio Cooler | $154",
   "reason": "not recognised as cooler"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "Corsair QL QLI20 RGB, 120mm | $41",
+  "reason": "not recognised as psu"
  },
  {
   "shop": "primepc",
@@ -13918,9 +11608,37 @@
  {
   "shop": "primepc",
   "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "RGB 120mm Dual Light | $142",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "OFFER Corsair LL120 RGB 120mm Dual | $41",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "OFFER Corsair Commander PRO Smart RGB | $84",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
   "section": "Aio Cooler",
   "line": "Cooler | $118",
   "reason": "not recognised as cooler"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "Corsair (CUE COMMANDER CORE XT Smar | $74",
+  "reason": "not recognised as psu"
  },
  {
   "shop": "primepc",
@@ -13932,9 +11650,23 @@
  {
   "shop": "primepc",
   "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "Corsair Lighting Node PRO | $71",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
   "section": "Aio Cooler",
   "line": "Black Aio | $129",
   "reason": "not recognised as cooler"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "16 Extens | $93",
+  "reason": "not recognised as psu"
  },
  {
   "shop": "primepc",
@@ -13953,9 +11685,9 @@
  {
   "shop": "primepc",
   "page": 5,
-  "section": "$179 Asus Proart LC 360 Aio",
+  "section": "POWER SUPPLY",
   "line": "OFFER Arctic 10 port PWM Fan Hub | $17",
-  "reason": "not recognised as cooler"
+  "reason": "not recognised as psu"
  },
  {
   "shop": "primepc",
@@ -13968,7 +11700,42 @@
   "shop": "primepc",
   "page": 5,
   "section": "POWER SUPPLY",
+  "line": "OFFER ARCTIC F14 PWM, 4 pin | $21",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "OFFER ARCTIC P14 PWM PST (Black White) | $21",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "OFFER ARCTIC P8 PWM PST (Black) | $11",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
   "line": "730 Watt 80 PLUS® Platinum Cybenetics Platinum SFX | 228",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "ARCTIC P12 SLIM PWM PST. | $16",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "ARCTIC F9 PWM PST (Black) | $12",
   "reason": "not recognised as psu"
  },
  {
@@ -13982,7 +11749,63 @@
   "shop": "primepc",
   "page": 5,
   "section": "POWER SUPPLY",
+  "line": "ARCTIC P14 PWM PST ARGB (Black / White) | $24",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "OFFER ARCTIC P12 PWM PST ARGB (Black White) | $21",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "SLIM PWM PST | $21",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "OFFER ARCTIC P12 Max PWM (Black White) | $18",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "OFFER ARCTIC P8 Max (Black) | $16",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "OFFER ARCTIC P12 Pro PST (Normal, Reverse) | $16",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
   "line": "Gold ATX 3.1 WHITE | 163",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "ARCTIC P12 Pro ARGB (Normal / Reverse) | $24",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "Pro PST (Normal / Reverse) | $21",
   "reason": "not recognised as psu"
  },
  {
@@ -13996,7 +11819,21 @@
   "shop": "primepc",
   "page": 5,
   "section": "POWER SUPPLY",
+  "line": "ARCTIC P14 Pro ARGB (Normal | $26",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
   "line": "Gold ATX 3.1 | 147",
+  "reason": "not recognised as psu"
+ },
+ {
+  "shop": "primepc",
+  "page": 5,
+  "section": "POWER SUPPLY",
+  "line": "Card Holder | $63",
   "reason": "not recognised as psu"
  },
  {
@@ -14486,13 +12323,6 @@
   "shop": "primepc",
   "page": 1,
   "section": "",
-  "line": "191k | 1840 | 1834 | 1911 | 2208",
-  "reason": "several prices but no column headings"
- },
- {
-  "shop": "primepc",
-  "page": 1,
-  "section": "",
   "line": "MSI MAG B850M MORTAR WIFI | 526 | 561 | 588 | 649 | 753 | 808 | 494 | 561",
   "reason": "several prices but no column headings"
  },
@@ -14570,13 +12400,6 @@
   "shop": "primepc",
   "page": 1,
   "section": "",
-  "line": "WEY? | 783 | 805 | 986 | 915 | 908 | 986 | 1282",
-  "reason": "several prices but no column headings"
- },
- {
-  "shop": "primepc",
-  "page": 1,
-  "section": "",
   "line": "MSIMPG X870E CARBON WIFL | 879 | 913 | 940 | 1002 | 1106 | 1161 | 847 | 913 | 957 | 1067 | 973 | 1040 | 1282 | 1300 | 1558",
   "reason": "several prices but no column headings"
  },
@@ -14647,13 +12470,6 @@
   "shop": "primepc",
   "page": 1,
   "section": "",
-  "line": "G12 | 634 | 815 | 744 | 737 | $15",
-  "reason": "several prices but no column headings"
- },
- {
-  "shop": "primepc",
-  "page": 1,
-  "section": "",
   "line": "B680 AORUS ELITE AX V2 | 494 | 528 | S55 | 617 | 721 | 716 | 462 | 528 | 572 | 682 | 589 | 655 | 898 | 915 | 1173",
   "reason": "several prices but no column headings"
  },
@@ -14663,13 +12479,6 @@
   "section": "",
   "line": " | 495 | 521 | 562 | 585 | 765",
   "reason": "numbers without a product name"
- },
- {
-  "shop": "primepc",
-  "page": 1,
-  "section": "",
-  "line": "69-4 | 688 | 765 | 1062",
-  "reason": "several prices but no column headings"
  },
  {
   "shop": "primepc",
@@ -14690,13 +12499,6 @@
   "page": 1,
   "section": "",
   "line": "B840M EAGLE | 379 | 413 | 440 | 501 | 605 | 660 | 346 | 457 | 567 | 473 | 540 | 782 | 800 | 1058",
-  "reason": "several prices but no column headings"
- },
- {
-  "shop": "primepc",
-  "page": 1,
-  "section": "",
-  "line": "MOTHERBOARD D: | 479 | 505 | 546 | 569",
   "reason": "several prices but no column headings"
  },
  {
@@ -17208,279 +15010,6 @@
  {
   "shop": "techdeals",
   "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "MB16NCG 16in WQXGA Portable 155Hz | PROMO | 308",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "MB27ACF 27in QHD IPS 100Hz transportable | PROMO | 578",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "Aten CS22U 2-port USB Cable KVM | 42",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "MQ16AHE 15.6in OLED Portable FHD 1ms | PROMO | 518",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "Aten UC232A USB to Serial Converter | 26",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "Aten VS84 4-Port VGA Splitter | 20",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "Aten VS94A 4-Port VGA Splitter 350MHz | 68",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10107 HDMI 2M Cable 2.0V | 10",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10108 HDMI 3M Cable 2.0V | 12",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10109 HDMI 5M Cable 1.4V 4K@30Hz | 19.9",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10110 HDMI 10M Cable 1.4V 1080p | 38",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10202 DP-M to HDMI-M 2M Cable | 20",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10203 DP-M to HDMI-M 3M Cable | 22",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10211 DP-M to DP-M 2M Cable | 15",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10212 DP-M to DP-M 3M Cable | 19",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10213 DP-M to DP-M 5M Cable | 25",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10368 USB3.0 A-M to A-F Ext. 1M | 8",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10373 USB3.0 A-M to A-F Ext. 2M | 11",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10401 mDP M to HDMI F Converter | 19",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10451 mDP-M to HDMI-F Conv. 4K supp. | 29",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10461 mDP-M to HDMI-F Conv. FHD | 15",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10477 mDP to DP 1.2-1.5M Cable 3D, 4Kx2K@60Hz | 12",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "10682 USB-C 3.1 - 1.5M Data Cable | 21",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "11201 CAT 6-1M LAN Cbl Round-Blue | 2.5",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "11202 CAT 6-2M LAN Cbl Round-Blue | 4",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "11203 CAT 6-3M LAN Cbl Round-Blue | 5",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "11204 CAT 6-5M LAN Cbl Round-Blue | 7",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "11205 CAT 6-10M LAN Cbl Round-Blue | 12",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "11269 CAT 7 STP Lan Cable 2Mtr | 8",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "11270 CAT 7 STP Lan Cable 3Mtr | 10",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "11271 CAT 7 STP Lan Cable 5Mtr | 15",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "11604 DVI(24+1) M to M 2M Cable | 15",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "15395 USB-C Hub 4Port w/2*USB-C+2*USB-A | 25",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "15495 5in1 TypeC to HDMI+3port USB3 Type C PD 100W Fast Charging | 20",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "15531 Revodok Pro 107 USB-C Hub 7 in 1 10Gbps USB C 3.2 & 2 USB-A 3.2 4K 30Hz HDMI, 100W Power Delivery, SD/TF Card Reader | 49",
-  "reason": "price 49 outside the plausible range for monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "15813 NVMe SSD Encl.USB 3.2 10Gbps | 29",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "20123 HDMI M to DVI F Adaptor | 6",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "20139 MHL Micro USB 11pin to HDMI 2M Cable | 21",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "20160 CAT 6-2M LAN Cbl Round-Blk | 3",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
   "section": "COOLER MASTER",
   "line": "AV - 608T Wall mount bracket Tilt (100x100mm) | 22",
   "reason": "not recognised as cooler"
@@ -17488,142 +15017,9 @@
  {
   "shop": "techdeals",
   "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "20161 CAT 6-3M LAN Cbl Round-Blk | 4",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
   "section": "COOLER MASTER",
   "line": "AV - 607F Wall mount bracket Non Tilt (100x100mm) | 17",
   "reason": "not recognised as cooler"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "20162 CAT 6-5M LAN Cbl Round-Blk | 5",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "20256 USB 3.0 GB LAN ADP. BLACK | 22",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "20280 4-Port USB 3.0 HUB w/OTG | 29",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "20414 DP-M to VGA-F Convertor Cable BK | 24.9",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "20415 DP-M to VGA-F Convertor BK | 24.9",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "20826 USB3.0 Extension Cable 5M | 39.9",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "20848 mDP-M to HDMI-M 4K 1.5Mtr | 19.9",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "30127 USB3.0 A-M to A-F Extension 3M | 12",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "30333 USB 3.0 Multi Card Reader | 25",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "30345 USB 2.0 Sharing Switch | 25",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "30715 PCIe 4.0(16x) to M.2 NVMe Card | 18",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "30768 2 In 4 Out USB 3.0 Sharing Switch Box | 40",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "35058 USB 5.4 Bluetooth Adapter | 12",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "35222A 3.5mm Jack BT Transmitter | 39",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "35525B Nexode Power Bank 25000mAh 200W PD 3.1 Fast Charging 3-Port USB C Battery Pack with TFT Smart Display | 99",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "35584 10G 4in1 USB3.2 Adp.w/4 USB-C 3.2 | 25",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "35998 Uno 6 in 1 USB-C To HDMI+10G+PD+USB | 39",
-  "reason": "not recognised as monitor"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "COMPUTER MONITOR",
-  "line": "40238 HDMI M to DP F 50cm USB Powered | 49",
-  "reason": "not recognised as monitor"
  },
  {
   "shop": "techdeals",
@@ -17691,13 +15087,6 @@
  {
   "shop": "techdeals",
   "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Tp-Link Tapo C260 Pan/Tilt AI Home WiFi Camera | 89",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
   "section": "EVGA Products",
   "line": "60843 DP 1.4 M to M 2M Cbl 8K@60Hz | 35",
   "reason": "not recognised as gpu"
@@ -17715,13 +15104,6 @@
   "section": "EVGA Products",
   "line": "EAP650-Desktop AX3000 Desktop DB Wi-Fi 6 AP | 178",
   "reason": "not recognised as gpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Tp-Link TC70 Security WiFi Cam | PROMO | 31",
-  "reason": "not recognised as ram"
  },
  {
   "shop": "techdeals",
@@ -17747,13 +15129,6 @@
  {
   "shop": "techdeals",
   "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Tp-link TC71 Pan/Tilt Home Security | 38",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
   "section": "EVGA Products",
   "line": "70172 Cat8 24AWG RJ45 Black 5M | 18",
   "reason": "not recognised as gpu"
@@ -17771,13 +15146,6 @@
   "section": "EVGA Products",
   "line": "EAP653 UR AX3000 Ceiling DB Wi-Fi 6 AP | 218",
   "reason": "not recognised as gpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Tp-link TC72 2KQHD Pan/Tilt AI WiFi Camera | 42",
-  "reason": "not recognised as ram"
  },
  {
   "shop": "techdeals",
@@ -17817,13 +15185,6 @@
  {
   "shop": "techdeals",
   "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Tp-Link TC85 Smart Wire Free Security Camera | 100",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
   "section": "EVGA Products",
   "line": "70446 USB-C to RJ45 2.5GHz Lan Adp. | 55",
   "reason": "not recognised as gpu"
@@ -17841,13 +15202,6 @@
   "section": "EVGA Products",
   "line": "EAP655-Wall AX3000 Wall-Plate DB Wi-Fi 6 AP | 151",
   "reason": "not recognised as gpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Tp-link Tapo C460 Battery-Powered Outdoor Security Camera | 135",
-  "reason": "not recognised as ram"
  },
  {
   "shop": "techdeals",
@@ -17894,27 +15248,6 @@
  {
   "shop": "techdeals",
   "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Belkin BSV400af2M 4-Outlet Surge 2M | 35",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Belkin BSV401SA2M 4-Way 2M Surge w/2xUSB | 45",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Belkin BSV603af2M 6-Outlet Surge 2M | 43",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
   "section": "EVGA Products",
   "line": "K60 RGB PRO TKL Mech.Keyboard OPX Switch | 88",
   "reason": "not recognised as gpu"
@@ -17943,13 +15276,6 @@
  {
   "shop": "techdeals",
   "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Belkin SRB001af2M 4-Way+1xUSB-C+1xUSB-A | 55",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
   "section": "EVGA Products",
   "line": "K60 RGB PRO SE Mech.RGB Cherry Viola | 138",
   "reason": "not recognised as gpu"
@@ -17960,13 +15286,6 @@
   "section": "EVGA Products",
   "line": "TL-WPA7517KIT AV1000 GB Powerline AC Wi-Fi KIT | 92",
   "reason": "not recognised as gpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Belkin BSV804SA2M 8-way Surge w/2.4AMP USB | 59",
-  "reason": "not recognised as ram"
  },
  {
   "shop": "techdeals",
@@ -17992,219 +15311,9 @@
  {
   "shop": "techdeals",
   "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Belkin SRB003af2M 8-way+1xUSB-C & 1xUSB-A | 65",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
   "section": "EVGA Products",
   "line": "TL-PA7017P KIT AV1000 GB Passthru Kit | 70",
   "reason": "not recognised as gpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Belkin BoostCharge PRO 3-Port Laptop PowerBank 20K | 75",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "THERMAL GREASE / HEATSINK",
-  "line": "350 Compact Multi-Device Bluetooth Keyboard | 45",
-  "reason": "not recognised as cooler"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "DAIYO DE365-2 mtr 5-Way Surge | 19.9",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "THERMAL GREASE / HEATSINK",
-  "line": "250 Dual Mode BT/Wireless Mouse | 26",
-  "reason": "not recognised as cooler"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "DAIYO DE366-2 mtr 6-Way Surge | 22.9",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "THERMAL GREASE / HEATSINK",
-  "line": "245 Bluetooth Mouse | 22",
-  "reason": "not recognised as cooler"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "THERMAL GREASE / HEATSINK",
-  "line": "430 Multi-Device Wireless Mouse | 43",
-  "reason": "not recognised as cooler"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "DAIYO DE384-3 mtr 4-Way Surge | 19.9",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "THERMAL GREASE / HEATSINK",
-  "line": "GP70N External DVD-RW USB2.0 | 14.9",
-  "reason": "not recognised as cooler"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "DAIYO DE384-6 mtr 4-Way Surge | 22",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "DAIYO DE385-3 mtr 5-Way Surge | 21.9",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "DAIYO DE386-6 mtr 6-Way Surge | 24.9",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "DAIYO DE298-2 mtr 4-Way Switch Surge+3*USB | 24.9",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "DAIYO DE294, 4-Way 2Mtr. Surge | 18.9",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "DAIYO DE291, 3-Way Multi Adp. w/Switch | 9",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "TESSAN TS-224 Wall Socket 2*AC+3*USB | 21",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Flame ARGB Gaming PC | $648",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "DDR5 16GB, M.2 1TB",
-  "line": "Add $ | $948",
-  "reason": "not recognised as ram"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "Upgrade to Intel i7-14700 Cpu",
-  "line": "ASUS NUC 14 ESSENTIAL N97 INTEL GRAPHICS BAREBONE | $249",
-  "reason": "not recognised as cpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "Upgrade to Intel i7-14700 Cpu",
-  "line": "ASUS NUC 15 PRO TALL C7-240H INTEL GRAPHICS DDR5 8G 512GB WIN 11 PRO | $1,199",
-  "reason": "not recognised as cpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "Upgrade to Intel i7-14700 Cpu",
-  "line": "ASUS NUC 15 PRO C3-100U INTEL GRAPHICS Wi-Fi 7 BAREBONE | $519",
-  "reason": "not recognised as cpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "Upgrade to Intel i7-14700 Cpu",
-  "line": "ASUS NUC 15 PRO C5-210H INTEL GRAPHICS Wi-Fi 7 BAREBONE | $629",
-  "reason": "not recognised as cpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "Upgrade to Intel i7-14700 Cpu",
-  "line": "ASUS NUC 15 PRO C7-240H INTEL GRAPHICS Wi-Fi 7 BAREBONE | $709",
-  "reason": "not recognised as cpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "Upgrade to Intel i7-14700 Cpu",
-  "line": "ASUS NUC 15 PRO SLIM U5-225H INTEL ARC GPU Wi-Fi 7 BAREBONE | $629",
-  "reason": "not recognised as cpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "Upgrade to Intel i7-14700 Cpu",
-  "line": "ASUS NUC 15 PRO SLIM U7-255H INTEL ARC GPU Wi-Fi 7 BAREBONE | $749",
-  "reason": "not recognised as cpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "Upgrade to Intel i7-14700 Cpu",
-  "line": "ASUS NUC 15 Lite U300 INTEL GRAPHICS DDR5 8G 512GB WIN 11 PRO | $899",
-  "reason": "not recognised as cpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "Upgrade to Intel i7-14700 Cpu",
-  "line": "ASUS NUC 15 PRO U5-225H INTEL ARC DDR5 16G (8*2) 512GB WIN 11 PRO | $1,499",
-  "reason": "not recognised as cpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "Upgrade to Intel i7-14700 Cpu",
-  "line": "ROG NUC U9-290HX RTX5080 DDR5 32G (16x2) 1TB Win 11 Home | $1,799",
-  "reason": "not recognised as cpu"
- },
- {
-  "shop": "techdeals",
-  "page": 2,
-  "section": "Upgrade to Intel i7-14700 Cpu",
-  "line": "ROG NUC U9-290HX RTX5070Ti DDR5 32G (16x2) 1TB Win 11 Home | $1,999",
-  "reason": "not recognised as cpu"
  },
  {
   "shop": "techdeals",
@@ -18286,9 +15395,9 @@
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "X5M w/4*ARGB Fans",
+  "section": "COMPUTER CASE",
   "line": "$ | 72.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as case"
  },
  {
   "shop": "techdeals",
@@ -18300,16 +15409,16 @@
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "NEO M3 w/3*ARGB FAN",
+  "section": "CPU COOLER",
   "line": "$ | 35.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "TIMBER M mATX 4*Fans",
+  "section": "CPU COOLER",
   "line": "BLACK $ | 53.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
@@ -18321,23 +15430,16 @@
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "TIMBER M mATX 4*Fans",
-  "line": "WHITE $ | 59.00",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "techdeals",
-  "page": 3,
-  "section": "WD200 mATX No Fans",
+  "section": "CPU COOLER",
   "line": "$ | mATX | 59.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "SKY ONE MINI w/3*Fans",
+  "section": "COMPUTER CASE",
   "line": "$ | 89.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as case"
  },
  {
   "shop": "techdeals",
@@ -18349,16 +15451,16 @@
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "NEO M3 w/3*ARGB FAN",
+  "section": "CPU COOLER",
   "line": "$ | 44.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "TIMBER M mATX 4*Fans",
+  "section": "CPU COOLER",
   "line": "mATX Black $ | 62.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
@@ -18370,16 +15472,16 @@
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "WD200 mATX No Fans",
+  "section": "CPU COOLER",
   "line": "650W $ | 79.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "NEO M3 w/3*ARGB FAN",
+  "section": "CPU COOLER",
   "line": "500W $ | 75.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
@@ -18391,16 +15493,9 @@
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "TIMBER M mATX 4*Fans",
-  "line": "650W $ | 80.00",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "techdeals",
-  "page": 3,
-  "section": "WD200 mATX No Fans",
+  "section": "CPU COOLER",
   "line": "750W $ | 115.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
@@ -18419,30 +15514,23 @@
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "TIMBER M mATX 4*Fans",
-  "line": "850W $ | 99.00",
-  "reason": "not recognised as fan"
- },
- {
-  "shop": "techdeals",
-  "page": 3,
-  "section": "WD200 mATX No Fans",
+  "section": "CPU COOLER",
   "line": "850W $ | 129.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "TIMBER M mATX 4*Fans",
+  "section": "CPU COOLER",
   "line": "1200W $ | 180.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "NEO M3 w/3*ARGB FAN",
+  "section": "CPU COOLER",
   "line": "750W $ | 98.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
@@ -18454,16 +15542,16 @@
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "NEO M3 w/3*ARGB FAN",
+  "section": "CPU COOLER",
   "line": "850W $ | 109.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "WD200 mATX No Fans",
+  "section": "CPU COOLER",
   "line": "750W $ | 83.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
@@ -18475,16 +15563,16 @@
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "NEO M3 w/3*ARGB FAN",
+  "section": "CPU COOLER",
   "line": "1000W $ | 152.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
   "page": 3,
-  "section": "WD200 mATX No Fans",
+  "section": "CPU COOLER",
   "line": "850W $ | 90.00",
-  "reason": "not recognised as fan"
+  "reason": "not recognised as cooler"
  },
  {
   "shop": "techdeals",
@@ -18671,20 +15759,6 @@
  {
   "shop": "tradepac",
   "page": 2,
-  "section": "SAMSUNG 990 EVO NVME 2.0",
-  "line": "SAMSUNG 990 PRO NVME W/HEATSINK NEW! | 393 | ASK",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "tradepac",
-  "page": 2,
-  "section": "SAMSUNG 990 EVO NVME 2.0",
-  "line": "KINGBANK 1TB NVME M.2 GEN4 | 229",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "tradepac",
-  "page": 2,
   "section": "SSD",
   "line": "VS | 1489",
   "reason": "not recognised as storage"
@@ -18706,7 +15780,7 @@
  {
   "shop": "tradepac",
   "page": 2,
-  "section": "KLEVV BOLT X DDR4 3600 CLi8 (2x16GB)",
+  "section": "ATT DESKTOP RAM",
   "line": "CRUCIAL DDRS-5600 CL46 SODIMM | 299",
   "reason": "not recognised as ram"
  },
@@ -18727,21 +15801,21 @@
  {
   "shop": "tradepac",
   "page": 2,
-  "section": "KLEVV BOLT X DDR4 3600 CLi8 (2x16GB)",
+  "section": "ATT DESKTOP RAM",
   "line": "LEXAR D5 5600/6000 UDIMM/SODIMM | 229",
   "reason": "not recognised as ram"
  },
  {
   "shop": "tradepac",
   "page": 2,
-  "section": "KLEVV BOLT X DDR4 3600 CLi8 (2x16GB)",
+  "section": "ATT DESKTOP RAM",
   "line": "TRANSCEND D4 3200 UDIMM | 189",
   "reason": "not recognised as ram"
  },
  {
   "shop": "tradepac",
   "page": 2,
-  "section": "KLEVV BOLT X DDR4 3600 CLi8 (2x16GB)",
+  "section": "ATT DESKTOP RAM",
   "line": "TRANSCEND DS 5600 UDIMM / SODIMM | 194",
   "reason": "not recognised as ram"
  },
@@ -18755,14 +15829,7 @@
  {
   "shop": "tradepac",
   "page": 2,
-  "section": "SSD",
-  "line": "KINGSTON Ds 5600 | 189 | ASK",
-  "reason": "not recognised as storage"
- },
- {
-  "shop": "tradepac",
-  "page": 2,
-  "section": "KINGSTON FURY D5 5600 UDIMM.",
+  "section": "ATT DESKTOP RAM",
   "line": "KINGSTON FURY D5 6000 UDIMM | 329",
   "reason": "not recognised as ram"
  },
@@ -19182,48 +16249,6 @@
  {
   "shop": "tradepac",
   "page": 5,
-  "section": "MK120 WIRED COMBO",
-  "line": "LOGITECH BCC950 WEBCAM & SPEAKER | 264",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "MK120 WIRED COMBO",
-  "line": "LOGITECH CONFERENCECAM CONNECT | 697",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "MK120 WIRED COMBO",
-  "line": "LOGITECH P710e MOBILE SPEAKERPHONE | 180",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "MK120 WIRED COMBO",
-  "line": "LOGITECH C920 PRO FULL HD WEBCAM | 137",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "MK120 WIRED COMBO",
-  "line": "LOGITECH BRIO 500 FULL HD WEBCAM | 153",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "MK120 WIRED COMBO",
-  "line": "LOGITECH BRIO 4K WEBCAM WITH HDR | 226",
-  "reason": "not recognised as keyboard"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
   "section": "COOLER",
   "line": "CRYORIG C5 CU ARGB COPPER 180W TDP LOW PROF | 66",
   "reason": "not recognised as cooler"
@@ -19351,6 +16376,13 @@
   "shop": "tradepac",
   "page": 6,
   "section": "FAN",
+  "line": "ARGB | 624",
+  "reason": "not recognised as fan"
+ },
+ {
+  "shop": "tradepac",
+  "page": 6,
+  "section": "FAN",
   "line": "TR FROZEN PRISM 240 BLACK/WHITE | 790",
   "reason": "not recognised as fan"
  },
@@ -19405,13 +16437,6 @@
  },
  {
   "shop": "tradepac",
-  "page": 7,
-  "section": "WINDOWS 11 HOME /11 PRO (UNACTIVATED)",
-  "line": "BUNDLE | 13",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "tradepac",
   "page": 8,
   "section": "ADD AIR COOLER",
   "line": "_ | $35",
@@ -19422,13 +16447,6 @@
   "page": 8,
   "section": "WINDOWS 11 HOME",
   "line": "ADD WIFI CARD | $45",
-  "reason": "not recognised as os"
- },
- {
-  "shop": "tradepac",
-  "page": 8,
-  "section": "WINDOWS 11 HOME /11 PRO (UNACTIVATED)",
-  "line": "BUNDLE | 29",
   "reason": "not recognised as os"
  },
  {
@@ -21890,6 +18908,20 @@
  },
  {
   "shop": "pcthemes",
+  "page": 2,
+  "section": "gpu",
+  "line": "POWER COLOR RX 9060 XT HELLHOUND 8GB OC [BLACK] = 489",
+  "reason": "OCR price disagrees with other shops' printed prices (median 775)"
+ },
+ {
+  "shop": "pcthemes",
+  "page": 4,
+  "section": "case",
+  "line": "Y70 = 412",
+  "reason": "OCR price disagrees with other shops' printed prices (median 294)"
+ },
+ {
+  "shop": "pcthemes",
   "page": 4,
   "section": "case",
   "line": "DEEPCOOL CG380 3F = 87",
@@ -21901,13 +18933,6 @@
   "section": "cooler",
   "line": "ASUS PRIME LC 360 ARGB LIQUID COOLER = 133",
   "reason": "OCR price disagrees with other shops' printed prices (median 89)"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "keyboard",
-  "line": "K270 KEYBOARD = 24",
-  "reason": "OCR price disagrees with other shops' printed prices (median 35)"
  },
  {
   "shop": "pcthemes",
@@ -22059,13 +19084,6 @@
  {
   "shop": "primepc",
   "page": 3,
-  "section": "case",
-  "line": "Lian Li OLL Dynamic Evo XI Black = 290",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
   "section": "gpu",
   "line": "ASK ZOTAC GAMING RTX 5070 Ti SOLID SEF OC 16GB = 1699",
   "reason": "OCR price with no printed price from another shop to confirm it"
@@ -22073,22 +19091,8 @@
  {
   "shop": "primepc",
   "page": 3,
-  "section": "case",
-  "line": "Dynamic Evo XL White = 290",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
   "section": "gpu",
   "line": "ASK ZOTAC GAMING RTX 5070 Ti SOLID CORE OC 16GB WHITE = 1720",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
-  "section": "case",
-  "line": "EVO RGB BIACK = 195",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -22108,41 +19112,6 @@
  {
   "shop": "primepc",
   "page": 3,
-  "section": "case",
-  "line": "Lian Li OLL Vision-M White = 125",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
-  "section": "case",
-  "line": "Vision-M Black (Digital) = 190",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
-  "section": "case",
-  "line": "Vision-M White (Digital} = 190",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
-  "section": "case",
-  "line": "Lian Li OL] Vision Compact Black = 160",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
-  "section": "case",
-  "line": "207 Black (Digital) = 165",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
   "section": "gpu",
   "line": "ASK [ASUS TUF-RX9070XT-O16G-GAMING (3Y) = 1399",
   "reason": "OCR price with no printed price from another shop to confirm it"
@@ -22157,22 +19126,8 @@
  {
   "shop": "primepc",
   "page": 3,
-  "section": "case",
-  "line": "Lian Li OLLD Mini V2 Flow White = 155",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
   "section": "fan",
   "line": "x140mm) & (1x 120mm) Fan = 120",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
-  "section": "case",
-  "line": "& a = 110",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -22199,36 +19154,8 @@
  {
   "shop": "primepc",
   "page": 3,
-  "section": "case",
-  "line": "Phanteks NV Series NV9 TG DRGB, STAIN BLACK Matte White = 239",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
-  "section": "case",
-  "line": "Phanteks NV Series NV7 TG _DRGB. STAIN BLACK’ Matte White = 218",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
-  "section": "case",
+  "section": "fan",
   "line": "Phanteks NV Series NV5S ATX_TG 4x 120mm M25 DRGB Black = 142",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
-  "section": "case",
-  "line": "Phanteks NV Series NVS TG DRGB MATTE WHITE = 125",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 3,
-  "section": "case",
-  "line": "PHANTEKS VIEW ATX TG DRGB WHITE = 97",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -22243,13 +19170,6 @@
   "page": 3,
   "section": "fan",
   "line": "Phanteks Evolv Series S2 TG 120mm DRGB Fans x4, Black = 450",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 4,
-  "section": "gpu",
-  "line": "POWER COLOR RX 9070 XT 16GB GDDR6 Hellhound = 1308",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -22271,20 +19191,6 @@
   "page": 4,
   "section": "gpu",
   "line": "1278 POWER COLOR RX 9070 GRE 12GB GDDR6 REAPER = 808",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 4,
-  "section": "gpu",
-  "line": "POWER COLOR RX 9060 XT 16GB GDDR6 HELLHOUND = 908",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 4,
-  "section": "gpu",
-  "line": "POWER COLOR RX 9060 XT 16GB GDDR6 REAPER BLACK = 877",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -22416,27 +19322,6 @@
  {
   "shop": "primepc",
   "page": 4,
-  "section": "case",
-  "line": "ASK ASUS A32 DUAL CHAMBER ATX WITH TG BLACK = 115",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 4,
-  "section": "case",
-  "line": "1288 ASUS GT502 HORIZON ARGB LIGHTING KIT WHT (2Y) = 53",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 4,
-  "section": "case",
-  "line": "ASK |ASUS GT502 HORIZON ARGB LIGHTNING KIT BLK (2Y) = 49",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 4,
   "section": "gpu",
   "line": "MS! RTX5060T! GAMING TRIO = 908",
   "reason": "OCR price with no printed price from another shop to confirm it"
@@ -22535,13 +19420,6 @@
  {
   "shop": "primepc",
   "page": 5,
-  "section": "cooler",
-  "line": "ATX3.1 80+ PLATINUM = 233",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
   "section": "psu",
   "line": "LIAN LI EDGE PLATINUM WHITE 1000W ATX3.1 80+ PLATINUM FU = 243",
   "reason": "OCR price with no printed price from another shop to confirm it"
@@ -22584,13 +19462,6 @@
  {
   "shop": "primepc",
   "page": 5,
-  "section": "cooler",
-  "line": "Corsair iCUE AF120 RGB SLIM, Fluid = 36",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
   "section": "psu",
   "line": "ASUS TUF-GAMING-650B-EVO BRONZE FULL MODULAR PSU (10Y) = 105",
   "reason": "OCR price with no printed price from another shop to confirm it"
@@ -22613,13 +19484,6 @@
   "shop": "primepc",
   "page": 5,
   "section": "cooler",
-  "line": "Corsair ML120 RGB ELITE, 120mm = 41",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
   "line": "ML360 CORE ARGB COOLER WHIT = 90",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
@@ -22633,22 +19497,8 @@
  {
   "shop": "primepc",
   "page": 5,
-  "section": "cooler",
-  "line": "Corsair iCUE SP120 RGB ELITE Perfor = 43",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
   "section": "psu",
   "line": "ASUS ROG LOKI SFXL 850W PLATINUM F-MOD PSU ATX3 LOY = 360",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "Corsair QL QLI20 RGB, 120mm = 41",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -22676,21 +19526,7 @@
   "shop": "primepc",
   "page": 5,
   "section": "cooler",
-  "line": "RGB 120mm Dual Light = 142",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
   "line": "Atmos ii Pixel Led 360 Aio = 268",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "OFFER Corsair LL120 RGB 120mm Dual = 41",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -22703,22 +19539,8 @@
  {
   "shop": "primepc",
   "page": 5,
-  "section": "cooler",
-  "line": "OFFER Corsair Commander PRO Smart RGB = 84",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
   "section": "psu",
   "line": "CM MWE GOLD V3 750W FULL MODULAR ATX3.1 PSU (SY) = 113",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "Corsair (CUE COMMANDER CORE XT Smar = 74",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -22731,20 +19553,6 @@
  {
   "shop": "primepc",
   "page": 5,
-  "section": "cooler",
-  "line": "Corsair Lighting Node PRO = 71",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "16 Extens = 93",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
   "section": "monitor",
   "line": "GIGABYTE MO027Q28G 27\" QHD Tandem WOLED 280hz = 825",
   "reason": "OCR price with no printed price from another shop to confirm it"
@@ -22752,7 +19560,7 @@
  {
   "shop": "primepc",
   "page": 5,
-  "section": "cooler",
+  "section": "psu",
   "line": "OFFER Air Duster 400m! = 41",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
@@ -22767,13 +19575,6 @@
   "shop": "primepc",
   "page": 5,
   "section": "cooler",
-  "line": "OFFER ARCTIC F14 PWM, 4 pin = 21",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
   "line": "Corsair Nautilus 240 RS LCD Black Ato Liquid = 174",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
@@ -22781,28 +19582,7 @@
   "shop": "primepc",
   "page": 5,
   "section": "cooler",
-  "line": "OFFER ARCTIC P14 PWM PST (Black White) = 21",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
   "line": "Corsair Natitilus 240 RS LCD White Aio Liquid = 178",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "OFFER ARCTIC P8 PWM PST (Black) = 11",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "ARCTIC P12 SLIM PWM PST. = 16",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -22816,28 +19596,7 @@
   "shop": "primepc",
   "page": 5,
   "section": "cooler",
-  "line": "ARCTIC F9 PWM PST (Black) = 12",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
   "line": "Corsair iCUE Link Titan 360 RX Reb Ato Liquid = 254",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "OFFER ARCTIC P12 PWM PST ARGB (Black White) = 21",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "SLIM PWM PST = 21",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -22851,35 +19610,7 @@
   "shop": "primepc",
   "page": 5,
   "section": "cooler",
-  "line": "OFFER ARCTIC P12 Max PWM (Black White) = 18",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "OFFER ARCTIC P8 Max (Black) = 16",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
   "line": "Deepcool LM240 WH = 100",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "OFFER ARCTIC P12 Pro PST (Normal, Reverse) = 16",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "ARCTIC P12 Pro ARGB (Normal / Reverse) = 24",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -22900,28 +19631,7 @@
   "shop": "primepc",
   "page": 5,
   "section": "cooler",
-  "line": "Pro PST (Normal / Reverse) = 21",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "ARCTIC P14 Pro ARGB (Normal = 26",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
   "line": "DEEPCOOL LT360 VISION ARGB = 160",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "Card Holder = 63",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -22943,13 +19653,6 @@
   "page": 5,
   "section": "cooler",
   "line": "ID Cooling FX240 LCD White = 105",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "primepc",
-  "page": 5,
-  "section": "cooler",
-  "line": "ID-Cooling FX360 INF - BLACK = 95",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -23084,13 +19787,6 @@
   "section": "psu",
   "line": "Thermalright TG Goid 1200W (Modular ATX 3.0+Gen5) Black = 245",
   "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "mouse",
-  "line": "MX MASTER 3S WIRELESS MOUSE = 118",
-  "reason": "OCR price disagrees with other shops' printed prices (median 158)"
  },
  {
   "shop": "tradepac",
@@ -23655,57 +20351,8 @@
  {
   "shop": "tradepac",
   "page": 5,
-  "section": "keyboard",
-  "line": "LOGITECH MK200 WIRED COMBO Multimedia = 19",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "cooler",
-  "line": "THERMALRIGHT PEERLESS ASSASSIN 120 SE EXTREM = 50",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "keyboard",
-  "line": "LOGITECH MK220 WIRELESS COMBO = 24",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
   "section": "cooler",
   "line": "THERMALRIGHT PEERLESS ASSASSIN 120 VISION ARG = 67",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "cooler",
-  "line": "THERMALRIGHT PHANTOM SPIRIT 120 DIGITAL EVO 4 = 83",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "keyboard",
-  "line": "LOGITECH MK295 SILENT WIRELESS COMBO = 33",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "cooler",
-  "line": "THERMALRIGHT PHANTOM SPIRIT 120 VISION EVO = 103",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "keyboard",
-  "line": "LOGITECH MK315 WIRELESS COMBO = 38",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -23718,22 +20365,8 @@
  {
   "shop": "tradepac",
   "page": 5,
-  "section": "keyboard",
-  "line": "LOGITECH MK345 WIRELESS COMBO = 37",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
   "section": "cooler",
   "line": "THERMALRIGHT ROYAL PRETOR 130 TOWER HEATSIN = 58",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "keyboard",
-  "line": "LOGITECH MK470 SLIM WIRELESS COMBO = 64",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -23746,29 +20379,8 @@
  {
   "shop": "tradepac",
   "page": 5,
-  "section": "keyboard",
-  "line": "LOGITECH MK540 WIRELESS COMBO = 56",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
   "section": "cooler",
   "line": "THERMALRIGHT ASSASSIN SPIRIT 120 EVO DARK HEA| = 33",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "keyboard",
-  "line": "LOGITECH MK850 PERFORMANCE WIRELESS ¢ = 106",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "cooler",
-  "line": "THERMALRIGHT CORE VISION 360 BLACK ARGB LCD = 137",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -23788,13 +20400,6 @@
  {
   "shop": "tradepac",
   "page": 5,
-  "section": "keyboard",
-  "line": "K400 PLUS WIRELESS TOUCHPAD Ki = 36",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
   "section": "cooler",
   "line": "THERMALRIGHT STREAM VISION 360 WHITE LCD = 167",
   "reason": "OCR price with no printed price from another shop to confirm it"
@@ -23809,22 +20414,8 @@
  {
   "shop": "tradepac",
   "page": 5,
-  "section": "keyboard",
-  "line": "LOGITECH C922 PRO STREAM FULL HD WEBCA = 133",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
   "section": "mouse",
-  "line": "LOGITECH SIGNATURE M650 OFF WHITE WIRE = 38",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "mouse",
-  "line": "LOGITECH SIGNATURE M6501 GRAPHITE WIRE = 38",
+  "line": "MX MASTER 3S WIRELESS MOUSE = 118",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -23851,6 +20442,13 @@
  {
   "shop": "tradepac",
   "page": 5,
+  "section": "headset",
+  "line": "LOGITECH H8d0 WIRELESS = 134",
+  "reason": "OCR price with no printed price from another shop to confirm it"
+ },
+ {
+  "shop": "tradepac",
+  "page": 5,
   "section": "cooler",
   "line": "CM HYPER 212 3DHP BLACK 200W TDP TOWER HEATS = 36",
   "reason": "OCR price with no printed price from another shop to confirm it"
@@ -23865,6 +20463,27 @@
  {
   "shop": "tradepac",
   "page": 5,
+  "section": "headset",
+  "line": "LOGITECH G33 GAMING HEADSET = 56",
+  "reason": "OCR price with no printed price from another shop to confirm it"
+ },
+ {
+  "shop": "tradepac",
+  "page": 5,
+  "section": "headset",
+  "line": "LOGITECH G435 BLUETOOTH GAMING HEADSE = 81",
+  "reason": "OCR price with no printed price from another shop to confirm it"
+ },
+ {
+  "shop": "tradepac",
+  "page": 5,
+  "section": "headset",
+  "line": "LOGITECH GS33 7.1 WIRELESS GAMING HEADS = 207",
+  "reason": "OCR price with no printed price from another shop to confirm it"
+ },
+ {
+  "shop": "tradepac",
+  "page": 5,
   "section": "cooler",
   "line": "CM V4 ALPHA 3DHP BLACK 220W TDP TOWER HEATS| = 56",
   "reason": "OCR price with no printed price from another shop to confirm it"
@@ -23872,8 +20491,8 @@
  {
   "shop": "tradepac",
   "page": 5,
-  "section": "cooler",
-  "line": "CM MA612 STEALTH ARGB = 116",
+  "section": "headset",
+  "line": "G933s 7.1 WIRELESS GAMING HEAD = 212",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -23914,29 +20533,8 @@
  {
   "shop": "tradepac",
   "page": 5,
-  "section": "case",
-  "line": "DEEPCOOL AK400 G2 DIGITAL NYX = 54",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "case",
-  "line": "DEEPCOOL AK400 PINK LIMITED EDITION = 39",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
   "section": "cooler",
   "line": "ASUS RYUJIN 111 360 ARGB EXTREME BLACK = 17",
-  "reason": "OCR price with no printed price from another shop to confirm it"
- },
- {
-  "shop": "tradepac",
-  "page": 5,
-  "section": "case",
-  "line": "DEEPCOOL AK620 G2 = 78",
   "reason": "OCR price with no printed price from another shop to confirm it"
  },
  {
@@ -24078,5 +20676,75 @@
   "section": "cooler",
   "line": "LIAN LI HYDROSHIFT II LCD-S 360N WHITE = 213",
   "reason": "OCR price with no printed price from another shop to confirm it"
+ },
+ {
+  "shop": "pcthemes",
+  "page": 2,
+  "section": "gpu",
+  "line": "ZOTAC GAMING RTX 5070 TWIN EDGE OC 12GB = 4219",
+  "reason": "price is far from other GeForce RTX 5070 cards (median 1475)"
+ },
+ {
+  "shop": "bizgram",
+  "page": 3,
+  "section": "psu",
+  "line": "Deepcool Gamerstorm PF600X 600W Silver = 48",
+  "reason": "price is implausibly low for its kind (psu)"
+ },
+ {
+  "shop": "bizgram",
+  "page": 3,
+  "section": "psu",
+  "line": "Deepcool Gamerstorm PF700X 700W Silver = 57",
+  "reason": "price is implausibly low for its kind (psu)"
+ },
+ {
+  "shop": "dynacore",
+  "page": 2,
+  "section": "psu",
+  "line": "DarkFlash EMT 650W 80+ Bronze ATX Power Supply(5yrs) = 55",
+  "reason": "price is implausibly low for its kind (psu)"
+ },
+ {
+  "shop": "tradepac",
+  "page": 3,
+  "section": "psu",
+  "line": "DARKFLASH EMT 650W ATX3.1 80+ BRONZE = 53",
+  "reason": "price is implausibly low for its kind (psu)"
+ },
+ {
+  "shop": "dynacore",
+  "page": 2,
+  "section": "case",
+  "line": "TR Assassin X 120 R SE Black Heatsink Cooler = 25",
+  "reason": "price is implausibly low for its kind (case)"
+ },
+ {
+  "shop": "laser",
+  "page": 1,
+  "section": "psu",
+  "line": "DEEPCOOL PF700X 700watts = 62",
+  "reason": "price is implausibly low for its kind (psu)"
+ },
+ {
+  "shop": "pcthemes",
+  "page": 1,
+  "section": "cooler",
+  "line": "ASUS RYUJIN IIl 360MM ARGB EXTREME AIO COOLER [BLACK] = 24",
+  "reason": "price is implausibly low for its kind (cooler aio 360)"
+ },
+ {
+  "shop": "techdeals",
+  "page": 1,
+  "section": "psu",
+  "line": "iCute 500W Switching PSU = 35",
+  "reason": "price is implausibly low for its kind (psu)"
+ },
+ {
+  "shop": "techdeals",
+  "page": 1,
+  "section": "case",
+  "line": "SCYTHE GRAND TORNADO 120 PWM 3000 RPM = 26",
+  "reason": "price is implausibly low for its kind (case)"
  }
 ]

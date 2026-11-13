@@ -124,8 +124,11 @@ export interface Product {
   /** Spec fields that were guessed from the name rather than known. */
   inferred: string[];
   offers: Offer[];
+  /** Freely licensed photo, linked from Wikimedia Commons. */
   image?: string;
+  /** The photo's page on Commons. */
   url?: string;
+  imageCredit?: string;
 }
 
 export interface ShopInfo {

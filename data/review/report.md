@@ -1,43 +1,43 @@
 # Price list review
 
-Generated 2026-11-12T16:47:22.516Z
+Generated 2026-11-13T00:07:12.908Z
 
 ## Coverage by shop
 
 | Shop | List date | Rows read | Offers kept | Bundle prices | Lines skipped | Not a tracked category | OCR |
 |---|---|---|---|---|---|---|---|
-| Bizgram | 2026-10-16 | 11585 | 1573 | 5338 | 95 | 4517 |  |
-| Dynacore | 2026-10-17 | 3694 | 926 | 1466 | 191 | 1285 |  |
-| Fuwell | 2026-10-17 | 1362 | 304 | 975 | 20 | 73 |  |
+| Bizgram | 2026-10-16 | 11648 | 1510 | 5338 | 95 | 4642 |  |
+| Dynacore | 2026-10-17 | 3694 | 894 | 1466 | 191 | 1315 |  |
+| Fuwell | 2026-10-17 | 1362 | 301 | 975 | 20 | 76 |  |
 | Infinity | 2026-10-16 | 1274 | 497 | 644 | 2 | 127 |  |
-| Laser | 2026-10-16 | 1032 | 198 | 294 | 24 | 538 |  |
-| PC Themes | 2026-09-26 | 521 | 272 | 0 | 382 | 210 | yes |
-| Prime PC | 2026-10-03 | 945 | 37 | 0 | 295 | 574 | yes |
-| TechDeals | 2026-10-17 | 2944 | 535 | 1306 | 25 | 1073 |  |
-| TradePac | 2026-10-17 | 748 | 29 | 0 | 343 | 559 | yes |
+| Laser | 2026-10-16 | 1032 | 194 | 294 | 24 | 543 |  |
+| PC Themes | 2026-09-26 | 521 | 254 | 0 | 382 | 224 | yes |
+| Prime PC | 2026-10-03 | 955 | 37 | 0 | 290 | 620 | yes |
+| TechDeals | 2026-10-17 | 2944 | 490 | 1306 | 25 | 1117 |  |
+| TradePac | 2026-10-17 | 749 | 40 | 0 | 343 | 564 | yes |
 
 ## Catalogue
 
 | Category | Products | Offers | Sold by 2+ shops |
 |---|---|---|---|
-| case | 517 | 547 | 28 |
-| cooler | 433 | 467 | 26 |
+| case | 498 | 531 | 31 |
+| cooler | 428 | 474 | 37 |
 | cpu | 79 | 78 | 7 |
-| fan | 118 | 125 | 7 |
-| gpu | 419 | 651 | 126 |
-| headset | 57 | 57 | 0 |
-| keyboard | 89 | 97 | 7 |
-| monitor | 310 | 344 | 27 |
+| fan | 119 | 127 | 7 |
+| gpu | 417 | 655 | 129 |
+| headset | 48 | 54 | 6 |
+| keyboard | 65 | 71 | 6 |
+| monitor | 298 | 325 | 23 |
 | motherboard | 381 | 447 | 91 |
-| mouse | 144 | 158 | 13 |
+| mouse | 81 | 88 | 7 |
 | os | 4 | 16 | 2 |
-| psu | 391 | 421 | 23 |
+| psu | 388 | 417 | 22 |
 | ram | 203 | 219 | 16 |
 | storage | 477 | 603 | 97 |
 
 ## Lines needing review
 
-### several prices but no column headings (842)
+### several prices but no column headings (837)
 
 - bizgram p1: `Corsair Vengeance LPX 2666 / 2400mhz | 299 | 489 | 789`
 - bizgram p1: `Corsair Vengeance LPX 3600 / 3200mhz | 289 | 489 | 789`
@@ -57,7 +57,7 @@ Generated 2026-11-12T16:47:22.516Z
 - bizgram p1: `Sandisk Pro Creator (Desk Drive 8TB $2899) | 389 | 828 | 1692`
 - bizgram p1: `Orico Mini 20 Outdoor Portable SSD | 159 | 269 | 409`
 - bizgram p1: `Transcend SSD ESD310 Dual C / USB | 189 | 389 | 487`
-- bizgram p1: `MSI RTX5070 SHADOW 2X OC 12G D7 GA .1,341 Transcend SSD 350c/260c/370c/410c | 119 | 199 | 359`
+- bizgram p1: `Transcend SSD 350c/260c/370c/410c | 119 | 199 | 359`
 - bizgram p1: `Samsung T5 Evo (Apricorn SSD Padlock (256G $749) | 488 | 799`
 - bizgram p1: `Samsung T7 (Resurrected 2TB $759) | 389 | 669 | 1245`
 - bizgram p1: `Samsung T7 Shield | 399 | 699 | 1299`
@@ -79,7 +79,7 @@ Generated 2026-11-12T16:47:22.516Z
 - bizgram p2: `Gigabyte TRX50 AI TOP sTR5 E-ATX ($1604) | 17247 | 13670 | 7642 | 5981 | 4200 | 9408 | 5421 | 3952 | 17542 | 13188 | 7684 | 5793 | 9408 | 5547 | 3986`
 - bizgram p2: `Gigabyte TRX50 Aero G ($1150) | 16801 | 13224 | 7196 | 5534 | 3754 | 8962 | 4975 | 3506 | 17095 | 12742 | 7237 | 5347 | 8962 | 5100 | 3540`
 - bizgram p2: `ASROCK WRX90 WS EVO ($1725) | 17366 | 13789 | 7761 | 6099 | 4319 | 9527 | 5540 | 4071 | 17660 | 13307 | 7802 | 5912 | 9527 | 5665 | 4105`
-- … 802 more in unmatched.json
+- … 797 more in unmatched.json
 
 ### numbers without a product name (526)
 
@@ -125,7 +125,7 @@ Generated 2026-11-12T16:47:22.516Z
 - dynacore p4: ` | - | -`
 - … 486 more in unmatched.json
 
-### not recognised as fan (333)
+### not recognised as fan (328)
 
 - bizgram p3 [System / VGA Stuff / Accessories / Fans]: `Corsair Premium PCIe 4.0 ×16 Extens | 94`
 - bizgram p3 [System / VGA Stuff / Accessories / Fans]: `Air Duster 400ml | 12`
@@ -167,9 +167,9 @@ Generated 2026-11-12T16:47:22.516Z
 - bizgram p3 [System / VGA Stuff / Accessories / Fans]: `Lian Li Uni Fan TL Wireless LCD Reverse | 75`
 - bizgram p3 [System / VGA Stuff / Accessories / Fans]: `Lian Li Uni Fan TL Wireless LCD / SL-INF | 55`
 - bizgram p3 [System / VGA Stuff / Accessories / Fans]: `Lian Li Uni Fan SL-INF Wireless 3 Pack | 145`
-- … 293 more in unmatched.json
+- … 288 more in unmatched.json
 
-### OCR price with no printed price from another shop to confirm it (308)
+### OCR price with no printed price from another shop to confirm it (248)
 
 - primepc p4 [gpu]: `SAPPHIRE RX 9070 XT O/C_16GB NITRO+ = 1388`
 - primepc p3 [gpu]: `GAMING RTX 5070 TWIN EDGE OC 12GB = 1220`
@@ -191,80 +191,38 @@ Generated 2026-11-12T16:47:22.516Z
 - primepc p3 [gpu]: `ASK |ZOTAC GAMING RTX 5060 Ti TWIN EDGE OC 16GB = 1010`
 - primepc p3 [gpu]: `ASK |ZOTAC GAMING RTX 5060 Ti TWIN EDGE OC 16GB WHITE = 1030`
 - primepc p3 [gpu]: `ASK |ZOTAC GAMING RTX 5070 AMP 12GB WHITE = 1250`
-- primepc p3 [case]: `Lian Li OLL Dynamic Evo XI Black = 290`
 - primepc p3 [gpu]: `ASK ZOTAC GAMING RTX 5070 Ti SOLID SEF OC 16GB = 1699`
-- primepc p3 [case]: `Dynamic Evo XL White = 290`
 - primepc p3 [gpu]: `ASK ZOTAC GAMING RTX 5070 Ti SOLID CORE OC 16GB WHITE = 1720`
-- primepc p3 [case]: `EVO RGB BIACK = 195`
 - primepc p3 [gpu]: `ASK ZOTAC GAMING RTX 5080 SOLID CORE OC 16GB = 2449`
 - primepc p3 [gpu]: `ASK ZOTAC GAMING RTX 5080 SOLID OC 16GB White = 2479`
-- primepc p3 [case]: `Lian Li OLL Vision-M White = 125`
-- primepc p3 [case]: `Vision-M Black (Digital) = 190`
-- primepc p3 [case]: `Vision-M White (Digital} = 190`
-- primepc p3 [case]: `Lian Li OL] Vision Compact Black = 160`
-- primepc p3 [case]: `207 Black (Digital) = 165`
 - primepc p3 [gpu]: `ASK [ASUS TUF-RX9070XT-O16G-GAMING (3Y) = 1399`
 - primepc p3 [gpu]: `ASK ASUS PRIME-RX9070XT-O16GGY) = 910`
-- primepc p3 [case]: `Lian Li OLLD Mini V2 Flow White = 155`
 - primepc p3 [fan]: `x140mm) & (1x 120mm) Fan = 120`
-- primepc p3 [case]: `& a = 110`
 - primepc p3 [gpu]: `GIGABYTE GV N50500C-8GL = 648`
 - primepc p3 [gpu]: `GIGABYTE GV N5060WF20C-8GD = 698`
 - primepc p3 [gpu]: `GIGABYTE GV N50600C-8GL = 708`
-- … 268 more in unmatched.json
+- primepc p3 [fan]: `Phanteks NV Series NV5S ATX_TG 4x 120mm M25 DRGB Black = 142`
+- primepc p3 [gpu]: `GIGABYTE GV R9070XTGAMING = 1158`
+- primepc p3 [fan]: `Phanteks Evolv Series S2 TG 120mm DRGB Fans x4, Black = 450`
+- primepc p4 [gpu]: `POWER COLOR RX 9070 XT 16GB GDDR6 = 1248`
+- primepc p4 [gpu]: `POWER COLOR RX 9070 GRE 12GB GDDR6 = 858`
+- primepc p4 [gpu]: `1278 POWER COLOR RX 9070 GRE 12GB GDDR6 REAPER = 808`
+- primepc p4 [gpu]: `1755 POWER COLOR RX 9060 XT 8GB GDDR6 REAPER BLACK = 608`
+- primepc p4 [gpu]: `1895 SAPPHIRE RX 9070 XT O/C_16GB PULSE = 1274`
+- primepc p4 [gpu]: `SAPPHIRE RX 9070 XT O/C_16GB PURE = 1314`
+- primepc p4 [gpu]: `2595 XFX SWIFT AMD RX 9060XT WHITE 16GB = 858`
+- … 208 more in unmatched.json
 
-### not recognised as os (229)
-
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS MB27ACF | 521`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS XG27UCDMG | 1,242`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS XG259QNS | 530`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS XG27ACMES | 360`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS VG32VQ1B | 386`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS XG32UCG | 642`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS MS27UC | 571`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS VY279 | 271`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS PA248QV | 278`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS PA329CRV | 993`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS VU279CFE - B | 251`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS VA279QGS | 210`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS PB247Q | 384`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS PA279CV | 615`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS VA24EQSB | 189`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS VA27EHE | 194`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS VZ249HEG1R | 155`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS PA27JCV | 967`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS PA279CV | 615`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS PA278QGV | 351`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS VP248 ................................................. ask Qnap TS-673A-8G 6-bay NAS, AMD Ryz ....... Ask LOGITECH K780 MULTI-DEVICE WIRELESS | 85`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS VU279 | 206`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS VT169 | 228`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS PA249CGV | 354`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `ASUS BE24EQK | 215`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `Philips 27E1N1200 | 134`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `Philips 272S1 | 174`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `Philips 200V4LSB/69 | 133`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `Philips 27E2G2200 | 126`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `Philips 32B1U3900 | 380`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `Philips 27E1N1800AE | 222`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `Philips 27E1N1600 | 237`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `Philips 22E1N1200 | 165`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `Philips 27E2G2200 | 126`
-- bizgram p4 [Software Windows / Office / Server OS/36]: `Windows 7 Professional 64 Bit / 32 Bit | 269`
-- bizgram p4 [Software Windows / Office / Server OS/36]: `Windows 8 Professional 64 Bit / 32 Bit | 199`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `Philips 170S9/69 | 269`
-- bizgram p4 [Software Windows / Office / Server OS/36]: `Microsoft Office Home 2024 | 259`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `Philips 27E1N2500 | 166`
-- bizgram p4 [Microsoft Standard Svr r2016/19/16/12 . ]: `Philips 243S9A/69 | 132`
-- … 189 more in unmatched.json
-
-### not recognised as case (222)
+### not recognised as case (200)
 
 - bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Define 7 Nano Black TG Light Tint | 138`
 - bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Epoch Black TG Light Tint | 171`
 - bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Epoch White TG RGB Clear Tint | 194`
+- bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Focus 2 TG Clear Tint | 90`
 - bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Focus 2 RGB TG Clear Tint | 105`
 - bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Meshify 3 XL Black | 282`
 - bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Silverstone CS381 Server Storage Case | 496`
+- bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Meshify 3 XL Ambience Pro RGB Whit | 394`
 - bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Silverstone RM400 4U RACKMOUNT | 299`
 - bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Meshify 3 XL White RGB TG Clear Ti | 297`
 - bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Silverstone RM51 5U RACKMOUNT Chasis | 499`
@@ -297,14 +255,11 @@ Generated 2026-11-12T16:47:22.516Z
 - bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Torrent Black | 263`
 - bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Torrent Black RGB TG Light Tint | 322`
 - bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Torrent Black TG Dark Tint | 263`
-- bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Torrent RGB White TG clear tint | 322`
-- bizgram p3 [BUNDLE Computer Casing (Buy alone + $10)]: `Torrent Compact Black TG Dark Tint | 194`
-- … 182 more in unmatched.json
+- … 160 more in unmatched.json
 
-### not recognised as gpu (161)
+### not recognised as gpu (163)
 
 - bizgram p1 [Nvidia RTX5 Graphics Card and Intel]: `Tel : | 63346455`
-- bizgram p1 [Nvidia RTX5 Graphics Card and Intel]: `Nvidia Developer Edition RTX5090 32GB . 12999 Gigabyte GV N506TEAGLEOC ICE-16GD | 1355`
 - bizgram p1 [Nvidia RTX5 Graphics Card and Intel]: `MSI RTX5060TI VENTUS 2X OC PLUS 16 | 1,244`
 - bizgram p1 [Nvidia RTX5 Graphics Card and Intel]: `ASROCK B70 Creator 32G CT | 2299`
 - bizgram p1 [Nvidia RTX5 Graphics Card and Intel]: `PALIT RTX 5060 Ti INFINITY 3 OC 16 | 1234`
@@ -323,9 +278,11 @@ Generated 2026-11-12T16:47:22.516Z
 - bizgram p1 [Nvidia RTX5 Graphics Card and Intel]: `NVIDIA P600 /T600 4GB | 785`
 - bizgram p1 [Nvidia RTX5 Graphics Card and Intel]: `RTX Pro SYNC Card | 1549`
 - bizgram p1 [Nvidia RTX5 Graphics Card and Intel]: `NVIDIA QSFP112 400G DAC CABLE 40CM | 159`
+- bizgram p1 [Nvidia RTX5 Graphics Card and Intel]: `NVIDIA DGX SPARK AI SUPERCOMP 4TB | 8999`
 - bizgram p1 [Nvidia RTX5 Graphics Card and Intel]: `Nvidia Lenovo PGX10 Nvidia GB10 4TB | 8999`
-- bizgram p1 [Nvidia RTX5 Graphics Card and Intel]: `Nvidia NVLink Bridge 2 Slot A6000, A5000 . 359 Win 11 Pro 90MS03E1-M000L0 QN10-VQ0019NN | S$2499`
-- bizgram p3 [AMD Radeon Graphic Card]: `Sapphire Pure 7700 XT Frostpunk 2 Edition . 672 Deepcool AK620 G2 | 80`
+- bizgram p1 [Nvidia RTX5 Graphics Card and Intel]: `Nvidia NVLink Bridge 2 Slot A6000, A5000 | 359`
+- bizgram p3 [AMD Radeon Graphic Card]: `Sapphire RX 7900 GRE GAMING OC 16GB | 2989`
+- bizgram p3 [AMD Radeon Graphic Card]: `Sapphire Pure 7700 XT Frostpunk 2 Edition | 672`
 - bizgram p3 [AMD Radeon Graphic Card]: `SAPPHIRE PURE 7700 XT GAMING OC 12G | 899`
 - bizgram p3 [AMD Radeon Graphic Card]: `SAPPHIRE PURE 7800 XT GAMING OC 16 | 1019`
 - bizgram p3 [AMD Radeon Graphic Card]: `SAPPHIRE AI PRO R9700 32GB LITE | 3239`
@@ -342,10 +299,9 @@ Generated 2026-11-12T16:47:22.516Z
 - bizgram p3 [AMD Radeon Graphic Card]: `Quest Compact Carrying Case for 3 / 3S | 108`
 - bizgram p3 [AMD Radeon Graphic Card]: `HTC Vive focus vision | 1699`
 - bizgram p3 [AMD Radeon Graphic Card]: `HTC Vive wired streaming kit | 239`
-- bizgram p3 [AMD Radeon Graphic Card]: `HTC Vive ultimate trackers 3 | 369`
-- … 121 more in unmatched.json
+- … 123 more in unmatched.json
 
-### not recognised as ram (156)
+### not recognised as ram (132)
 
 - bizgram p1 [Desktop DDR5 Memory Dual Channel]: `G.Skill Trident Z5 RGB 6000 /RGB 6400* | 845 | 1999*`
 - bizgram p1 [Desktop DDR5 Memory Dual Channel]: `G.Skill Trident Z5 NEO RGB AMD EXPO | 1119 | 1579 | 6000`
@@ -367,7 +323,6 @@ Generated 2026-11-12T16:47:22.516Z
 - bizgram p2 [ram]: `SSD | S$9599`
 - bizgram p2 [ram]: `(Raspberry PI | 4`
 - bizgram p2 [ram]: `Heatsink | $30`
-- bizgram p2 [U7-155H 16GB DDR5 512GB SSD]: `Config: 1TB with | 1`
 - bizgram p6 [DDR5]: `Rugged Industrial X7211E 90AS00Q1-M00140 | 3299`
 - bizgram p6 [DDR5]: `Rugged Industrial X7425E 90AS00Q1-M00150 | 4299`
 - bizgram p6 [DDR5]: `PRO TALL U3-100U INTEL RNUC16GDKU760000 90AR00W1-M000U0 | 929`
@@ -387,9 +342,10 @@ Generated 2026-11-12T16:47:22.516Z
 - bizgram p6 [DDR5]: `ASUS NUC 14 PRO AI U7-258V (LPDDR5x 32G) Ubiquiti AF-11 | 1707`
 - bizgram p6 [DDR5]: `1TB SSD Win | 11`
 - bizgram p6 [DDR5]: `Pro RNUC14LNKU7094N3 Ubiquiti AF-11-DUP-H | 317`
-- … 116 more in unmatched.json
+- bizgram p6 [DDR5]: `90MS0381-M00160 | 3599`
+- … 92 more in unmatched.json
 
-### not recognised as storage (144)
+### not recognised as storage (122)
 
 - bizgram p1 [HDD Desktop 3.5 SATA Hard Disk Drive]: `Seagate Barracuda / Ubiquiti UBNT* | 1199 | 699* | 1399*`
 - bizgram p1 [HDD Desktop 3.5 SATA Hard Disk Drive]: `Seagate Barracuda / Ubiquiti UBNT* | 1199 | 699* | 1399*`
@@ -431,21 +387,54 @@ Generated 2026-11-12T16:47:22.516Z
 - bizgram p1 [SSD Internal M.2 SATA / NGFF]: `M-SATA Micro SATA (128G $89) | 129 | 219 | 299 | 518`
 - bizgram p1 [SSD Internal M.2 SATA / NGFF]: `M-SATA Micro SATA (128G $89) | 129 | 219 | 299 | 518`
 - bizgram p1 [SSD Internal M.2 SATA / NGFF]: `M-SATA Micro SATA (128G $89) | 129 | 219 | 299 | 518`
-- … 104 more in unmatched.json
+- … 82 more in unmatched.json
 
-### not recognised as monitor (143)
+### not recognised as cooler (95)
 
-- bizgram p4 [Touch Screen Monitor]: `Asus VT229H Flat 1920x1080 75Hz | 358`
-- bizgram p4 [Touch Screen Monitor]: `Asus VT169HR Flat 1366x768 (WXGA ) 60Hz | 289`
-- bizgram p4 [Touch Screen Monitor]: `AOC 16T20 Touch Screen Portable 15.6 | 159`
-- bizgram p4 [Touch Screen Monitor]: `Viewsonic TD1630-3 10-point projec | 419`
-- bizgram p4 [Touch Screen Monitor]: `Viewsonic TD1655 10-point projecte | 399`
-- bizgram p4 [Touch Screen Monitor]: `Viewsonic TD2423 10-point IR Touch | 499`
-- bizgram p4 [Touch Screen Monitor]: `Viewsonic TD2230 10-point projecte | 599`
-- bizgram p4 [Touch Screen Monitor]: `Viewsonic TD2465 10-point projecte | 709`
-- bizgram p4 [Touch Screen Monitor]: `Viewsonic TD2455 10-point in-cell | 849`
-- bizgram p4 [Touch Screen Monitor]: `Viewsonic TD2760 10-point capacity | 1169`
-- bizgram p4 [Touch Screen Monitor]: `Viewsonic TD3207 10-point capacity | 1599`
+- bizgram p3 [CPU Coolers]: `TRYX PANORAMA WB Waterblock | 355`
+- bizgram p3 [CPU Coolers]: `TRYX STRING PCIE 5.0 RISER CABLE 300mm | 121`
+- bizgram p3 [CPU Coolers]: `EKIO EK-AIO 360 D-RGB | 222`
+- bizgram p3 [CPU Coolers]: `EVGA CLC AIO 280mm cooler | 109`
+- bizgram p3 [CPU Coolers]: `EVGA CLC AIO 360mm cooler | 123`
+- dynacore p2 [CPU AIR COOLER]: `Cryorig C5 Argb Black 165W TDP Low Profile Cooler | 58`
+- dynacore p2 [CPU AIR COOLER]: `Cryorig C5 CU Argb Copper 180W TDP Low Profile Cooler | 68`
+- dynacore p2 [CPU AIR COOLER]: `Cryorig CR4S Argb Black 200W TDP Heatsink Cooler | 34`
+- dynacore p2 [CPU AIR COOLER]: `Cryorig CR4S Plus Black 200W TDP Heatsink Cooler | 40`
+- dynacore p2 [CPU AIR COOLER]: `Cryorig CR6S Argb Black 250W TDP Heatsink Cooler | 54`
+- dynacore p2 [CPU AIR COOLER]: `Cryorig R5 Single Tower Heatsink Cooler | 79`
+- infinity p2 [Cooler Master]: `CM NR200P MAX 850W/280MM AIO/RISER 4.0 | 499`
+- infinity p2 [Cooler Master]: `CM TD300 Mesh w/TG/U3/ARGB Fan x2 (MATX)(Black) | 109`
+- infinity p2 [Cooler Master]: `CM TD300 Mesh w/TG/U3/ARGB Fan x2 (MATX) (White) | 119`
+- infinity p2 [Cooler Master]: `CM TD500 Mesh w/TG/U3/ARGB Fan x3/Fan x1 (White) | 149`
+- infinity p2 [Cooler Master]: `Phanteks Enthoo Pro 2 Server Edition (ATX) (B) | 235`
+- laser p1 [AIO and HEATSINK]: `Thermalright M.2 2280 Type A heatsink | 10`
+- pcthemes p1 [COOLER MASTER]: `[BLACK] | 213`
+- pcthemes p1 [COOLER MASTER]: `ARGB AIR COOLER [BLACK] | 92`
+- primepc p5 [CPU AIO COOLER]: `(ATX3.1 PCle5.1) | $40`
+- primepc p5 [CPU AIO COOLER]: `(Black) | $120`
+- primepc p5 [CPU AIO COOLER]: `Liquid | $130`
+- primepc p5 [CPU AIO COOLER]: `(Black) | $208`
+- primepc p5 [CPU AIO COOLER]: `Liquid | $120`
+- primepc p5 [CPU AIO COOLER]: `Liquid | $153`
+- primepc p5 [Cooler]: `Argb Liquid | $67`
+- primepc p5 [Cooler]: `Argb Liquid | $88`
+- primepc p5 [Cooler]: `Cooler | $364`
+- primepc p5 [Cooler]: `Cooler | $414`
+- primepc p5 [CPU AIO COOLER]: `Cooler | $351`
+- primepc p5 [CPU AIO COOLER]: `Cooler | $274`
+- primepc p5 [Black Aio]: `LCD Black/Whit | $379`
+- primepc p5 [Black Aio]: `Extreme Black | $518`
+- primepc p5 [Black Aio]: `Extreme White | $544`
+- primepc p5 [Black Aio]: `White Aio | $558`
+- primepc p5 [Black Aio]: `Core NEX 240 | $69`
+- primepc p5 [CPU AIO COOLER]: `Cooler | $387`
+- primepc p5 [Black Aio]: `ML240 CORE ARGB COOLER | $79`
+- primepc p5 [Black Aio]: `CORE ARGB COOLER WHIT | $89`
+- primepc p5 [Cooler]: `Aio Cooler | $154`
+- … 55 more in unmatched.json
+
+### not recognised as monitor (76)
+
 - bizgram p9 [Monitor]: `ELA6572UK | 219`
 - bizgram p9 [Monitor]: `Glacier Silver Xiaomi Gaming Monitor G27i UK ELA5379UK | 189`
 - bizgram p9 [Monitor]: `Xiaomi Gaming Monitor G24i UK ELA5627UK | 159`
@@ -475,141 +464,20 @@ Generated 2026-11-12T16:47:22.516Z
 - dynacore p3 [LCD/LED GAMING MONITORS]: `Phlips 27"27M2N6500L 2K 240Hz QD-OLED Monitor(3yrs) | 565`
 - dynacore p3 [LCD/LED GAMING MONITORS]: `ASUS 24" VG248QG 165Hz 0.5MS 1080P SPEAKER GAMING LED MONITOR | 329`
 - dynacore p3 [LCD/LED GAMING MONITORS]: `ASUS 27" VG27AQL5A QHD IPS 210Hz 1MS HDMIx2 DP USB C SPEAKER | 269`
-- … 103 more in unmatched.json
+- dynacore p3 [LCD/LED GAMING MONITORS]: `Asus ProArt 32" PA32UCDM 4K OLED 240Hz TB4 Workstation Monitor(3yrs) | 2129`
+- dynacore p3 [LCD/LED GAMING MONITORS]: `Philips 24"24E1N2100A 120Hz Hdmi/VGA Speaker IPS Monitor(3yrs) | 122`
+- dynacore p3 [LCD/LED GAMING MONITORS]: `Philips 43"438P1/69 4K IPS Speaker Led Monitor | 469`
+- fuwell p2 [PHILIPS Monitors]: `299 Philips 34" 34B1U5600CH WQHD 4ms 120Hz USB-C Curved/WebCam | 599`
+- fuwell p2 [GIGABYTE GAMING MONITOR]: `AOC AM400B Mechanical Gas Spring Single Monitor ARM (Black) | 69`
+- fuwell p2 [GIGABYTE GAMING MONITOR]: `AOC AM400B Mechanical Gas Spring Single Monitor ARM (Gray) | 69`
+- fuwell p2 [GIGABYTE GAMING MONITOR]: `AOC AM400B Mechanical Gas Spring Single Monitor ARM (Silver) | 69`
+- fuwell p2 [GIGABYTE GAMING MONITOR]: `AOC AM400B Mechanical Gas Spring Single Monitor ARM (Pink) | 69`
+- fuwell p2 [GIGABYTE GAMING MONITOR]: `AOC AM420B Mechanical Gas Spring Dual Monitor ARM (Black) | 129`
+- infinity p2 [LED Monitor AOC & Philips]: `AOC 15.6” E1659FWU Portable USB LED | 149`
+- infinity p2 [LED Monitor AOC & Philips]: `AOC 15.6” 16T20 60Hz Portable USB LED | 159`
+- … 36 more in unmatched.json
 
-### not recognised as cooler (86)
-
-- bizgram p3 [CPU Coolers]: `TRYX PANORAMA WB Waterblock | 355`
-- bizgram p3 [CPU Coolers]: `TRYX STRING PCIE 5.0 RISER CABLE 300mm | 121`
-- bizgram p3 [CPU Coolers]: `EKIO EK-AIO 360 D-RGB | 222`
-- bizgram p3 [CPU Coolers]: `EVGA CLC AIO 280mm cooler | 109`
-- bizgram p3 [CPU Coolers]: `EVGA CLC AIO 360mm cooler | 123`
-- dynacore p2 [CPU AIR COOLER]: `Cryorig C5 Argb Black 165W TDP Low Profile Cooler | 58`
-- dynacore p2 [CPU AIR COOLER]: `Cryorig C5 CU Argb Copper 180W TDP Low Profile Cooler | 68`
-- dynacore p2 [CPU AIR COOLER]: `Cryorig CR4S Argb Black 200W TDP Heatsink Cooler | 34`
-- dynacore p2 [CPU AIR COOLER]: `Cryorig CR4S Plus Black 200W TDP Heatsink Cooler | 40`
-- dynacore p2 [CPU AIR COOLER]: `Cryorig CR6S Argb Black 250W TDP Heatsink Cooler | 54`
-- dynacore p2 [CPU AIR COOLER]: `Cryorig R5 Single Tower Heatsink Cooler | 79`
-- infinity p2 [Cooler Master]: `CM NR200P MAX 850W/280MM AIO/RISER 4.0 | 499`
-- infinity p2 [Cooler Master]: `CM TD300 Mesh w/TG/U3/ARGB Fan x2 (MATX)(Black) | 109`
-- infinity p2 [Cooler Master]: `CM TD300 Mesh w/TG/U3/ARGB Fan x2 (MATX) (White) | 119`
-- infinity p2 [Cooler Master]: `CM TD500 Mesh w/TG/U3/ARGB Fan x3/Fan x1 (White) | 149`
-- infinity p2 [Cooler Master]: `Phanteks Enthoo Pro 2 Server Edition (ATX) (B) | 235`
-- laser p1 [AIO and HEATSINK]: `Thermalright M.2 2280 Type A heatsink | 10`
-- pcthemes p1 [COOLER MASTER]: `[BLACK] | 213`
-- pcthemes p1 [THERMALRIGHT AXP90 X53 LP AIR COOLER]: `ARGB AIR COOLER [BLACK] | 92`
-- primepc p5 [CPU AIO COOLER]: `(ATX3.1 PCle5.1) | $40`
-- primepc p5 [CPU AIO COOLER]: `(Black) | $120`
-- primepc p5 [CPU AIO COOLER]: `Liquid | $130`
-- primepc p5 [CPU AIO COOLER]: `(Black) | $208`
-- primepc p5 [CPU AIO COOLER]: `Liquid | $120`
-- primepc p5 [CPU AIO COOLER]: `Liquid | $153`
-- primepc p5 [Cooler]: `Argb Liquid | $67`
-- primepc p5 [Cooler]: `Argb Liquid | $88`
-- primepc p5 [Cooler]: `Cooler | $364`
-- primepc p5 [Cooler]: `Cooler | $414`
-- primepc p5 [CPU AIO COOLER]: `Cooler | $351`
-- primepc p5 [CPU AIO COOLER]: `Cooler | $274`
-- primepc p5 [Black Aio]: `LCD Black/Whit | $379`
-- primepc p5 [Black Aio]: `Extreme Black | $518`
-- primepc p5 [Black Aio]: `Extreme White | $544`
-- primepc p5 [Black Aio]: `White Aio | $558`
-- primepc p5 [Black Aio]: `Core NEX 240 | $69`
-- primepc p5 [CPU AIO COOLER]: `Cooler | $387`
-- primepc p5 [Black Aio]: `ML240 CORE ARGB COOLER | $79`
-- primepc p5 [Black Aio]: `CORE ARGB COOLER WHIT | $89`
-- primepc p5 [Cooler]: `Aio Cooler | $154`
-- … 46 more in unmatched.json
-
-### not recognised as keyboard (78)
-
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Dahua IP Camera DH-IPC-SF145-0360B | 79`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Dahua IP Camera DH-E125L | 79`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Dahua IP Camera DH-IPC-HDBW1431EP | 79`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Dahua Fish Eye DH-IPC-EB5541P-AS | 289`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Dahua Dome DH-IPC-HDBW2230E-S-S2 | 99`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Hikvision DS-7604Ni-Q1/4P(C) NVR | 139`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Hikvision DS-7608Ni-Q1/8P(C) NVR | 229`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Hikvision DS-7616NI-DVR | 289`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Aztech WL580E Repeater | 31`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Aztech KWFP-110-WF | 44`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Aztech Blink Camera Kit | 206`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Prolink PRN2001A Wireless Router | 27`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Prolink PSE810 8-Port Ethernet Switch | 32`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Prolink PRS1240 ADSL modem Router | 64`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Aztech Blink Kit BCM00100U-SMH | 193`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Aztech KIPCW420 Camera | 152`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Edimax IC-3140W HD Wi-Fi Day & Night | 40`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Edimax IC-3210W Indoor Portable camera | 60`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Edimax IC-5150W Fisheye Cloud Camera | 70`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Edimax IC-6230DC Smart Wi-Fi Door Ho | 81`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Edimax IC-7112W HD Wi-Fi Day & Night | 60`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Edimax IC-7113W HD Wi-Fi Day & Night | 81`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Edimax IC-9110W Mini Outdoor HD Wire | 81`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Hikvision 8Port Full POE Switch 65w | 189`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Hikvision 16Port Full POE Switch 125w | 399`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Hikvision 24Port Full POE Switch 225w | 580`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink Duo Floodlight Wi-Fi Camera 8MP | 259.99`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink Trackmix WiFi Wi-Fi Camera 8MP | 259.99`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink Argus Eco Ultra Battery WIFI-8MP | 179.99`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink Argus PT Lite Battery WIFI-3MP ... 119.99 90AS00K1-M001A0 | 2399`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink Reolink Go Plus Battery 4G | 209`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink Reolink Go Ultra Battery 4G | 269`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink Reolink Go PT Plus Battery 4G | 269`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink Reolink Go PT Ultra Battery 4G | 319`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink ColorX CX410 POE Camera 4MP | 119.99`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink Fisheye FE-P-W POE Camera 6MP | 159.99`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink P437 POE Camera 8MP .............. 159.99 90AS00N1-M001Y0 | 1799`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink E1 Outdoor PoE POE Camera 8MP | 149.99`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink P830 POE Camera 8MP .............. 179.99 1TB SSD Win | 11`
-- bizgram p6 [Asus Keyboard Mouse Headset Mousepad Acc]: `Reolink Duo 2 PoE POE Camera 8MP ...... 189.99 90AS00N1-M001Z0 | 1999`
-- … 38 more in unmatched.json
-
-### not recognised as motherboard (48)
-
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Biostar TB360-BTC Pro 9Gen Motherboard | 336`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Biostar TZ590-BTC Pro 10Gen Motherboard | 366`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Afox H81 Motherboard 4 Gen/Asus H81M-k .162 Ruijie RG-NBS3100-24GT4SFP-P-V2 24 | 820`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Asrock z87/ Z270M | 255`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte H310M-DS2 8th and 9th Gen | 159`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte H410M | 159`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte H510M | 169`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Asrock Z490M Pro 4 10th Gen | 329`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Intel H61 OEM Motherboard 3rd Gen | 109`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte H81M-DS2 LGA1150 4th gen | 162`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Asus H81M-K 4th Gen Motherboard | 169`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte B460M Gaming HD 10th/11th | 219`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte B560 Aorus Pro AX 10th/11th | 259`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte H510M H / H410M H 10th/11th | 165`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Asus Prime H410M-A 10th/11th | 159`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `BHR9301GL 6941812754450 ................... 29.9 Ruijie RG-NBS5200-24SFP/8GT4XS 24- | 1617`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Xiaomi Automatic Soap Dispenser 1S BHR8853GL Ruijie RG-NBS5200-24GT4XS 24-Port | 878`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `6941812792193........................................ 15.9 Ruijie RG-NBS5200-24GT4XS-P 24 × 1 | 1222`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Xiaomi Nose Hair Trimmer BHR8997GL Ruijie RG-NBS5200-48GT4XS 48-Port | 1613`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `....................................... 15.9 Ruijie RG-NBS5200-48GT4XS-UP 48 × | 2380`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Xiaomi Electric Toothbrush T302 (Dark Blue) Ruijie RG-NBS5300-8MG2XS-UP REYEE | 1146`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `BHR7647GL 6941812745427 | 39`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `BHR7791GL 6941812751961 | 59`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Orico CRS-31 CARD READER | 17`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Orico DUK-5P 5 PORT USB 2.4A CHAR | 27`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Orico ST2 TOOLKIT | 19`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Orico XC-R45 TYPE C TO GIGABIT LA | 27`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Orico XC-304 6 IN 1 DOCKING | 85`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Orico XD-312 | 35`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Orico XD-313 TYPE C TO HDMI/USB | 30`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Orico SC2 USB TO AUDIO | 17`
-- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Orico TCM2-C3 TYPE C TO NVME ENCL | 49`
-- bizgram p10 [Motherboard]: `G6400 10105F | 10105`
-- bizgram p10 [Motherboard]: `11600K 10100F 11700K 10700K 11900K | 10100`
-- dynacore p1 [INTEL ULTRA 15th Gen Latest MOTHERBOARD ]: `SPARKLE INTEL ARC PRO B60 BLOWER 24GB GDD6 3Y | 1088`
-- dynacore p1 [INTEL ULTRA 15th Gen Latest MOTHERBOARD ]: `SPARKLE STUDIO-G eGPU 850W/1 USB-C/3 USB-A/1 2.5G LAN/2 TB-5 1Y | 599`
-- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `Nvidia Quadro A1000 8GB GDDR6 | 1009`
-- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `Leadtek Nvidia RTX Pro 2000 BlackWell LP 16GB GDDR7 | 2959`
-- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `Leadtek Nvidia RTX Pro 4000 BlackWell Gen/SFF 24Gb GDDR7 | 5249`
-- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `Leadtek Nvidia RTX Pro 4500 BlackWell Gen 32Gb GDDR7 | 8259`
-- … 8 more in unmatched.json
-
-### not recognised as psu (43)
+### not recognised as psu (60)
 
 - bizgram p3 [PSU / SMPS / Power Supply by Bizgram]: `ASUS PRO WS 3000W PLATINUM F-MOD A | 1,004`
 - bizgram p3 [PSU / SMPS / Power Supply by Bizgram]: `Super Flower Leadex VIII Platinum | 239`
@@ -622,84 +490,123 @@ Generated 2026-11-12T16:47:22.516Z
 - dynacore p2 [POWER SUPPLY]: `Arctic Freezer III 360 Pro (ARGB $169) | 155`
 - dynacore p2 [POWER SUPPLY]: `Cryorig CRYO360 LCD Black Aio Liquid Cooler | 145`
 - dynacore p2 [POWER SUPPLY]: `Asus Pro WS 3000W ATX3.1 80+ Platinum Modular Psu(10yrs) | 1029`
-- fuwell p2 [M2802 MATX CASE WITH 500W PSU (BLACK)]: `XASTRA QW505M M-ATX CASE WITH 6 X ARGB FANS BLACK | 95`
-- fuwell p2 [M2802 MATX CASE WITH 500W PSU (BLACK)]: `XASTRA QW505M M-ATX CASE WITH 6 X ARGB FANS WHITE | 95`
-- fuwell p2 [M2802 MATX CASE WITH 500W PSU (BLACK)]: `ZALMAN P30 PINK V2 MATX CASE WITH TG & 3 X 120MM ARGB FANS | 125`
-- fuwell p2 [M2802 MATX CASE WITH 500W PSU (BLACK)]: `ZALMAN P30 MINT V2 MATX CASE WITH TG & 3 X 120MM ARGB FANS | 125`
-- pcthemes p1 [CORSAIR SF 750W GEN 5.0 PLATINUM POWER S]: `[SFX] | 219`
-- pcthemes p1 [CORSAIR SF 850W GEN 5.0 PLATINUM POWER S]: `[SFX] | 245`
-- pcthemes p1 [CORSAIR SF 1000W GEN 5.0 PLATINUM POWER ]: `[SFX] | 289`
-- pcthemes p1 [CORSAIR RM 650E GEN 3.1 PLATINUM POWER S]: `[BLACK] | 126`
-- pcthemes p1 [CORSAIR RM 650E GEN 3.1 PLATINUM POWER S]: `1399. | 178`
-- pcthemes p1 [CORSAIR RM 1000E GEN 3.1 PLATINUM POWER ]: `[BLACK] | 219`
-- pcthemes p1 [CORSAIR RM 1000E GEN 3.1 PLATINUM POWER ]: `POWER | 158`
-- pcthemes p1 [CORSAIR RM B50E GEN 3.1 PLATINUM POWER S]: `[WHITE] | 186`
-- pcthemes p1 [COOLER MASTER MWE 750W V3 3.1 GOLD POWER]: `_ | 111`
-- pcthemes p1 [SILVERSTONE HELA 1300W PLAT GEN.5 POWER ]: `POWER SUPPLY | 218`
-- pcthemes p4 [INWIN A1 WITH 600W Psu]: `CASE | 1`
+- pcthemes p1 [POWER SUPPLY]: `[BLACK] | 126`
+- pcthemes p1 [POWER SUPPLY]: `1399. | 178`
+- pcthemes p1 [POWER SUPPLY]: `POWER | 158`
+- pcthemes p1 [POWER SUPPLY]: `[WHITE] | 186`
 - primepc p5 [POWER SUPPLY]: `Superflower | $975`
+- primepc p5 [POWER SUPPLY]: `ATX3.1 80+ PLATINUM | $233`
+- primepc p5 [POWER SUPPLY]: `Corsair iCUE AF120 RGB SLIM, Fluid | $36`
+- primepc p5 [POWER SUPPLY]: `Corsair iCUE AF120 RGB SLIM, Fluid | $83`
+- primepc p5 [POWER SUPPLY]: `Corsair ML120 RGB ELITE, 120mm | $41`
+- primepc p5 [POWER SUPPLY]: `Corsair iCUE SP120 RGB ELITE Perfor | $43`
+- primepc p5 [POWER SUPPLY]: `Corsair QL QLI20 RGB, 120mm | $41`
+- primepc p5 [POWER SUPPLY]: `RGB 120mm Dual Light | $142`
+- primepc p5 [POWER SUPPLY]: `OFFER Corsair LL120 RGB 120mm Dual | $41`
+- primepc p5 [POWER SUPPLY]: `OFFER Corsair Commander PRO Smart RGB | $84`
+- primepc p5 [POWER SUPPLY]: `Corsair (CUE COMMANDER CORE XT Smar | $74`
+- primepc p5 [POWER SUPPLY]: `Corsair Lighting Node PRO | $71`
+- primepc p5 [POWER SUPPLY]: `16 Extens | $93`
+- primepc p5 [POWER SUPPLY]: `OFFER Arctic 10 port PWM Fan Hub | $17`
+- primepc p5 [POWER SUPPLY]: `OFFER ARCTIC F14 PWM, 4 pin | $21`
+- primepc p5 [POWER SUPPLY]: `OFFER ARCTIC P14 PWM PST (Black White) | $21`
+- primepc p5 [POWER SUPPLY]: `OFFER ARCTIC P8 PWM PST (Black) | $11`
 - primepc p5 [POWER SUPPLY]: `730 Watt 80 PLUS® Platinum Cybenetics Platinum SFX | 228`
-- primepc p5 [POWER SUPPLY]: `Gold ATX 3.1 WHITE | 163`
-- primepc p5 [POWER SUPPLY]: `Modular Cybenetics Gold ATX 3.1 WHITE | 233`
-- primepc p5 [POWER SUPPLY]: `Gold ATX 3.1 | 147`
-- primepc p5 [POWER SUPPLY]: `Fully Modular Cybenetics Gold ATX 3.1 | 177`
-- primepc p5 [POWER SUPPLY]: `Fully Modular Cybenetics Gold ATX 3.1 | 223`
-- primepc p5 [POWER SUPPLY]: `Fully Modular 80PLUS Gold ATX, | 267`
-- primepc p5 [POWER SUPPLY]: `Fully Modular | 197`
-- techdeals p1 [POWER SUPPLY SFX]: `Carbide 275R ATX Mid-Tower TG Case | 89`
-- techdeals p1 [CASING with PSU]: `Headway 608 mATX with 450W PSU | 49`
-- techdeals p1 [CASING with PSU]: `Headway M07 Slim mATX with PSU | 59`
-- techdeals p3 [POWER SUPPLY PSU]: `550W $ | 62.00`
-- techdeals p3 [POWER SUPPLY PSU]: `650W $ | 71.00`
-- … 3 more in unmatched.json
+- primepc p5 [POWER SUPPLY]: `ARCTIC P12 SLIM PWM PST. | $16`
+- primepc p5 [POWER SUPPLY]: `ARCTIC F9 PWM PST (Black) | $12`
+- primepc p5 [POWER SUPPLY]: `ARCTIC P14 PWM PST ARGB (Black / White) | $24`
+- primepc p5 [POWER SUPPLY]: `OFFER ARCTIC P12 PWM PST ARGB (Black White) | $21`
+- primepc p5 [POWER SUPPLY]: `SLIM PWM PST | $21`
+- primepc p5 [POWER SUPPLY]: `OFFER ARCTIC P12 Max PWM (Black White) | $18`
+- primepc p5 [POWER SUPPLY]: `OFFER ARCTIC P8 Max (Black) | $16`
+- … 20 more in unmatched.json
 
-### not recognised as cpu (26)
+### not recognised as motherboard (31)
 
-- bizgram p6 [CPU,]: `BNUC13BRKP200B00O | 559`
-- bizgram p6 [CPU,]: `Intel NUC | 13`
-- bizgram p6 [cpu,]: `BNUC13BRFA200B00O | 629`
-- bizgram p6 [cpu,]: `Intel NUC | 13`
-- bizgram p6 [cpu,]: `BNUC13BRFA400B00O | 729`
-- bizgram p6 [cpu,]: `ASUS NUC | 15`
-- fuwell p1 [AMD Ryzen 7000 & 9000 Series CPU]: `KingBank KRRB 6400Mhz CL32 (Blk/Wht ) NON-RGB | - | - | 2015`
-- fuwell p1 [AMD Ryzen 7000 & 9000 Series CPU]: `Geil Orion V RGB 6000MHz CL36 ( Grey ) | 785 | -`
-- fuwell p1 [AMD Ryzen 7000 & 9000 Series CPU]: `G.Skill Trident Z5 RGB 6000MHz CL36(Black/Silver) | 929 | -`
-- fuwell p1 [AMD Ryzen 7000 & 9000 Series CPU]: `G.Skill Trident Z5 RGB 6400MHz CL32(Black/Silver) | - | 1999`
-- fuwell p1 [AMD Ryzen 7000 & 9000 Series CPU]: `G.Skill Trident Z5 RGB 7200MHz CL34(Black/Silver) | 1039 | -`
-- fuwell p1 [AMD Ryzen 7000 & 9000 Series CPU]: `G.Skill Ripjaws S5 6000MHz CL36 | 909 | -`
-- fuwell p1 [AMD Ryzen 7000 & 9000 Series CPU]: `G.Skill Ripjaws S5 6000MHz CL32 | - | 1459`
-- fuwell p1 [AMD Ryzen 7000 & 9000 Series CPU]: `G.Skill Flare X5 AMD EXPO 6000MHz CL30 | 949 | -`
-- fuwell p1 [AMD Ryzen 7000 & 9000 Series CPU]: `G.Skill Trident Z5 NEO RGB 6000MHz CL30 | - | 2025`
-- techdeals p2 [Upgrade to Intel i7-14700 Cpu]: `ASUS NUC 14 ESSENTIAL N97 INTEL GRAPHICS BAREBONE | $249`
-- techdeals p2 [Upgrade to Intel i7-14700 Cpu]: `ASUS NUC 15 PRO TALL C7-240H INTEL GRAPHICS DDR5 8G 512GB WIN 11 PRO | $1,199`
-- techdeals p2 [Upgrade to Intel i7-14700 Cpu]: `ASUS NUC 15 PRO C3-100U INTEL GRAPHICS Wi-Fi 7 BAREBONE | $519`
-- techdeals p2 [Upgrade to Intel i7-14700 Cpu]: `ASUS NUC 15 PRO C5-210H INTEL GRAPHICS Wi-Fi 7 BAREBONE | $629`
-- techdeals p2 [Upgrade to Intel i7-14700 Cpu]: `ASUS NUC 15 PRO C7-240H INTEL GRAPHICS Wi-Fi 7 BAREBONE | $709`
-- techdeals p2 [Upgrade to Intel i7-14700 Cpu]: `ASUS NUC 15 PRO SLIM U5-225H INTEL ARC GPU Wi-Fi 7 BAREBONE | $629`
-- techdeals p2 [Upgrade to Intel i7-14700 Cpu]: `ASUS NUC 15 PRO SLIM U7-255H INTEL ARC GPU Wi-Fi 7 BAREBONE | $749`
-- techdeals p2 [Upgrade to Intel i7-14700 Cpu]: `ASUS NUC 15 Lite U300 INTEL GRAPHICS DDR5 8G 512GB WIN 11 PRO | $899`
-- techdeals p2 [Upgrade to Intel i7-14700 Cpu]: `ASUS NUC 15 PRO U5-225H INTEL ARC DDR5 16G (8*2) 512GB WIN 11 PRO | $1,499`
-- techdeals p2 [Upgrade to Intel i7-14700 Cpu]: `ROG NUC U9-290HX RTX5080 DDR5 32G (16x2) 1TB Win 11 Home | $1,799`
-- techdeals p2 [Upgrade to Intel i7-14700 Cpu]: `ROG NUC U9-290HX RTX5070Ti DDR5 32G (16x2) 1TB Win 11 Home | $1,999`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Biostar TB360-BTC Pro 9Gen Motherboard | 336`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Biostar TZ590-BTC Pro 10Gen Motherboard | 366`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Afox H81 Motherboard 4 Gen/Asus H81M-k | 162`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Asrock z87/ Z270M | 255`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte H310M-DS2 8th and 9th Gen | 159`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte H410M | 159`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte H510M | 169`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Asrock Z490M Pro 4 10th Gen | 329`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Intel H61 OEM Motherboard 3rd Gen | 109`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte H81M-DS2 LGA1150 4th gen | 162`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Asus H81M-K 4th Gen Motherboard | 169`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte B460M Gaming HD 10th/11th | 219`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte B560 Aorus Pro AX 10th/11th | 259`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Gigabyte H510M H / H410M H 10th/11th | 165`
+- bizgram p8 [Intel Motherboard / AMD Motherboard]: `Asus Prime H410M-A 10th/11th | 159`
+- bizgram p10 [Motherboard]: `G6400 10105F | 10105`
+- bizgram p10 [Motherboard]: `11600K 10100F 11700K 10700K 11900K | 10100`
+- dynacore p1 [INTEL ULTRA 15th Gen Latest MOTHERBOARD ]: `SPARKLE INTEL ARC PRO B60 BLOWER 24GB GDD6 3Y | 1088`
+- dynacore p1 [INTEL ULTRA 15th Gen Latest MOTHERBOARD ]: `SPARKLE STUDIO-G eGPU 850W/1 USB-C/3 USB-A/1 2.5G LAN/2 TB-5 1Y | 599`
+- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `Nvidia Quadro A1000 8GB GDDR6 | 1009`
+- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `Leadtek Nvidia RTX Pro 2000 BlackWell LP 16GB GDDR7 | 2959`
+- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `Leadtek Nvidia RTX Pro 4000 BlackWell Gen/SFF 24Gb GDDR7 | 5249`
+- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `Leadtek Nvidia RTX Pro 4500 BlackWell Gen 32Gb GDDR7 | 8259`
+- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `Leadtek Nvidia RTX Pro 5000 BlackWell Gen 48Gb GDDR7 | 14129`
+- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `Leadtek Nvidia RTX Pro 5000 BlackWell Gen 72Gb GDDR7 | 19699`
+- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `Nvidia RTX Pro 6000 BlackWell WorkStation 96Gb GDDR7 | 28549`
+- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `NVIDIA DGX SPARK AI SUPERCOMPUTER 4TB(940-54242-0007-000) | 8709`
+- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `NVIDIA JETSON AGX THOR 128GB DEVELOPER KIT(945-14070-0080-000) | 8429`
+- dynacore p1 [MOTHERBOARD & CPU FULL PC BUNDLE**]: `NVIDIA JETSON AGX ORIN 64GB DEVELOPER KIT | 5439`
+- primepc p1 [‘CPU MOBO & BUNDLE INTEL]: `WHITE | 1127`
+- primepc p1 [‘CPU MOBO & BUNDLE INTEL]: `EDGE TI WIFI | 546`
 
-### not recognised as mouse (21)
+### not recognised as keyboard (30)
+
+- dynacore p3 [MOUSE AND KEYBOARD]: `Asus Rog Scabbard II Gaming Mousemat Medium | 34`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Asus Tuf Gaming P3 Gaming Mousemat | 25`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Asus Tuf Gaming P1 Poratable 260 X 360mm Gaming Mouse Pad | 10`
+- dynacore p3 [MOUSE AND KEYBOARD]: `CM MP750-L Argb Mouse Pad | 50`
+- dynacore p3 [MOUSE AND KEYBOARD]: `ASUS ROG SCABBARD CORDURA-FABRIC GAMOING MOUSE PAD | 45`
+- dynacore p3 [MOUSE AND KEYBOARD]: `ASUS ROG SHEATH GAMING MOUSEMAT /PNK LTD NCO1 /NC07 | 53`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Asus ROG Strix Slice Gaming Mouse PAD | 30`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Galax Stealth STL-03 Mech Keyboad Blue Switch | 31`
+- dynacore p3 [MOUSE AND KEYBOARD]: `LOGITECH PICO WIRELESS UNIFYING USB RECEIVER | 11`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Garethan GE-KM900 Wireless Kb & Mouse Combo | 19`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Keychron K8B1 Rgb Blue/Brown/Red Switch Kb | 118`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Asus Gundam NC09 Gaming Mouse Mat | 36`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Logitech Cloth Gaming Mouse Pad | 25`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Logitech Hard Gaming Mouse Pad G4 | 34`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Logitech G Powerplay Wireless Charging Mouse Pad | 149`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Tecware Haste XXL Mouse Pad | 19`
+- dynacore p3 [MOUSE AND KEYBOARD]: `RAZER GOLIATHUS CHROMA SOFTGAMING MOUSE MAT(1YR) | 41`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Razer Goliathus Speed Terra Medium mouse pad | 31`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Razer Sphex V3 Hard Mouse Mat | 39`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Razer Goliathus Control Gravity Small mouse pad | 24`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Razer Goliathus Mobile mouse pad | 14`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Logitech Touch BL KB Case W Trackpad for iPad Air 4th Gen | 200`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Logitech Combo 12.9"5TH GEN IPAD PRO Touch KB CASE | 228`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Logitech Combo Touch for IPAD Pro 11-INCH KB CASE | 200`
+- dynacore p3 [MOUSE AND KEYBOARD]: `Logitech Spotlight W/L Presenter | 94`
+- laser p2 [KEYBOARD]: `A4Tech FBK25 Wireless & Bluetooth | 29`
+- laser p2 [KEYBOARD]: `A4TECH FG1112 Wireless KB+MSE | 28`
+- laser p2 [KEYBOARD]: `A4 Tech FK 11 | 16`
+- laser p2 [60% Mechanical gaming Keyboard]: `Tecware Phantom L-Outemu Blue LP Switch | 30`
+- laser p2 [60% Mechanical gaming Keyboard]: `Benq WIT Desk Lamp | 270`
+
+### not recognised as mouse (22)
 
 - bizgram p2 [Mouse]: `ASUS NUC | 15`
 - bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (Black]: `BHR8850GL | 17`
+- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `BHR8849GL | 17`
 - bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Active Purple BHR8971GB | 65`
 - bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `BHR7925UK | 70`
 - bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Pro Rose Gold BHR08SUGB | 150`
-- dynacore p3 [Asus Rog Gladius III Wired Gaming Mouse ]: `Asus Rog Scabbard II Gaming Mousemat Medium | 34`
-- dynacore p3 [Asus Rog Gladius III Wired Gaming Mouse ]: `Asus Tuf Gaming P3 Gaming Mousemat | 25`
-- dynacore p3 [Asus Rog Gladius III Wired Gaming Mouse ]: `Asus Tuf Gaming P1 Poratable 260 X 360mm Gaming Mouse Pad | 10`
-- dynacore p3 [Asus Rog Gladius III Wired Gaming Mouse ]: `CM MP750-L Argb Mouse Pad | 50`
-- dynacore p3 [Asus Rog Gladius III Wired Gaming Mouse ]: `ASUS ROG SCABBARD CORDURA-FABRIC GAMOING MOUSE PAD | 45`
-- dynacore p3 [Asus Rog Gladius III Wired Gaming Mouse ]: `ASUS ROG SHEATH GAMING MOUSEMAT /PNK LTD NCO1 /NC07 | 53`
-- dynacore p3 [Asus Rog Gladius III Wired Gaming Mouse ]: `Asus ROG Strix Slice Gaming Mouse PAD | 30`
-- dynacore p3 [Asus Rog Gladius III Wired Gaming Mouse ]: `Galax Stealth STL-03 Mech Keyboad Blue Switch | 31`
-- dynacore p3 [Logitech MX Anywhere 3S Wireless Mouse 8]: `LOGITECH PICO WIRELESS UNIFYING USB RECEIVER | 11`
-- dynacore p3 [Logitech MX Anywhere 3S Wireless Mouse 8]: `Garethan GE-KM900 Wireless Kb & Mouse Combo | 19`
-- dynacore p3 [Logitech MX Anywhere 3S Wireless Mouse 8]: `Keychron K8B1 Rgb Blue/Brown/Red Switch Kb | 118`
+- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Xiaomi Electric Kettle 2 UK BHR5928HK | 42`
+- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Xiaomi Smart Kettle 2 Pro GB BHR9001GB | 80`
+- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Xiaomi Smart Humidifier 2 EU BHR6026EU | 80`
+- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Xiaomi Humidifier 2 Lite EU BHR6605EU | 60`
+- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Xiaomi Smart Air Purifier | 4`
+- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Xiaomi Smart Air Purifier 4 Lite BHR5274GL | 199`
+- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Xiaomi Smart Air Purifier 4 Pro BHR5056EU | 369`
+- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Mijia Smart Air Purifier Max EU BHR08XEEU | 599`
+- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Mijia Smart Air Purifier 6 EU BHR08MZEU | 269`
+- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Xiaomi Electric Shaver | S200`
+- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Xiaomi Electric Shaver | S200`
 - laser p2 [MOUSE]: `A4Tech FB12 Wireless & Bluetooth Mouse | 18`
 - laser p2 [MOUSE]: `EVGA X12 GAMING MOUSE White | 19`
 - laser p2 [MOUSE]: `Logitech USB Wired Mouse | 10`
@@ -722,21 +629,21 @@ Generated 2026-11-12T16:47:22.516Z
 - primepc p0 [bundle table]: `84008`
 - techdeals p0 [bundle table]: `5500X3D`
 
-### price N outside the plausible range for case (13)
+### not recognised as headset (13)
 
-- pcthemes p3: `COOLER MASTER NR200P TG [BLACK] CASE | 17`
-- pcthemes p3 [ZALMAN D5 ATX CASING]: `VEDCTANE | 04`
-- primepc p3 [350 m-ATX CASE WITH T.G BLACK 4 FANS]: `LIAN LI LANCOOL 207 Black | 5`
-- techdeals p1 [CASING ATX, E-ATX]: `Vios 500W OEM | 22`
-- techdeals p1 [CASING Micro-ATX]: `ID-Cooling NO9215 XT SLIM PWM 92x15mm | 8`
-- techdeals p1 [CASING Micro-ATX]: `ID-Cooling NO9215 XT SLIM PWM ARGB 92x15mm | 11`
-- techdeals p1 [CASING Micro-ATX]: `ID-Cooling NO9225 XT PWM ARGB 92x25mm | 11`
-- techdeals p1 [CASING Micro-ATX]: `ID-Cooling ZF-12025 ARGB PWM | PROMO | 17`
-- techdeals p1 [CASING Micro-ATX]: `ID-Cooling TF-12025 ARGB [ Snow $16 ] | 14`
-- techdeals p1 [CASING Micro-ATX]: `Tecware Lumi Link ARGB 3xFans Pack (Black) | 22`
-- techdeals p1 [CASING Mini-ITX]: `SCYTHE KazeFlex 120 PWM Fan White Ed. | 16`
-- techdeals p1 [CASING Mini-ITX]: `SCYTHE WONDER TORNADO 120 SLIM PWM 2000 RPM | 17`
-- techdeals p1 [CASING Mini-ITX]: `SCYTHE WONDER TORNADO 120 PWM 2500 RPM | 17`
+- dynacore p3 [HEADSET]: `Razer Kiyo HD Webcam | 152`
+- dynacore p3 [HEADSET]: `Plantronics Voyager Legend Bluetooth Headset | 80`
+- dynacore p3 [HEADSET]: `AVerMedia SonicWave 7.1 GH337 | 131`
+- dynacore p3 [HEADSET]: `MS Office 365 Personal 1User/1Yr | 135`
+- dynacore p3 [HEADSET]: `INTEL RNUC12WSHi70000 NUC 12 PRO KIT(i7-1260P/DDR4/IRIS Xe) RNUC12WSi70000 | 779`
+- dynacore p3 [HEADSET]: `Plantronics Voyager Legend Bluetooth Headset | 80`
+- dynacore p3 [HEADSET]: `AVerMedia SonicWave GH335 | 90`
+- dynacore p3 [HEADSET]: `AVerMedia SonicWave 7.1 GH337 | 131`
+- dynacore p3 [HEADSET]: `MEG 34" 342C QD-OLED 3440x1440 (UWQHD) 175Htz Monitor | 2151`
+- laser p2 [HEADSET With Mic]: `Jabra Evlv 20 Stereo UC Hd Audio | 55`
+- laser p2 [HEADSET With Mic]: `Jabra Evolve 20 SE Stereo | 55`
+- laser p2 [HEADSET With Mic]: `Jabra Evolve 30 II UC Stereo 5399829 | 85`
+- laser p2 [HEADSET With Mic]: `Jabra Evolve2 75 Wireless Headset | 289`
 
 ### OCR price disagrees with other shops' printed prices (median N) (13)
 
@@ -748,26 +655,26 @@ Generated 2026-11-12T16:47:22.516Z
 - primepc p5 [psu]: `ASUS PRIME 850W GOLD F-MOD PSU ATX3 (8Y) « = 225`
 - primepc p5 [psu]: `ASUS PRIME 750W GOLD F-MOD PSU ATX3 (8Y) « = 208`
 - primepc p3 [gpu]: `GIGABYTE GV R9070XTAORUS E-16GD. = 1248`
+- pcthemes p2 [gpu]: `POWER COLOR RX 9060 XT HELLHOUND 8GB OC [BLACK] = 489`
+- pcthemes p4 [case]: `Y70 = 412`
 - pcthemes p4 [case]: `DEEPCOOL CG380 3F = 87`
 - tradepac p6 [cooler]: `ASUS PRIME LC 360 ARGB LIQUID COOLER = 133`
-- tradepac p5 [keyboard]: `K270 KEYBOARD = 24`
 - pcthemes p4 [case]: `DEEPCOOL CH270 DIGITAL [BLACK] CASE = 411`
-- tradepac p5 [mouse]: `MX MASTER 3S WIRELESS MOUSE = 118`
 
-### not recognised as headset (12)
+### price N outside the plausible range for case (12)
 
-- dynacore p3 [HEADSET]: `Razer Kiyo HD Webcam | 152`
-- dynacore p3 [HEADSET]: `Plantronics Voyager Legend Bluetooth Headset | 80`
-- dynacore p3 [HEADSET]: `AVerMedia SonicWave 7.1 GH337 | 131`
-- dynacore p3 [HEADSET]: `MS Office 365 Personal 1User/1Yr | 135`
-- dynacore p3 [HEADSET]: `Plantronics Voyager Legend Bluetooth Headset | 80`
-- dynacore p3 [HEADSET]: `AVerMedia SonicWave GH335 | 90`
-- dynacore p3 [HEADSET]: `AVerMedia SonicWave 7.1 GH337 | 131`
-- dynacore p3 [HEADSET]: `MEG 34" 342C QD-OLED 3440x1440 (UWQHD) 175Htz Monitor | 2151`
-- laser p2 [HEADSET With Mic]: `Jabra Evlv 20 Stereo UC Hd Audio | 55`
-- laser p2 [HEADSET With Mic]: `Jabra Evolve 20 SE Stereo | 55`
-- laser p2 [HEADSET With Mic]: `Jabra Evolve 30 II UC Stereo 5399829 | 85`
-- laser p2 [HEADSET With Mic]: `Jabra Evolve2 75 Wireless Headset | 289`
+- pcthemes p3: `COOLER MASTER NR200P TG [BLACK] CASE | 17`
+- pcthemes p3 [ZALMAN D5 ATX CASING]: `VEDCTANE | 04`
+- techdeals p1 [CASING ATX, E-ATX]: `Vios 500W OEM | 22`
+- techdeals p1 [CASING Micro-ATX]: `ID-Cooling NO9215 XT SLIM PWM 92x15mm | 8`
+- techdeals p1 [CASING Micro-ATX]: `ID-Cooling NO9215 XT SLIM PWM ARGB 92x15mm | 11`
+- techdeals p1 [CASING Micro-ATX]: `ID-Cooling NO9225 XT PWM ARGB 92x25mm | 11`
+- techdeals p1 [CASING Micro-ATX]: `ID-Cooling ZF-12025 ARGB PWM | PROMO | 17`
+- techdeals p1 [CASING Micro-ATX]: `ID-Cooling TF-12025 ARGB [ Snow $16 ] | 14`
+- techdeals p1 [CASING Micro-ATX]: `Tecware Lumi Link ARGB 3xFans Pack (Black) | 22`
+- techdeals p1 [CASING Mini-ITX]: `SCYTHE KazeFlex 120 PWM Fan White Ed. | 16`
+- techdeals p1 [CASING Mini-ITX]: `SCYTHE WONDER TORNADO 120 SLIM PWM 2000 RPM | 17`
+- techdeals p1 [CASING Mini-ITX]: `SCYTHE WONDER TORNADO 120 PWM 2500 RPM | 17`
 
 ### prices not under a capacity column (9)
 
@@ -781,6 +688,35 @@ Generated 2026-11-12T16:47:22.516Z
 - techdeals p4: `1TB $ | 368.00`
 - techdeals p4: `1TB $ | 239.00`
 
+### not recognised as os (8)
+
+- fuwell p1 [MICROSOFT WINDOWS / MICROSOFT OFFICE]: `MS Office Home 2024 | 249`
+- fuwell p1 [MICROSOFT WINDOWS / MICROSOFT OFFICE]: `MS Office Home & Business 2024 | 369`
+- infinity p1 [Microsoft Software]: `MS Office Home & Student 2021 | 219`
+- infinity p1 [Microsoft Software]: `MS Office Home & Business 2021 | 289`
+- infinity p1 [Microsoft Software]: `MS Office Home & Business 2024 | 369`
+- infinity p1 [Microsoft Software]: `MS Windows Server STD 2019 | 1,239`
+- infinity p1 [Microsoft Software]: `MS Windows CAL 2016 DSP OEI 5CLT Licence | 299`
+- tradepac p8 [WINDOWS 11 HOME]: `ADD WIFI CARD | $45`
+
+### not recognised as cpu (6)
+
+- bizgram p6 [CPU,]: `BNUC13BRKP200B00O | 559`
+- bizgram p6 [CPU,]: `Intel NUC | 13`
+- bizgram p6 [cpu,]: `BNUC13BRFA200B00O | 629`
+- bizgram p6 [cpu,]: `Intel NUC | 13`
+- bizgram p6 [cpu,]: `BNUC13BRFA400B00O | 729`
+- bizgram p6 [cpu,]: `ASUS NUC | 15`
+
+### price is implausibly low for its kind (psu) (6)
+
+- bizgram p3 [psu]: `Deepcool Gamerstorm PF600X 600W Silver = 48`
+- bizgram p3 [psu]: `Deepcool Gamerstorm PF700X 700W Silver = 57`
+- dynacore p2 [psu]: `DarkFlash EMT 650W 80+ Bronze ATX Power Supply(5yrs) = 55`
+- tradepac p3 [psu]: `DARKFLASH EMT 650W ATX3.1 80+ BRONZE = 53`
+- laser p1 [psu]: `DEEPCOOL PF700X 700watts = 62`
+- techdeals p1 [psu]: `iCute 500W Switching PSU = 35`
+
 ### price N outside the plausible range for gpu (2)
 
 - bizgram p4 [System / VGA Stuff / Accessories / Fans]: `for LGA1851 & RTX 5090 | 35`
@@ -791,24 +727,23 @@ Generated 2026-11-12T16:47:22.516Z
 - bizgram p4 [PRITTEC MINI PC]: `NVME SSD , Windows 11 Home | 739`
 - bizgram p4 [PRITTEC MINI PC]: `NVME SSD , Windows 11 Home | 839`
 
-### price N outside the plausible range for mouse (2)
-
-- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `Xiaomi Smart Air Purifier | 4`
-- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `QMP4599SG | 699`
-
-### price N outside the plausible range for keyboard (2)
-
-- laser p2 [60% Mechanical gaming Keyboard]: `BENQ RD320U | 1019`
-- laser p2 [60% Mechanical gaming Keyboard]: `BENQ 270S | 27” | 1459`
-
 ### price N outside the plausible range for psu (2)
 
 - primepc p6: `DARKFLASH EMT 650W ATX3.1 80+ BRONZE | $4`
 - primepc p6: `‘Thermalright ABFX SFX 80+ Bronze 500W | 8`
 
+### price is implausibly low for its kind (case) (2)
+
+- dynacore p2 [case]: `TR Assassin X 120 R SE Black Heatsink Cooler = 25`
+- techdeals p1 [case]: `SCYTHE GRAND TORNADO 120 PWM 3000 RPM = 26`
+
 ### capacity table row that is not memory or storage (1)
 
 - bizgram p1 [HDD IDE Desktop harddisk (500G $258)]: `SPARKLE Intel Arc™ B570 GUARDIAN | 467`
+
+### price N outside the plausible range for mouse (1)
+
+- bizgram p9 [Xiaomi Dual-mode Wireless Mouse 2 (White]: `QMP4599SG | 699`
 
 ### motherboard name not understood (1)
 
@@ -818,6 +753,10 @@ Generated 2026-11-12T16:47:22.516Z
 
 - techdeals p1 [CASING Micro-ATX]: `Thermalright TL-M12-S ARGB Fan Black/White | 9.9`
 
-### price N outside the plausible range for monitor (1)
+### price is far from other GeForce RTX N cards (median N) (1)
 
-- techdeals p2 [COMPUTER MONITOR]: `15531 Revodok Pro 107 USB-C Hub 7 in 1 10Gbps USB C 3.2 & 2 USB-A 3.2 4K 30Hz HDMI, 100W Power Delivery, SD/TF Card Reader | 49`
+- pcthemes p2 [gpu]: `ZOTAC GAMING RTX 5070 TWIN EDGE OC 12GB = 4219`
+
+### price is implausibly low for its kind (cooler aio N) (1)
+
+- pcthemes p1 [cooler]: `ASUS RYUJIN IIl 360MM ARGB EXTREME AIO COOLER [BLACK] = 24`

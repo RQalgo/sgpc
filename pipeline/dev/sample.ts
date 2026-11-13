@@ -5,7 +5,7 @@ import { cpuId } from '../lib/cpus.ts';
 import { brandHeading, isHeadingText, sectionCategory } from '../lib/normalise.ts';
 const [shop, kind, pattern, limit] = process.argv.slice(2);
 const pages = await readPdf(join(import.meta.dirname, '..', '..', 'data', 'raw', `${shop}.pdf`));
-const r = readPages(pages, { cpuId, isSection: (t) => sectionCategory(t) !== null && isHeadingText(t), brandHeading, columnFlow: shop === 'bizgram' });
+const r = readPages(pages, { cpuId, isSection: (t) => { const c = sectionCategory(t); return c !== null && isHeadingText(t, c === 'exclude' ? 4 : 1); }, brandHeading, columnFlow: shop === 'bizgram' });
 const re = pattern ? new RegExp(pattern, 'i') : null;
 let n = 0;
 const short = (c: string) => c.replace(/^(amd-ryzen-\d-|intel-core-(ultra-\d-|i\d-))/, '');

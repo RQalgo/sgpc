@@ -5,7 +5,7 @@ import { cpuId } from '../lib/cpus.ts';
 import { brandHeading, isHeadingText, sectionCategory } from '../lib/normalise.ts';
 const shop = process.argv[2];
 const pages = await readPdf(join(import.meta.dirname, '..', '..', 'data', 'raw', `${shop}.pdf`));
-const r = readPages(pages, { cpuId, isSection: (t) => sectionCategory(t) !== null && isHeadingText(t), brandHeading, columnFlow: shop === 'bizgram' });
+const r = readPages(pages, { cpuId, isSection: (t) => { const c = sectionCategory(t); return c !== null && isHeadingText(t, c === 'exclude' ? 4 : 1); }, brandHeading, columnFlow: shop === 'bizgram' });
 const kinds: Record<string, number> = {};
 for (const row of r.rows) kinds[row.kind] = (kinds[row.kind] ?? 0) + 1;
 console.log(shop, kinds, 'skipped', r.skipped.length, 'unknownCpu', r.unknownCpuColumns.join(','));

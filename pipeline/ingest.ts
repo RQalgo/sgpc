@@ -108,7 +108,7 @@ for (const shop of SHOPS) {
   if (!existsSync(pdf) || !meta) continue;
   const pages = await readPdf(pdf);
   const ocr = pages.some((p) => p.ocr);
-  const result = readPages(pages, { cpuId, isSection: (t) => sectionCategory(t) !== null && isHeadingText(t), brandHeading, columnFlow: shop.columnFlow });
+  const result = readPages(pages, { cpuId, isSection: (t) => { const c = sectionCategory(t); return c !== null && isHeadingText(t, c === 'exclude' ? 4 : 1); }, brandHeading, columnFlow: shop.columnFlow });
   const cov = { rows: result.rows.length, offers: 0, bundles: 0, skipped: result.skipped.length, uncategorised: 0, ocr };
   const cells = new Map<string, number>(); // "mbKey\tcpuKey" -> price
   const note = (row: RawRow, reason: string) =>
@@ -243,6 +243,48 @@ for (const b of products.values()) {
     }
   }
 }
+// Graphics cards of one chip sell within a band; a price far outside it is a misread line.
+const byChipPrices = new Map<string, number[]>();
+for (const b of products.values()) {
+  if (b.parsed.category !== 'gpu' || !b.parsed.specs.chip) continue;
+  for (const o of b.offers.values()) byChipPrices.set(b.parsed.specs.chip, [...(byChipPrices.get(b.parsed.specs.chip) ?? []), o.price]);
+}
+for (const b of products.values()) {
+  const list = b.parsed.category === 'gpu' && b.parsed.specs.chip ? byChipPrices.get(b.parsed.specs.chip) : undefined;
+  if (!list || list.length < 4) continue;
+  const sorted = [...list].sort((x, y) => x - y);
+  const median = sorted[Math.floor(sorted.length / 2)];
+  for (const [shop, o] of [...b.offers]) {
+    if (o.price < median * 0.55 || o.price > median * 2.6) drop(b, shop, o, `price is far from other ${b.parsed.specs.chipName} cards (median ${median})`);
+  }
+}
+// Too cheap to be true: compare each offer's unit price with the week's median for its kind
+// (dollars per GB, per watt, …). OCR in particular drops leading digits.
+const unit = (p: Parsed, price: number): { group: string; value: number } | null => {
+  const s = p.specs;
+  switch (p.category) {
+    case 'ram': return s.capacityGb ? { group: `ram ${s.ddr}`, value: price / s.capacityGb } : null;
+    case 'storage': return s.capacityGb ? { group: `storage ${s.kind} ${s.capacityGb >= 4000 ? 'large' : 'small'}`, value: price / s.capacityGb } : null;
+    case 'psu': return s.wattage ? { group: 'psu', value: price / s.wattage } : null;
+    case 'cooler': return { group: `cooler ${s.kind} ${s.kind === 'aio' ? ((s.radiator ?? 240) >= 360 ? '360' : '240') : ''}`, value: price };
+    case 'monitor': return s.resolution ? { group: `monitor ${s.resolution}`, value: price } : null;
+    case 'case': return { group: 'case', value: price };
+    default: return null;
+  }
+};
+const unitValues = new Map<string, number[]>();
+for (const b of products.values()) for (const o of b.offers.values()) {
+  const u = unit(b.parsed, o.price);
+  if (u) unitValues.set(u.group, [...(unitValues.get(u.group) ?? []), u.value]);
+}
+const unitMedian = new Map([...unitValues].map(([g, v]) => [g, v.sort((x, y) => x - y)[Math.floor(v.length / 2)]]));
+for (const b of products.values()) for (const [shop, o] of [...b.offers]) {
+  const u = unit(b.parsed, o.price);
+  const median = u ? unitMedian.get(u.group) : undefined;
+  if (!u || !median || (unitValues.get(u.group)?.length ?? 0) < 8) continue;
+  const floor = b.parsed.category === 'cooler' ? (b.parsed.specs.kind === 'aio' ? 0.2 : 0.25) : b.parsed.category === 'case' ? 0.25 : b.parsed.category === 'monitor' ? 0.3 : 0.4;
+  if (u.value < median * floor) drop(b, shop, o, `price is implausibly low for its kind (${u.group})`);
+}
 for (const s of shopInfos) s.offers -= dropped[s.id] ?? 0;
 for (const [id, n] of Object.entries(dropped)) coverage[id].offers -= n;
 
@@ -260,6 +302,9 @@ for (const [mapKey, b] of products) {
 const inBundle = new Set<string>();
 for (const sb of bundles) [...sb.motherboards, ...sb.cpus].forEach((k) => inBundle.add(k));
 
+const photosPath = join(root, 'reference', 'photos.json');
+const photos: Record<string, { image?: string; page?: string; credit?: string; license?: string }> = existsSync(photosPath) ? JSON.parse(readFileSync(photosPath, 'utf8')) : {};
+
 const outProducts: Product[] = [];
 for (const [mapKey, b] of products) {
   if (b.offers.size === 0 && !inBundle.has(mapKey)) continue;
@@ -275,6 +320,14 @@ for (const [mapKey, b] of products) {
     inferred: b.parsed.inferred,
     offers: [...b.offers.values()].sort((x, y) => x.price - y.price),
   });
+  // CPUs have a photo of the exact model; graphics cards share one photo per chip.
+  const photo = photos[b.parsed.category === 'cpu' ? b.parsed.key : (b.parsed.specs.chip ?? '')];
+  if (photo?.image && (b.parsed.category === 'cpu' || b.parsed.category === 'gpu')) {
+    const p = outProducts.at(-1)!;
+    p.image = photo.image;
+    p.url = photo.page;
+    p.imageCredit = `${photo.credit}, ${photo.license}`;
+  }
 }
 outProducts.sort((a, b) => a.category.localeCompare(b.category) || a.name.localeCompare(b.name));
 

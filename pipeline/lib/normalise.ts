@@ -176,19 +176,37 @@ const HEADING_WORDS = /\b(cases?|chassis|casings?|graphics?|cards?|vga|power|sup
  * Is a price-less line a heading ("ASUS Graphic Cards (3 Years)") rather than a
  * product whose price is missing ("KLEVV CRAS V RGB DDR5 6000")?
  */
-export function isHeadingText(text: string): boolean {
+export function isHeadingText(text: string, maxOtherWords = 1): boolean {
   let t = text.replace(/\(.*?\)/g, ' ');
+  // A model or speed number ("6000", "RM850x") marks a product, not a heading.
+  if (/\d{3,}/.test(t.replace(/\b\d+\s?(gb|tb|g|t|mm|w)\b/gi, ' '))) return false;
   for (const [, re] of BRANDS) t = t.replace(new RegExp(re.source, 'gi'), ' ');
   t = t.replace(HEADING_WORDS, ' ').replace(/[^a-z]+/gi, ' ').trim();
-  return t.split(/\s+/).filter((w) => w.length > 1).length <= 2;
+  return t.split(/\s+/).filter(Boolean).length <= maxOtherWords;
 }
 
+/** Spellings of a maker's own name to drop from a product name (sub-brands such as ROG or XPG stay). */
+const OWN_NAME: Record<string, RegExp> = {
+  PowerColor: /\bpower ?color\b/gi,
+  'ID-Cooling': /\bid[- ]?coo+ling\b/gi,
+  'Cooler Master': /\bcooler ?master\b|\bcm\b/gi,
+  Thermalright: /\bthermalright\b|^tr\b/gi,
+  Thermaltake: /\bthermaltake\b|^tt\b/gi,
+  'Fractal Design': /\bfractal( design)?\b|^fd\b/gi,
+  'be quiet!': /\bbe ?quiet!?/gi,
+  TeamGroup: /\bteam ?group\b|^team\b/gi,
+  'Lian Li': /\blian[- ]?li\b/gi,
+  'Western Digital': /\bwestern digital\b/gi,
+  'G.Skill': /\bg\.? ?skill\b/gi,
+  'SK Hynix': /\b(sk ?)?hynix\b/gi,
+  'Super Flower': /\bsuper ?flower\b/gi,
+  '1stPlayer': /\b1st ?player\b/gi,
+  Microsoft: /\bmicrosoft\b|^ms\b/gi,
+};
+
 const stripBrand = (text: string, brand: string) => {
-  const re = BRANDS.find(([b]) => b === brand)?.[1];
-  if (!re) return text;
-  // Remove only the manufacturer word itself, not sub-brands that are part of the model (ROG, TUF, XPG …).
-  const literal = new RegExp(`\\b${brand.replace(/[.+!]/g, '\\$&')}\\b`, 'i');
-  return text.replace(literal, ' ');
+  const literal = OWN_NAME[brand] ?? new RegExp(`\\b${brand.replace(/[.+!]/g, '\\$&')}\\b`, 'gi');
+  return text.replace(literal, ' ').replace(/\s+/g, ' ').trim();
 };
 
 // ---------------------------------------------------------------- helpers
@@ -246,7 +264,7 @@ const keyTokens = (text: string, drop: RegExp) =>
 
 // ---------------------------------------------------------------- categories
 
-const EXCLUDE_ALWAYS = /\b(laptop|notebook|nuc|mini ?pc|all[- ]in[- ]one|aio pc|desktop computer|workstation|server|barebone|tablet|ipad|macbook|printer|toner|ink|projector|ups|router|switch|access point|mesh|adapter|adaptor|dongle|cable|converter|splitter|extender|webcam|ip ?cam|cctv|speaker|microphone|chair|desk|mousepad|mouse ?pad|mouse ?mat|wrist|bag|sleeve|cleaner|license key|antivirus|office 20|office home|ms office)\b/i;
+const EXCLUDE_ALWAYS = /\b(laptop|notebook|nuc|mini ?pc|all[- ]in[- ]one|aio pc|desktop computer|workstation|server|barebone|tablet|ipad|macbook|printer|toner|ink|projector|ups|router|switch|access point|mesh|adapter|adaptor|dongle|cable|converter|splitter|extender|webcam|ip ?cam|cctv|speaker|microphone|chair|desk|mousepad|mouse ?pad|mouse ?mat|wrist|bag|sleeve|cleaner|license key|antivirus|office 20|office home|ms office|shaver|toothbrush|vacuum|kettle|purifier|humidifier|scooter|drone|smart ?watch|power ?bank|earphones? case|tv box|set-?top)\b/i;
 
 export function sectionCategory(section: string): Category | 'exclude' | null {
   const s = section.toLowerCase().replace(/\bddr\s+(?=[345]\b)/g, 'ddr');
@@ -351,7 +369,7 @@ export function parseMotherboard(label: string, ctx: Context): Parsed | null {
   let formFactor: FormFactor = 'ATX';
   if (/\bE-?ATX\b/.test(upper)) formFactor = 'E-ATX';
   else if (after === 'I' || /\bM?-?ITX\b|-I\b|\bITX\b/.test(upper) || /\d-I\s/.test(upper + ' ') || (ctx.tags ?? []).some((t) => /itx/i.test(t))) formFactor = 'ITX';
-  else if (after === 'M' || /\bM-?ATX\b|MATX|MICRO|MORTAR|\bDS3H\b/.test(upper) || /\d{3}E?M[- ]/.test(upper)) formFactor = 'mATX';
+  else if (after === 'M' || /\bM-?ATX\b|MATX|MICRO|MORTAR|\bDS3H\b/.test(upper) || /\d{3}E?A?M[- ]/.test(upper)) formFactor = 'mATX';
   const inferred: string[] = ['formFactor', 'ramSlots', 'm2Slots'];
   let ddr: 'DDR4' | 'DDR5' = 'DDR5';
   if (chipset.socket === 'AM4') ddr = 'DDR4';

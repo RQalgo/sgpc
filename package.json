@@ -10,6 +10,7 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "fetch": "node pipeline/fetch.mjs",
+    "photos": "node pipeline/enrich.mjs",
     "ingest": "tsx pipeline/ingest.ts"
   },
   "dependencies": {

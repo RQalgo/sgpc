@@ -86,7 +86,7 @@ const PLACEHOLDER = /^(-+|–|ask|call|n\/?a|na|tba|tbc|promo|offer|#ref!|#n\/a|
 const PRICE = /^s?\$?\d{1,3}(,\d{3})+(\.\d{1,2})?\*{0,2}$|^s?\$?\d+(\.\d{1,2})?\*{0,2}$/i;
 const CAPACITY = /^\(?\d+(\.\d+)?\s?(gb|tb|g|t|mb)\)?\*?$/i;
 const BARE_SIZES = new Set(['120', '128', '240', '250', '256', '480', '500', '512', '960', '1000']);
-const DOTS_PRICE = /^(.*?)[\s.]*\.{2,}\s*\$?([\d,]+)$/;
+const DOTS_PRICE = /^(.*?)(?:[\s.]*\.{2,}|\s+\.)\s*\$?(\d[\d,]*)$/;
 const DEFAULT_TAGS = /^(offer|promo|new|hot|itx|matx|m-?atx|mtx|atx|e-?atx|eatx|mitx|m-?itx|bulk|oem|box|tray|\d{2}(\.\d)?\s?(”|"|''|in|inch)?)$/i;
 const MODIFIER = /^(plus|\+|x3d|x3d2|k|kf|f)$/i;
 const TIER = /^(u[3579]|r[3579]|i[3579]|ultra\s?[3579]|ryzen\s?[3579])$/i;
@@ -113,7 +113,7 @@ function tokensOf(run: Run): Token[] {
 const isPriceToken = (t: string) => PRICE.test(t) || PLACEHOLDER.test(t);
 const isNumericRun = (run: Run) => {
   const parts = run.text.split(/\s+/).filter(Boolean);
-  if (/^\.{2,}\s*\$?[\d,]+$/.test(run.text)) return true;
+  if (/^\.+\s*\$?[\d,]+$/.test(run.text)) return true; // leader dots then a price
   return parts.length > 0 && parts.every(isPriceToken) && parts.some((p) => PRICE.test(p) || PLACEHOLDER.test(p));
 };
 
@@ -422,7 +422,21 @@ export function readPage(page: Page, opts: ReaderOptions, carried: { section: st
       if (cur) segs.push(cur);
       cur = null;
     };
+    // One run can hold two dotted entries when columns touch: "Card A . 1093 Cooler B ....".
+    const INNER = /^(.{3,}?)(?:\s*\.{2,}|\s+\.)\s*\$?(\d[\d,]*)\s+([A-Za-z(].*)$/;
+    const pieces: Run[] = [];
     for (const run of line.runs) {
+      let rest = run;
+      let m: RegExpMatchArray | null;
+      while (!isNumericRun(rest) && (m = rest.text.match(INNER))) {
+        const cut = rest.text.length - m[3].length;
+        const xCut = rest.x0 + ((rest.x1 - rest.x0) * cut) / rest.text.length;
+        pieces.push({ ...rest, x1: xCut, text: rest.text.slice(0, cut).trim() });
+        rest = { ...rest, x0: xCut, text: m[3] };
+      }
+      pieces.push(rest);
+    }
+    for (const run of pieces) {
       // "Name ........ 859" inside one run
       const dotted = !isNumericRun(run) ? run.text.match(DOTS_PRICE) : null;
       if (dotted && dotted[1].trim().length > 2) {
@@ -432,7 +446,7 @@ export function readPage(page: Page, opts: ReaderOptions, carried: { section: st
         continue;
       }
       if (isNumericRun(run)) {
-        const toks = /^\.{2,}/.test(run.text)
+        const toks = /^\./.test(run.text)
           ? [{ text: run.text.replace(/^[.\s]+/, ''), x0: run.x1 - 12, x1: run.x1, xc: run.x1 - 6 }]
           : tokensOf(run);
         if (!cur) cur = { label: [], tags: [], nums: [] };

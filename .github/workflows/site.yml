@@ -1,0 +1,97 @@
+name: Update prices and publish
+
+on:
+  schedule:
+    # 09:17 Singapore time, daily. Data is committed only when a shop's list changed.
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**.md'
+      - 'data/review/**'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  prices:
+    name: Fetch and read price lists
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install PDF and OCR tools
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils tesseract-ocr
+      - run: npm ci
+      - name: Download price lists
+        run: node pipeline/fetch.mjs
+      - name: Reuse text already extracted from unchanged lists
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: extract-${{ hashFiles('data/raw/*.pdf') }}
+          restore-keys: extract-
+      - name: Look up part photos
+        continue-on-error: true
+        run: node pipeline/enrich.mjs
+      - name: Read lists into the catalogue
+        run: npm run ingest
+      - name: Check the catalogue
+        run: npm test
+      - name: Commit new data
+        id: commit
+        run: |
+          git config user.name "sgpc-bot"
+          git config user.email "sgpc-bot@users.noreply.github.com"
+          git add -A data public/data reference/photos.json pipeline/sources.json
+          if git diff --cached --quiet -- data/raw public/data/reference.json reference/photos.json; then
+            echo "Price lists unchanged."
+            git reset -q --hard
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Update price lists"
+            git pull --rebase origin main
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  publish:
+    name: Build and publish the site
+    needs: prices
+    if: always() && (github.event_name == 'push' || github.event_name == 'workflow_dispatch' || needs.prices.outputs.changed == 'true')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deploy
+        uses: actions/deploy-pages@v4
