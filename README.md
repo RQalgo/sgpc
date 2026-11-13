@@ -20,7 +20,7 @@ HardwareZone index ─► pipeline/fetch.mjs ─► data/raw/*.pdf
                       Vite build ─► GitHub Pages
 ```
 
-One workflow, `.github/workflows/site.yml`, runs daily: it downloads the lists, rebuilds the catalogue if any list changed, runs the tests and publishes the site. A push to `main` also publishes.
+One workflow, `.github/workflows/site.yml`, downloads the lists, rebuilds the catalogue if any list changed, runs the tests and publishes the site. It runs only when started by hand from the Actions tab; the daily schedule and the run on every push are switched off.
 
 ## Run it locally
 

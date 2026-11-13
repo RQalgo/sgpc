@@ -231,7 +231,8 @@ in this category produce no error against the current build?".
 - [ ] Read-only view for shared links with "Edit a copy" (a shared link currently opens the editable build)
 
 ### M5 — Automation and launch
-- [x] `site.yml`: daily run, data committed only when a list changed, then build and publish
+- [x] `site.yml`: fetch, ingest, test, build and publish; data committed only when a list changed
+- [ ] Turn the daily schedule back on (switched to manual-only on 13 Nov 2026 while CI was failing)
 - [x] About page: sources, limits, how estimates work
 - [x] Check published prices against the source text (96% of prices from the six text lists found on their source line; the rest are label formatting differences)
 - [ ] Turn on GitHub Pages for the repository if the workflow cannot enable it itself

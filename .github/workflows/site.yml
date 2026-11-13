@@ -1,15 +1,9 @@
-name: Update prices and publish
+name: Update prices and publish (manual)
 
 on:
-  schedule:
-    # 09:17 Singapore time, daily. Data is committed only when a shop's list changed.
-    - cron: '17 1 * * *'
+  # Manual runs only (Actions tab → "Update prices and publish" → Run workflow).
+  # The daily schedule and the run on every push are switched off.
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths-ignore:
-      - '**.md'
-      - 'data/review/**'
 
 permissions:
   contents: write
@@ -23,7 +17,6 @@ concurrency:
 jobs:
   prices:
     name: Fetch and read price lists
-    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
@@ -71,7 +64,7 @@ jobs:
   publish:
     name: Build and publish the site
     needs: prices
-    if: always() && (github.event_name == 'push' || github.event_name == 'workflow_dispatch' || needs.prices.outputs.changed == 'true')
+    if: always()
     runs-on: ubuntu-latest
     environment:
       name: github-pages
