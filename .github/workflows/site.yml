@@ -1,25 +1,50 @@
-name: Update prices and publish (manual)
+# .github/workflows/site.yml
+#
+# Updates the price data and publishes the site. Manual runs only for now:
+# Actions tab → "Update prices and publish" → Run workflow.
+#
+#   update   downloads the shops' price lists, rebuilds the catalogue, runs the
+#            tests, and commits to main only when a list actually changed.
+#   publish  tests and builds main, then force-pushes the built site (dist/)
+#            as a single commit to the gh-pages branch.
+#
+# Why gh-pages instead of the actions/deploy-pages steps: those need GitHub
+# Pages already switched on with source "GitHub Actions", and the workflow's
+# own token cannot switch it on, so every run failed at configure-pages.
+# Pushing to a branch needs only contents: write. GitHub Pages is set to
+# "Deploy from a branch: gh-pages, / (root)" and republishes on each push.
+# (Same approach as RQalgo/wow-4ever-changes, which Pages serves from main.)
+#
+# To run it on a schedule again, add under `on:`
+#     schedule:
+#       - cron: '41 1 * * *'   # 09:41 Singapore time
+# Use an off-peak minute: GitHub delays or drops scheduled runs at the top
+# of the hour. Commits pushed with the workflow token do not start other
+# workflows, which is why publishing is a job here rather than a separate
+# workflow triggered by the data commit.
+
+name: Update prices and publish
 
 on:
-  # Manual runs only (Actions tab → "Update prices and publish" → Run workflow).
-  # The daily schedule and the run on every push are switched off.
   workflow_dispatch:
+    inputs:
+      update:
+        description: Download the price lists and rebuild the catalogue before publishing
+        type: boolean
+        default: true
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: site
   cancel-in-progress: false
 
 jobs:
-  prices:
+  update:
     name: Fetch and read price lists
+    if: inputs.update
     runs-on: ubuntu-latest
-    outputs:
-      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -31,11 +56,14 @@ jobs:
       - run: npm ci
       - name: Download price lists
         run: node pipeline/fetch.mjs
+      # Extracted text is cached per PDF, so OCR only runs on lists that changed.
+      # The key is unique per run so a grown cache is saved; restore-keys picks
+      # up the newest one (caches are immutable, a fixed key would never update).
       - name: Reuse text already extracted from unchanged lists
         uses: actions/cache@v4
         with:
           path: .cache
-          key: extract-${{ hashFiles('data/raw/*.pdf') }}
+          key: extract-${{ github.run_id }}
           restore-keys: extract-
       - name: Look up part photos
         continue-on-error: true
@@ -45,34 +73,33 @@ jobs:
       - name: Check the catalogue
         run: npm test
       - name: Commit new data
-        id: commit
         run: |
-          git config user.name "sgpc-bot"
-          git config user.email "sgpc-bot@users.noreply.github.com"
-          git add -A data public/data reference/photos.json pipeline/sources.json
-          if git diff --cached --quiet -- data/raw public/data/reference.json reference/photos.json; then
-            echo "Price lists unchanged."
-            git reset -q --hard
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            git commit -m "Update price lists"
-            git pull --rebase origin main
-            git push
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+          # catalog.json always differs (it carries a timestamp), so judge
+          # "changed" by the source PDFs, the reference data and the photos.
+          if git diff --quiet -- data/raw reference/photos.json && [ -z "$(git ls-files --others --exclude-standard data/raw)" ]; then
+            echo "Price lists unchanged; nothing to commit."
+            git checkout -q -- .
+            exit 0
           fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data public/data reference/photos.json pipeline/sources.json
+          git commit -q -m "Update price lists ($(date -u +%Y-%m-%d))"
+          # main may have moved while the job ran; replay on top before pushing.
+          git pull -q --rebase origin main
+          git push -q
+          echo "Committed new price data." >> "$GITHUB_STEP_SUMMARY"
 
   publish:
     name: Build and publish the site
-    needs: prices
-    if: always()
+    needs: update
+    # Publish even when the update was skipped; never after it failed.
+    if: ${{ !failure() && !cancelled() }}
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: main # includes the data commit the update job may have just pushed
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -80,11 +107,18 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
-      - uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-      - id: deploy
-        uses: actions/deploy-pages@v4
+      - name: Push the built site to gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd dist
+          # Stop GitHub Pages from running Jekyll over the built files.
+          touch .nojekyll
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Publish ${GITHUB_SHA::7}"
+          # One commit, replaced each time, so old catalogues do not pile up in history.
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
+          echo "Published ${GITHUB_SHA::7} to gh-pages." >> "$GITHUB_STEP_SUMMARY"

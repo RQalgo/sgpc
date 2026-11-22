@@ -105,3 +105,19 @@ describe('product normaliser', () => {
     expect(cpuId('1618')).toBeNull();
   });
 });
+
+describe('photo matching', async () => {
+  const { acceptable } = await import('../pipeline/enrich.mjs');
+  it('accepts a plain product photo of the exact model', () => {
+    expect(acceptable('File:AMD_Ryzen_7_5800X3D.jpg', '5800X3D')).toBe(true);
+    expect(acceptable('File:PNY_RTX_5070_Ti_at_Computex_2025.jpg', 'RTX 5070 Ti', 16)).toBe(true);
+  });
+  it('rejects a sibling model, a video still, a die shot, a laptop chip and the wrong memory size', () => {
+    expect(acceptable('File:PNY_RTX_5070_Ti_at_Computex_2025.jpg', 'RTX 5070', 12)).toBe(false);
+    expect(acceptable('File:Sapphire_Pulse_Radeon_RX_9070_XT.jpg', 'RX 9070', 16)).toBe(false);
+    expect(acceptable('File:Video_zum_AMD_Ryzen_7_9800X3D_(ZMASLO)_29.png', '9800X3D')).toBe(false);
+    expect(acceptable('File:Intel_Core_i9-13900K_Labelled_Die_Shot.jpg', '13900K')).toBe(false);
+    expect(acceptable('File:GTX_1650_Mobile.jpg', 'GTX 1650', 4)).toBe(false);
+    expect(acceptable('File:MSI_GeForce_RTX_3050_Ventus_2X_E_6G_OC.jpg', 'RTX 3050', 8)).toBe(false);
+  });
+});

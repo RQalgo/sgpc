@@ -206,7 +206,7 @@ in this category produce no error against the current build?".
 - [x] CPU prices derived from bundle minus board where a shop prints both
 - [x] Review report and `unmatched.json`
 - [x] Emit `public/data/*.json` and a lowest-price snapshot per list date in `data/history/`
-- [x] Photo lookup for CPUs and graphics chips on Wikimedia Commons (`pipeline/enrich.mjs`, runs in the workflow)
+- [x] Photo lookup for CPUs and graphics chips on Wikimedia Commons (`pipeline/enrich.mjs`, runs in the workflow); rejects sibling models, video stills, die shots, laptop chips and wrong memory sizes
 - [ ] `aliases.json` for manual merge fixes
 - [ ] Overrides for case clearances, cooler heights and radiator mounts (until then these checks report "not verified")
 - [ ] Replace estimated performance indices with figures confirmed against published charts
@@ -232,10 +232,11 @@ in this category produce no error against the current build?".
 
 ### M5 — Automation and launch
 - [x] `site.yml`: fetch, ingest, test, build and publish; data committed only when a list changed
-- [ ] Turn the daily schedule back on (switched to manual-only on 13 Nov 2026 while CI was failing)
+- [x] Publish by pushing the built site to `gh-pages` instead of the `deploy-pages` actions (fixed 22 Nov 2026: `configure-pages` failed on every run because Pages was off and the repo is private)
+- [ ] RQ: make the repo public and set Pages to deploy from the `gh-pages` branch (steps in README)
+- [ ] Turn the daily schedule back on (manual-only since 13 Nov 2026)
 - [x] About page: sources, limits, how estimates work
 - [x] Check published prices against the source text (96% of prices from the six text lists found on their source line; the rest are label formatting differences)
-- [ ] Turn on GitHub Pages for the repository if the workflow cannot enable it itself
 
 ### M6 — After launch (not in v1)
 - Photos beyond CPUs and graphics chips
@@ -253,6 +254,7 @@ in this category produce no error against the current build?".
 | All nine lists parsed alike | Three lists are scanned images and go through OCR | PC Themes reads well. Prime PC and TradePac are mostly dense bundle tables that OCR misaligns, so their prices are kept only when a printed price elsewhere confirms them. |
 | CPU prices from the lists | Mostly derived | Shops print bundle prices, rarely CPU-only prices. Bundle minus board gives the CPU price where the board's own price is printed; it is marked ≈ in the app. |
 | `data/raw/<date>/` | `data/raw/<shop>.pdf`, latest only | Keeping every week's PDFs would add roughly 35 MB to the repository per week. History is kept as price snapshots. |
+| `actions/deploy-pages` | Built site pushed to a `gh-pages` branch that Pages serves | The Pages actions need Pages already on with source "GitHub Actions", which the workflow token cannot switch on. Same approach as the WoW Forever changes project. |
 | Manufacturer photos | Wikimedia Commons photos for CPUs and graphics chips | Freely licensed and safe to link from a public site, with credit. Other categories link to a web and image search. |
 
 ---

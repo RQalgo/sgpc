@@ -20,7 +20,16 @@ HardwareZone index ─► pipeline/fetch.mjs ─► data/raw/*.pdf
                       Vite build ─► GitHub Pages
 ```
 
-One workflow, `.github/workflows/site.yml`, downloads the lists, rebuilds the catalogue if any list changed, runs the tests and publishes the site. It runs only when started by hand from the Actions tab; the daily schedule and the run on every push are switched off.
+One workflow, `.github/workflows/site.yml`, downloads the lists, rebuilds the catalogue if any list changed, runs the tests, builds the site and pushes it to the `gh-pages` branch. It runs only when started by hand (Actions tab → **Update prices and publish** → **Run workflow**); untick *Download the price lists* to republish without fetching.
+
+### GitHub Pages setup (once)
+
+GitHub Pages serves the `gh-pages` branch:
+
+1. GitHub Pages needs the repository to be **public** on a free plan (Settings → General → Danger Zone → Change visibility).
+2. Settings → Pages → Build and deployment → Source: **Deploy from a branch**, Branch: **gh-pages**, folder **/ (root)**.
+
+The site is then at https://rqalgo.github.io/sgpc/ and republishes on every push to `gh-pages`.
 
 ## Run it locally
 
@@ -36,6 +45,7 @@ To rebuild the catalogue you need `poppler-utils` and `tesseract-ocr` installed:
 ```sh
 npm run fetch      # download the current price lists into data/raw
 npm run photos     # optional: look up CPU / graphics chip photos on Wikimedia Commons
+node pipeline/dev/prune-photos.mjs   # re-check stored photos after changing the matching rules
 npm run ingest     # read the lists, write public/data and data/review
 ```
 
