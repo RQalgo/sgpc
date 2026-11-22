@@ -454,5 +454,113 @@
  },
  "rtx-4000-ada": {
   "triedAt": 1795330868597
+ },
+ "amd-ryzen-5-3600": {
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Zen_2_Matisse_Ryzen-5-3600.jpg/960px-Zen_2_Matisse_Ryzen-5-3600.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Zen_2_Matisse_Ryzen-5-3600.jpg",
+  "title": "File:Zen 2 Matisse Ryzen-5-3600.jpg",
+  "credit": "Fritzchens Fritz",
+  "license": "CC0"
+ },
+ "amd-ryzen-5-5600g": {
+  "triedAt": 1795331986344
+ },
+ "amd-ryzen-5-7500f": {
+  "triedAt": 1795331986793
+ },
+ "amd-ryzen-5-7600": {
+  "triedAt": 1795331987254
+ },
+ "amd-ryzen-7-7800x3d": {
+  "triedAt": 1795331987726
+ },
+ "amd-ryzen-5-8400f": {
+  "triedAt": 1795331988352
+ },
+ "amd-ryzen-5-9600x": {
+  "triedAt": 1795331989015
+ },
+ "amd-ryzen-7-9700x": {
+  "triedAt": 1795331989424
+ },
+ "amd-ryzen-7-9800x3d": {
+  "triedAt": 1795331989854
+ },
+ "amd-ryzen-9-9950x3d": {
+  "triedAt": 1795331990546
+ },
+ "intel-core-i5-12400f": {
+  "triedAt": 1795331990978
+ },
+ "intel-core-i5-14600k": {
+  "triedAt": 1795331991471
+ },
+ "intel-core-i7-14700k": {
+  "triedAt": 1795331991729
+ },
+ "intel-core-i9-13900k": {
+  "triedAt": 1795331991986
+ },
+ "intel-core-i9-14900k": {
+  "triedAt": 1795331992244
+ },
+ "intel-core-ultra-7-265k": {
+  "triedAt": 1795331992500
+ },
+ "rtx-5080": {
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Nvidia_RTX_5080_5090_FE_PCB.png/960px-Nvidia_RTX_5080_5090_FE_PCB.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Nvidia_RTX_5080_5090_FE_PCB.png",
+  "title": "File:Nvidia RTX 5080 5090 FE PCB.png",
+  "credit": "极客湾Geekerwan",
+  "license": "CC BY 3.0"
+ },
+ "rtx-5070": {
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/KXRORS_S300_SFF_PC_with_GeForce_RTX_5070_Founders_Edition_next_to_NVIDIA_DGX_Spark_2026_dllu.jpg/960px-KXRORS_S300_SFF_PC_with_GeForce_RTX_5070_Founders_Edition_next_to_NVIDIA_DGX_Spark_2026_dllu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:KXRORS_S300_SFF_PC_with_GeForce_RTX_5070_Founders_Edition_next_to_NVIDIA_DGX_Spark_2026_dllu.jpg",
+  "title": "File:KXRORS S300 SFF PC with GeForce RTX 5070 Founders Edition next to NVIDIA DGX Spark 2026 dllu.jpg",
+  "credit": "Daniel Lu (User:dllu)",
+  "license": "CC BY-SA 4.0"
+ },
+ "rtx-5060-ti-8gb": {
+  "triedAt": 1795331993273
+ },
+ "rtx-4090": {
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Size_comparison_between_RTX_3090_and_RTX_4090.jpg/960px-Size_comparison_between_RTX_3090_and_RTX_4090.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Size_comparison_between_RTX_3090_and_RTX_4090.jpg",
+  "title": "File:Size comparison between RTX 3090 and RTX 4090.jpg",
+  "credit": "Benlisquare",
+  "license": "CC BY-SA 4.0"
+ },
+ "rtx-4080-super": {
+  "triedAt": 1795331993788
+ },
+ "rtx-4070-ti-super": {
+  "triedAt": 1795331994045
+ },
+ "rtx-4060": {
+  "triedAt": 1795331994303
+ },
+ "rtx-3060-12gb": {
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/RTX_3060_12GB_GDDR6_with_GA104.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:RTX_3060_12GB_GDDR6_with_GA104.png",
+  "title": "File:RTX 3060 12GB GDDR6 with GA104.png",
+  "credit": "Inobump",
+  "license": "CC0"
+ },
+ "rtx-3050-8gb": {
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/MSI_GeForce_RTX_3050_Ventus_2X_XS_OC_White_Custom_-_rear_view.jpg/960px-MSI_GeForce_RTX_3050_Ventus_2X_XS_OC_White_Custom_-_rear_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:MSI_GeForce_RTX_3050_Ventus_2X_XS_OC_White_Custom_-_rear_view.jpg",
+  "title": "File:MSI GeForce RTX 3050 Ventus 2X XS OC White Custom - rear view.jpg",
+  "credit": "ITEagle Europe - Sebastiaan Broekhoven",
+  "license": "CC BY-SA 4.0"
+ },
+ "gtx-1650": {
+  "triedAt": 1795331995077
+ },
+ "rx-9070": {
+  "triedAt": 1795331995335
+ },
+ "arc-b580": {
+  "triedAt": 1795331995592
  }
 }
