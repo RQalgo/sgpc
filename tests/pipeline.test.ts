@@ -119,5 +119,8 @@ describe('photo matching', async () => {
     expect(acceptable('File:Intel_Core_i9-13900K_Labelled_Die_Shot.jpg', '13900K')).toBe(false);
     expect(acceptable('File:GTX_1650_Mobile.jpg', 'GTX 1650', 4)).toBe(false);
     expect(acceptable('File:MSI_GeForce_RTX_3050_Ventus_2X_E_6G_OC.jpg', 'RTX 3050', 8)).toBe(false);
+    expect(acceptable('File:Nvidia_RTX_5080_5090_FE_PCB.png', 'RTX 5080', 16)).toBe(false);
+    expect(acceptable('File:Size_comparison_between_RTX_3090_and_RTX_4090.jpg', 'RTX 4090', 24)).toBe(false);
+    expect(acceptable('File:KXRORS_S300_SFF_PC_with_GeForce_RTX_5070_Founders_Edition_next_to_NVIDIA_DGX_Spark.jpg', 'RTX 5070', 12)).toBe(false);
   });
 });

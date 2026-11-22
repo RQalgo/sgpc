@@ -28,6 +28,7 @@ export function acceptable(title, model, vram) {
   if (/video|\(\d{3,4}p|\d{2}\.\d{2}\.\d{2}\.\d{3}|\bvs\b|versus|review|unbox|zmaslo|dovresti|invaderpc/i.test(name)) return false; // video stills
   if (/die ?shot|\bdie\b|dscx\d|\bpoly\b|labell?ed|x-?ray|delid|@/i.test(name)) return false; // silicon and macro shots
   if (/mobile|laptop|notebook|max-?q/i.test(name)) return false; // laptop versions of the chip
+  if (/\bpcb\b|\bpc\b|next to|comparison|between|\band\b.*\b(rtx|rx|gtx|ryzen|core)\b/i.test(name)) return false; // bare boards, whole PCs, side-by-sides
   // A card photo that names a memory size must name this entry's size.
   const shown = name.match(/(?:^|[^a-z0-9])(\d{1,2})\s?G(?:B|D\d?)?(?![a-z0-9])/i);
   if (vram && shown && Number(shown[1]) !== vram) return false;

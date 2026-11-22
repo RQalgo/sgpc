@@ -111,6 +111,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # Label the publish with the main commit that was built, which may be the
+          # update job's data commit rather than the commit that started the run.
+          BUILT=$(git rev-parse --short HEAD)
           cd dist
           # Stop GitHub Pages from running Jekyll over the built files.
           touch .nojekyll
@@ -118,7 +121,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -q -m "Publish ${GITHUB_SHA::7}"
+          git commit -q -m "Publish $BUILT"
           # One commit, replaced each time, so old catalogues do not pile up in history.
           git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
-          echo "Published ${GITHUB_SHA::7} to gh-pages." >> "$GITHUB_STEP_SUMMARY"
+          echo "Published $BUILT to gh-pages." >> "$GITHUB_STEP_SUMMARY"

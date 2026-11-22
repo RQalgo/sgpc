@@ -86,12 +86,6 @@
  "amd-ryzen-7-7700": {
   "triedAt": 1794557128731
  },
- "amd-ryzen-7-7700x": {
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Ryzen_update_to_gaming_PC_%28Ryzen_7_7700X%29.jpg/960px-Ryzen_update_to_gaming_PC_%28Ryzen_7_7700X%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Ryzen_update_to_gaming_PC_(Ryzen_7_7700X).jpg",
-  "credit": "Blake Patterson",
-  "license": "CC BY 2.0"
- },
  "amd-ryzen-9-7900": {
   "triedAt": 1794557130609
  },
@@ -507,29 +501,8 @@
  "intel-core-ultra-7-265k": {
   "triedAt": 1795331992500
  },
- "rtx-5080": {
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Nvidia_RTX_5080_5090_FE_PCB.png/960px-Nvidia_RTX_5080_5090_FE_PCB.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Nvidia_RTX_5080_5090_FE_PCB.png",
-  "title": "File:Nvidia RTX 5080 5090 FE PCB.png",
-  "credit": "极客湾Geekerwan",
-  "license": "CC BY 3.0"
- },
- "rtx-5070": {
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/KXRORS_S300_SFF_PC_with_GeForce_RTX_5070_Founders_Edition_next_to_NVIDIA_DGX_Spark_2026_dllu.jpg/960px-KXRORS_S300_SFF_PC_with_GeForce_RTX_5070_Founders_Edition_next_to_NVIDIA_DGX_Spark_2026_dllu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:KXRORS_S300_SFF_PC_with_GeForce_RTX_5070_Founders_Edition_next_to_NVIDIA_DGX_Spark_2026_dllu.jpg",
-  "title": "File:KXRORS S300 SFF PC with GeForce RTX 5070 Founders Edition next to NVIDIA DGX Spark 2026 dllu.jpg",
-  "credit": "Daniel Lu (User:dllu)",
-  "license": "CC BY-SA 4.0"
- },
  "rtx-5060-ti-8gb": {
   "triedAt": 1795331993273
- },
- "rtx-4090": {
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Size_comparison_between_RTX_3090_and_RTX_4090.jpg/960px-Size_comparison_between_RTX_3090_and_RTX_4090.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Size_comparison_between_RTX_3090_and_RTX_4090.jpg",
-  "title": "File:Size comparison between RTX 3090 and RTX 4090.jpg",
-  "credit": "Benlisquare",
-  "license": "CC BY-SA 4.0"
  },
  "rtx-4080-super": {
   "triedAt": 1795331993788
