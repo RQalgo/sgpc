@@ -3,52 +3,52 @@
   "indexPageRead": true,
   "shops": {
     "bizgram": {
-      "driveId": "1jrqC0FGQPkpPECLUNo_z0gULTujpDuAL",
-      "filename": "Bizgram_pricelist_2026-10-16.pdf",
-      "listDate": "2026-10-16",
-      "sha256": "16115d7d2ee4e528e5f0ceb48f8bf3ee02b8c24018f7b4d815a19f6dcfaf49f8",
-      "bytes": 527600,
-      "fetchedAt": "2026-11-12T16:03:39.171Z"
+      "driveId": "1cTFmrsWKqyXj4NuD_vR7q2CI2IxFTzzH",
+      "filename": "Bizgram_pricelist_2026-11-15.pdf",
+      "listDate": "2026-11-15",
+      "sha256": "e731f715544561eabed71c7455af369907ec14e22a514827223139d8c77b826b",
+      "bytes": 525967,
+      "fetchedAt": "2026-11-22T07:00:10.890Z"
     },
     "dynacore": {
-      "driveId": "1uwu792AsjMnugs_VeCf12KzoCnOjpV_g",
-      "filename": "Dynacore_pricelist_2026-10-17.pdf",
-      "listDate": "2026-10-17",
-      "sha256": "02f123a7d523f31a4e4fb6d602fedc5f103bbac5eb164585753abc6163817a6a",
-      "bytes": 4231367,
-      "fetchedAt": "2026-11-12T16:03:41.606Z"
+      "driveId": "1wy6ibYqOWEqExSNcJ8eajwyL3-EOntiR",
+      "filename": "Dynacore_pricelist_2026-11-14.pdf",
+      "listDate": "2026-11-14",
+      "sha256": "946ba99748b5fca0f30836bc349e033cd61d969ac0131bcdcd2f8863f675b4b9",
+      "bytes": 1833934,
+      "fetchedAt": "2026-11-22T07:00:12.675Z"
     },
     "fuwell": {
-      "driveId": "1dw4a98URjNM4U9fDYuvyyKk25J0sQdKG",
-      "filename": "Fuwell_pricelist_2026-10-17.pdf",
-      "listDate": "2026-10-17",
-      "sha256": "d9679a802dac32d8408ba87320ccc5ab43c80ab719077c2f4730775526d5fae9",
-      "bytes": 678154,
-      "fetchedAt": "2026-11-12T16:03:42.881Z"
+      "driveId": "1udBCTjGAatjmoQ1DKrT6AjhZYRXeQfoq",
+      "filename": "Fuwell_pricelist_2026-10-31.pdf",
+      "listDate": "2026-10-31",
+      "sha256": "f884378f76827bc66b0ff473b39301bf7cc7e38bcbb3b2504bdfc9407c66845d",
+      "bytes": 677787,
+      "fetchedAt": "2026-11-22T07:00:13.692Z"
     },
     "infinity": {
-      "driveId": "1tnNVGiEd4aWdSx3TwrxAGtN68qAPAi-B",
-      "filename": "Infinity_pricelist_2026-10-16.pdf",
-      "listDate": "2026-10-16",
-      "sha256": "5014139ec01ccc6cbfd58f3255fc3dc41dd2d7e721539c1d54c8716656621fc0",
-      "bytes": 1013344,
-      "fetchedAt": "2026-11-12T16:03:44.635Z"
+      "driveId": "1Wh1K6Azfmv_e7EmK0SA1DVhr8j8f-kTE",
+      "filename": "Infinity_pricelist_2026-11-07.pdf",
+      "listDate": "2026-11-07",
+      "sha256": "611f7fdf5387bcc3aaa1580d5266c5ddd8022acf31f321f25c408df1c17d531e",
+      "bytes": 1022203,
+      "fetchedAt": "2026-11-22T07:00:15.015Z"
     },
     "laser": {
-      "driveId": "1qUNJMQy922oeaS0kgE6WPeKAHAYXaD95",
-      "filename": "Laser_pricelist_2026-10-16.pdf",
-      "listDate": "2026-10-16",
-      "sha256": "2cf8d9be7f5ad4c2660a8a9b8da3df7254e448bccc3e0d97b759a0104d0547e7",
-      "bytes": 3251066,
-      "fetchedAt": "2026-11-12T16:03:48.678Z"
+      "driveId": "1MsK7FOVOwx5_BGr5ElfdKrNjpXJJTqSn",
+      "filename": "Laser_pricelist_2026-11-06.pdf",
+      "listDate": "2026-11-06",
+      "sha256": "50657daa49f6c25d9aeaf26823f1546ebc59ddeed89b29d8844fc9f89cd5e435",
+      "bytes": 3247156,
+      "fetchedAt": "2026-11-22T07:00:16.913Z"
     },
     "pcthemes": {
-      "driveId": "18p5aTmMwub6FR2cY7qlf61ri_R2H8NAK",
-      "filename": "Pcthemes_pricelist_2026-09-26.pdf",
-      "listDate": "2026-09-26",
-      "sha256": "fe3657be5bf29cee60240c4e2961f63dc0980ba8319a00cdb348c5689f67005a",
-      "bytes": 5555712,
-      "fetchedAt": "2026-11-12T16:03:50.612Z"
+      "driveId": "1BCxL7D4IwibuplBcJhuDWnONxG1IrItE",
+      "filename": "Pcthemes_pricelist_2026-10-23.pdf",
+      "listDate": "2026-10-23",
+      "sha256": "8a4ee9147c07d98c2de540827d18c6bdba0349daf3d47ca7473202582fc4cdc6",
+      "bytes": 6562135,
+      "fetchedAt": "2026-11-22T07:00:18.917Z"
     },
     "primepc": {
       "driveId": "1pI2atSUByc-HuyahK-0rAEjR4V7qPl30",
@@ -59,20 +59,20 @@
       "fetchedAt": "2026-11-12T16:03:54.814Z"
     },
     "techdeals": {
-      "driveId": "1kIg7Io295iYAL1w05z6jQFIXuZsWhGVi",
-      "filename": "Techdeals Latest Pricelist 17-Oct-26 @ #04-69_17 SimLim Square, SG188504.pdf",
-      "listDate": null,
-      "sha256": "97741d602236bad8787602bdecaf9fd3b2f1bd7a591a5a07276e90861b3b80f7",
-      "bytes": 3625184,
-      "fetchedAt": "2026-11-12T16:03:57.429Z"
+      "driveId": "1uf_RQdcEf1gviXOZitKh_ZNucHi_LQVd",
+      "filename": "Techdeals Latest Pricelist_2026-11-14.pdf",
+      "listDate": "2026-11-14",
+      "sha256": "1820f3a221df3f2e0ced1437ee1fab26f0521458a4f034379551ef754e218c4e",
+      "bytes": 3632296,
+      "fetchedAt": "2026-11-22T07:00:21.294Z"
     },
     "tradepac": {
-      "driveId": "1bSJ4P9fK-vOdqixCEQJXzOc96zjpA0Pj",
-      "filename": "TradePac_pricelist_2026-10-17.pdf",
-      "listDate": "2026-10-17",
-      "sha256": "9ec592da8ff56b182be16788ad752d595da4aadf6b678936ce07bf455ab02418",
-      "bytes": 7494056,
-      "fetchedAt": "2026-11-12T16:03:59.232Z"
+      "driveId": "1v1rtnTS0bs4k_UM87tB8yX3lQaZVW-6E",
+      "filename": "TradePac_pricelist_2026-10-24.pdf",
+      "listDate": "2026-10-24",
+      "sha256": "b1192ac6188d1a877380264c83a3e5bcca53270ca3c7be14b52e034310d34de3",
+      "bytes": 7332804,
+      "fetchedAt": "2026-11-22T07:00:23.651Z"
     }
   },
   "warnings": []
